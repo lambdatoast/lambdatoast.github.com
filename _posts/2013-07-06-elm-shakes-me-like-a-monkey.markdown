@@ -17,7 +17,7 @@ The truth is that when it comes to programming languages, tools, etc. I tend to 
 textForm s pos = plainText s |> toForm |> move pos
 render t = collage 200 200 [ textForm "OMG"    ((sin t)*50,0)   |> rotate (t*2)
                            , textForm "HELLO!" (50,(sin t)*25)  |> rotate (0-t/4) ]
-main = lift render (foldp (\t acc -> acc - (t/500)) 0 (fps 24))
+main = lift render (foldp (\t acc -> acc + (t/500)) 0 (fps 24))
 {% endhighlight %}
 I think it's the mix of its asynchronous FRP implementation and the haskell + ML + sugar magic of its syntax that seem to be right up my alley. 
 
