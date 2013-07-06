@@ -19,7 +19,7 @@ render t = collage 200 200 [ textForm "OMG"    ((sin t)*50,0)   |> rotate (t*2)
                            , textForm "HELLO!" (50,(sin t)*25)  |> rotate (0-t/4) ]
 main = lift render (foldp (\t acc -> acc + (t/500)) 0 (fps 24))
 {% endhighlight %}
-([see][ex-omghello])  
+([view][ex-omghello])  
 I think it's the mix of its asynchronous FRP implementation and the haskell + ML + sugar magic of its syntax that seem to be right up my alley. 
 
 I'm gonna leave it at that, since I've got other things to do and I just wanted to make a not entirely useless first post for this new Jekyll site, but I promise that in the coming months this place is gonna be, like, Elm article town.
