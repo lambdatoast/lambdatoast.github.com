@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html><head><meta charset="UTF-8"><title>Main</title><script type="text/javascript" src="/js/elm-runtime.js"></script><script type="text/javascript">
+Elm.Main = function(elm){
+  var N = Elm.Native, _N = N.Utils(elm), _L = N.List(elm), _E = N.Error(elm), _str = N.JavaScript(elm).toString;
+  var $op = {};
+  var _ = Elm.Text(elm); var Text = _; var hiding={link:1, color:1, height:1}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var _ = Elm.Prelude(elm); var Prelude = _; var hiding={}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var _ = Elm.Signal(elm); var Signal = _; var hiding={}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var _ = Elm.List(elm); var List = _; var hiding={}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var _ = Elm.Maybe(elm); var Maybe = _; var hiding={}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var _ = Elm.Time(elm); var Time = _; var hiding={}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var _ = Elm.Graphics.Element(elm); var Graphics = Graphics||{};Graphics.Element = _; var hiding={}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var _ = Elm.Color(elm); var Color = _; var hiding={}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var _ = Elm.Graphics.Collage(elm); var Graphics = Graphics||{};Graphics.Collage = _; var hiding={}; for(var k in _){if(k in hiding)continue;eval('var '+k+'=_["'+k+'"]')}
+  var textForm_0 = F2(function(s_3, pos_4){
+    return A2(move, pos_4, toForm(plainText(s_3)));});
+  var render_1 = function(t_5){
+    return A3(collage, 200, 200, _L.Cons(A2(rotate, (2*t_5), A2(textForm_0, _str('OMG'), {ctor:"Tuple2", _0:(50*sin(t_5)), _1:0})),_L.Cons(A2(rotate, (0-(t_5/4)), A2(textForm_0, _str('HELLO!'), {ctor:"Tuple2", _0:50, _1:(25*sin(t_5))})),_L.Nil)));};
+  var main_2 = A2(lift, render_1, A3(foldp, function(t_6){
+    return function(acc_7){
+      return (acc_7-(t_6/500));};}, 0, fps(24)));
+  elm.Native = elm.Native||{};
+  var _ = elm.Native.Main||{};
+  _.$op = {};
+  _.textForm = textForm_0;
+  _.render = render_1;
+  _.main = main_2
+  return elm.Main = _;
+  };</script></head><body><script type="text/javascript">Elm.fullscreen(Elm.Main)</script><noscript><p>OMG</p><p>HELLO!</p></noscript></body></html>
