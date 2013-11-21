@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Elm Shakes Me Like a Monkey"
+title:  "Elm shakes me like a monkey"
 date:   2013-07-06 00:43:06
 categories: elm programming
 ---
