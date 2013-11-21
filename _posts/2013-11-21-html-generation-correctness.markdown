@@ -16,7 +16,7 @@ The HTML specification has the concept of a "[content model][content-model]", wh
 an HTML element's contents must meet.
 
 It'd be really easy (and fast) to write some functions that would allow me to create some HTML structure, and 
-then write some functions that traverse it and separately (and thus optionally) validate it. But I'm interested in correctness and using 
+then write some other functions to traverse it and separately (and thus optionally) validate it. But I'm interested in correctness and using 
 the type system as much as possible, so I'm designing this library's API in a way that simply won't (or shouldn't!) allow me to create incorrect HTML 
 structures or render incorrect markup.
 
@@ -38,7 +38,7 @@ I think a proper API for dealing with HTML attributes is in order. Right now an 
 (the tuple acting as a "name" and "value" pair). I will probably make a better type to enforce some basic rules. A `NonEmptyString` type for the "name" part of the tuple 
  is the most obviously needed thing I'd like to enforce at compile-time. 
 
-Meanwhile, I'll keep studying the spec, and refactoring the current codebase, which is lacking some organization and consistency modularization-wise.
+Meanwhile, I'll keep studying the spec, and refactoring the current codebase, which is lacking some organization and consistency, modularization-wise.
 
 ## Now reading
 
