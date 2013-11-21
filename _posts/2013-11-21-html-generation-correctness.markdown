@@ -1,26 +1,27 @@
 ---
 layout: post
-title:  "HTML generation and correctness."
+title:  "HTML generation and correctness"
 date:   2013-11-21 00:43:06
 categories: html programming types scala
 ---
 
 I'm designing a little [library][ironhtml-repo] for generating HTML in Scala, and due to my ever-growing concerns regarding correctness, 
 I've decided to go for a purely functional and strictly type-safe approach. By "strictly type-safe" I mean that everything I can enforce through types, I 
-will enforce it. I won't go for "ease of use" and "flexibility" first. The latter should take care of itself if I know what I'm doing with 
-generics, parametric polymorphism, and typeclasses. The former is not well-defined, even for myself as the target audience of this library!.
+will enforce. I won't go for "ease of use" and "flexibility" first. The latter should take care of itself if I know what I'm doing with 
+generics, parametric polymorphism, and typeclasses. The former is not well-defined, even for myself as currently the only user of this library!.
 
 ## HTML and content models
 
-Anyway, the HTML specification has the concept of a "[content model][content-model]", which basically provides the requirements that 
+The HTML specification has the concept of a "[content model][content-model]", which basically provides the requirements that 
 an HTML element's contents must meet.
 
 It'd be really easy (and fast) to write some functions that would allow me to create some HTML structure, and 
 then write some functions that traverse it and separately (and thus optionally) validate it. But I'm interested in correctness and using 
-the type system as much as possible, so I'm designing this library's API in a way that simply won't (or shouldn't!) allow me to create incorrect markup.
+the type system as much as possible, so I'm designing this library's API in a way that simply won't (or shouldn't!) allow me to create incorrect HTML 
+structures or render incorrect markup.
 
 My interest is not to actually implement *all* the rules of the specification, but to grab a subset of it that is relevant to my use 
-of HTML, and try to do as much as possible with the type system to enforce its rules. The "Content Model" requirements meet this criteria. 
+of HTML generation in my current projects, and try to do as much as possible with the type system to enforce its rules. The "Content Model" requirements meet this criteria. 
 I'm certainly not interested in the unfortunate amount of convoluted inconsistencies that I've noticed in the overall specification.
 
 I played around for a bit with unboxed union types, which can be implemented in an [intellectually stimulating but somewhat hacky][unboxed-unions] way, but 
@@ -33,20 +34,18 @@ to compile sensible things?
 
 ## What's next?
 
-I think a properly described API for dealing with HTML attributes is in order. Right now an element's attributes are just a `List[(String,String)]` 
-(the tuple being Name and Value). I will probably make a better type to enforce some basic rules. A `NonEmptyString` type for the "name" part of the tuple 
+I think a proper API for dealing with HTML attributes is in order. Right now an element's attributes are just a `List[(String,String)]` 
+(the tuple acting as a "name" and "value" pair). I will probably make a better type to enforce some basic rules. A `NonEmptyString` type for the "name" part of the tuple 
  is the most obviously needed thing I'd like to enforce at compile-time. 
 
 Meanwhile, I'll keep studying the spec, and refactoring the current codebase, which is lacking some organization and consistency modularization-wise.
 
 ## Now reading
 
-* The [HTML spec][html-spec], unfortunately.
+* The [HTML specification][html-spec], of course.
 * Philip Wadler's awesome "Theorems for free!" [paper][theorems-free].
 
 ## Now playing
-
-Two great tunes by two totally different bands:
 
 * Creedence Clearwater Revival - [Chameleon][ccr-chameleon]
 * Melt-Banana - [Candy Gun][candy-gun]
