@@ -162,12 +162,12 @@ per second. (However, you *are* on the right track!)
 
 ## Further action is needed
 
-This is where things will get convoluted. But because I know there's 
+This is where things will get convoluted. However, since there's 
 people who browse the web for tutorials and then copy/paste
 crap without even reading the actual explanations for the code, I will not write the 
-actual code for the convoluted solutions of our current problem. 
+actual code for the convoluted solutions to our current problem, just in case!. 
 
-However, it is easy to imagine that the 
+But it's easy to imagine that the 
 "next step" in the evolution of our increasingly convoluted program would be 
 to add more state and conditions to the update logic to basically, somehow, 
 toggle the state if `Keyboard.enter` is down, unless it's just been 
