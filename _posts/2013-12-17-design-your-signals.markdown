@@ -258,7 +258,7 @@ Additionally, note that we don't even need to pollute our model `m` with a `Prog
 ## A last bit of refactoring
 
 For extra points, let's remove some repetition, by making a function that returns its first argument if a state is
-`Running`, and the second argument otherwise. We can then use that function for both toggling the state in our 
+`Running`, or the second argument otherwise. We can then use that function for both toggling the state in our 
 now more tailored `input`, and reacting to it within the `update` function:
 
 {% highlight haskell %}
