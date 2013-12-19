@@ -21,7 +21,7 @@ the cornerstone of our Elm GUIs, we can (and sometimes *should*, as we'll see) c
 transform, and interpret these primitive signals, to create more semantic ones.
 
 This is not just a matter of aliasing the `True` and `False` values of `Mouse.isDown` to 
-more semantic values, i.e. `Shooting` and `Idle`. It is also a matter of creating the 
+more meaningful ones, i.e. `Shooting` and `Idle`. It is also a matter of creating the 
 simplest and most correct signal for the job.
 
 What I'm going to do here is stage a common situation I've found myself 
