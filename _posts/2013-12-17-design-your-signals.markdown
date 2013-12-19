@@ -184,8 +184,8 @@ steps back.
 
 At the beginning, actually.
 
-Remember I mentioned the idea of the right (or wrong) signal 
-at the right (or wrong) node of our program.
+Remember I mentioned the idea of a convenient signal
+connected to the wrong part of our program.
 
 If we go back to our introduction of the `Keyboard.enter` signal, we'll see that the `update` 
 function changed to:
