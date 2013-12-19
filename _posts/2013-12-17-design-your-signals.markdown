@@ -92,7 +92,7 @@ actually represents the state of the program.
 *Before proceeding: Do you see a problem with this plan?.*
 
 Let's add an algebraic data type for representing the state,
-and attach an initial value to our model.
+and attach an initial value of this type to our model.
 
 {% highlight haskell %}
 import Keyboard
