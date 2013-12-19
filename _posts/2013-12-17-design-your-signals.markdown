@@ -2,7 +2,7 @@
 layout: post
 title:  "Design your signals before resorting to convoluted logic"
 date:   2013-12-19 10:00:06
-categories: elm programming frp signals
+categories: elm signals
 ---
 
 Using a tool that is new to us doesn't automatically make
