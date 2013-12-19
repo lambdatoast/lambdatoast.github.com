@@ -48,7 +48,7 @@ Typical organization of an Elm program. Explicit, unambiguous separation of
 concerns into input, model, update, and render modules (well, "sections" of a single
 file, for these particular examples).
 
-The idea is to be able to pause the program with a keyboard. So let's add 
+The idea is to be able to pause the program with the keyboard. So let's add 
 another signal to the `input`, say, `Keyboard.enter`.
 
 {% highlight haskell %}
