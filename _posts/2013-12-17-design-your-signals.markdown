@@ -249,12 +249,13 @@ Does it matter that the `update` function gets executed multiple times while our
 pressing `enter`? Nope! As can be seen in the definition of `input`, the logic for toggling 
 the `ProgramState` signal only runs whenever `Keyboard.enter` updates **discretely**.
 
-Now what the `update` function sees 24 times per second is whatever the current value of the `ProgramState` signal is.  
+Now what the `update` function sees 24 times per second – it will still run that many
+times, since it has to react to the (fps 24) delta time signal we're also plugging into it – is 
+whatever the current value of the `ProgramState` signal is.
 
 Additionally, note that we don't even need to pollute our model `m` with a `ProgramState` value.
 
-
-## A little refactoring
+## A last bit of refactoring
 
 For extra points, let's remove some repetition, by making a function that returns its first argument if a state is
 `Running`, and the second argument otherwise. We can then use that function for both toggling the state in our 
