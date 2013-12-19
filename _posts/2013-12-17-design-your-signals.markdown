@@ -288,11 +288,11 @@ Motherflipper is done.
 
 We went back to the drawing board and designed our signals, and then:
 
-* We put the logic for computing the program running state in a better part of the program.
+* We put the logic for computing the `ProgramState` in a better part of the program.
 * We avoided a set of problems entirely, by recognizing the usefulness of Elm's discrete signals and signal manipulation.
-* We made the Update layer react to a more semantic signal of `ProgramState`. It now knows literally nothing about a `Keyboard.enter`.
+* We made the `update` function react to a more semantic signal of `ProgramState`. Now it knows nothing about `Keyboard.enter`.
 
-Basically, we *plugged the right signal into the right place*.
+Basically, we gained expressiveness and controlled complexity as a direct result of *plugging the right signals into the right places*.
 
 ## Finally, a generalization of the lesson 
 
