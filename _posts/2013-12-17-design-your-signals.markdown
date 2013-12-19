@@ -86,7 +86,7 @@ Therefore we're going to need more than just the `Keyboard.enter` signal.
 
 Presumably, we want some representation of the running state of the program. 
 Once we have that as a value, the plan is then to check `Keyboard.enter` in 
-the `update` function, and if it's `True`, we will toggle the value which 
+the `update` function, and if it's `True`, toggle the value which 
 actually represents the state of the program.
 
 *Before proceeding: Do you see a problem with this plan?.*
