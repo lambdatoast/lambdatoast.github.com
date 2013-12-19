@@ -69,7 +69,7 @@ The type – which isn't annotated because type inference ftw – of our `input`
 That is, a signal of a pair of values: the time delta, and a boolean representing whether the `enter` key is down.
 The first argument of the `update` has also been modified to accept the new shape of our input.
 
-So far so good, but we want to *toggle* the state, so we can't just change the `update` code to:
+So far so good, but we want to *toggle* the state, which means we can't just change the `update` code to:
 
 {% highlight haskell %}
 -- ...
