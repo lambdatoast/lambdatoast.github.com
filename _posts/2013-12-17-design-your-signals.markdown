@@ -201,8 +201,8 @@ But I did not ask the question: is `Keyboard.enter` plugged to `update` a sensib
 path for our ultimate goal?. And the answer to that question is negative. 
 
 I made the following 
-logical leap (which perhaps you caught right away): "Program P needs to react 
-to key K. Therefore, update logic U needs to react to key K."
+logical leap (which perhaps you caught right away): *"Program P needs to react 
+to key K. Therefore, update logic U needs to react to key K."*
 
 The worse thing about this leap is that, after it was made, all further problems and 
 "solutions" appeared to be the concern of the update layer. So, as I saw that the program 
