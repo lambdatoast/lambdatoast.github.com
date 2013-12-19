@@ -169,7 +169,7 @@ actual code for the convoluted solutions of our current problem.
 
 However, it is easy to imagine that the 
 "next step" in the evolution of our increasingly convoluted program would be 
-to add more state and conditions in the update logic to basically, somehow, 
+to add more state and conditions to the update logic to basically, somehow, 
 toggle the state if `Keyboard.enter` is down, unless it's just been 
 pressed and it hasn't been released. Or something like that. 
 
