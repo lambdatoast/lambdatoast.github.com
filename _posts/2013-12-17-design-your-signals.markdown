@@ -141,8 +141,8 @@ The program now toggles the state depending on the keyboard, and then the
 meat of our update logic acts according to the computed state.
 
 However, if we tested this program, we'd see that our pause button is 
-broken: Sometimes it pauses the game. Sometimes it doesn't. Sometimes it pauses it
-and then resumes it immediately.
+broken: Sometimes it pauses the program. Sometimes it doesn't. Sometimes it pauses 
+and then immediately resumes.
 
 ## Our plan has a problem
 
