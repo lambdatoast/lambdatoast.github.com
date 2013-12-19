@@ -250,7 +250,7 @@ pressing `enter`? Nope! As can be seen in the definition of `input`, the logic f
 the `ProgramState` signal only runs whenever `Keyboard.enter` updates **discretely**.
 
 Now what the `update` function sees 24 times per second – it will still run that many
-times, since it has to react to the (fps 24) delta time signal we're also plugging into it – is 
+times, since it has to react to the `(fps 24)` signal we're also plugging into it – is 
 whatever the current value of the `ProgramState` signal is.
 
 Additionally, note that we don't even need to pollute our model `m` with a `ProgramState` value.
