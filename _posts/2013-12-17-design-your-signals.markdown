@@ -177,8 +177,8 @@ Yikes.
 
 To be clear: we *could* (and I have, and seen others do, too) keep adding 
 more flags and state and crap to our current program, and eventually get a 
-functioning pause button, but we should stop here, and take a couple of 
-steps back.
+functioning pause button (or a similar requirement), but we 
+should stop here, and take a couple of steps back.
 
 ## Where did we go wrong?
 
