@@ -146,7 +146,7 @@ and then immediately resumes.
 
 ## Our plan has a problem
 
-The plan seemed complete: If `Keyboard.enter` is true, toggle the `ProgramState`. What else 
+The plan seemed complete: If `Keyboard.enter` is `True`, toggle the `ProgramState`. What else 
 is there to do?.
 
 The problem is that we forgot about the fact that the `update` function is executed 24 times per second!.
