@@ -27,7 +27,7 @@ simplest and most correct signal for the job.
 What I'm going to do here is stage a common situation I've found myself 
 and others (from the Elm questions I've gotten from other newcomers) in.
 
-## Common example: Adding a Paused/Running state to a program
+## Common example: Adding a pause button to a program
 
 Consider the following program.
 
