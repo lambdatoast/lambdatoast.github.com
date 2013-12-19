@@ -205,7 +205,7 @@ logical leap (which perhaps you caught right away): *"Program P needs to react
 to key K. Therefore, update logic U needs to react to key K."*
 
 The worst thing about this leap is that, after it was made, all further problems and 
-"solutions" appeared to be the concern of the update layer. So, as I saw that the program 
+"solutions" appeared to be the concern of the Update layer. So, as I saw that the program 
 still wouldn't behave as expected, I kept wanting to add more logic to the `update` function. 
 
 ## Designing our signals
