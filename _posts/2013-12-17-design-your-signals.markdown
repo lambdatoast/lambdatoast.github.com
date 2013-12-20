@@ -137,8 +137,8 @@ input = lift2 (,) (foldp (\t acc -> acc + (t/500)) 0 (fps 24)) Keyboard.enter
 main = lift render <| foldp update m input
 {% endhighlight %}
 
-The program now toggles the state depending on the keyboard, and then the 
-meat of our update logic acts according to the computed state.
+The program now toggles the state depending on what the current value of `Keyboard.enter` is, 
+and then the meat of our update logic acts according to the computed state.
 
 However, if we tested this program, we'd see that our pause button is 
 broken: Sometimes it pauses the program. Sometimes it doesn't. Sometimes it pauses 
