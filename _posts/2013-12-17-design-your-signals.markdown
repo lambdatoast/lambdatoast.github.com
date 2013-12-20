@@ -213,7 +213,7 @@ still wouldn't behave as expected, I kept wanting to add more logic to the `upda
 As I've hinted enough already, what we need to do is a bit of signal transformation. 
 
 The `ProgramState` algebraic type and its `toggleState` operation were actually a good idea, 
-so let's keep 'em, but now let's use them in a better way:
+so let's keep 'em, but use them better:
 
 {% highlight haskell %}
 import Keyboard
