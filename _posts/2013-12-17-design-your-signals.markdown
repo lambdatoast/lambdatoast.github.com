@@ -65,7 +65,7 @@ input = lift2 (,) (foldp (\t acc -> acc + (t/500)) 0 (fps 24)) Keyboard.enter
 main = lift render <| foldp update m input
 {% endhighlight %}
 
-The type – which isn't annotated because type inference ftw – of our `input` value is now `Signal (Float,Bool)`. 
+The type – which isn't annotated because type inference FTW – of our `input` value is now `Signal (Float,Bool)`. 
 That is, a signal of a pair of values: the time delta, and a boolean representing whether the `enter` key is down.
 The first argument of the `update` function has also been modified to accept the new shape of our input.
 
