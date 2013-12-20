@@ -164,7 +164,7 @@ per second. (However, you *are* on the right track!)
 
 This is where things will get convoluted. However, since there's 
 people who browse the web for tutorials and then copy/paste
-crap without even reading the actual explanations for the code, I will not write the 
+things without even reading the actual explanations for the code, I will not write the 
 actual code for the convoluted solutions to our current problem, just in case!. 
 
 But it's easy to imagine that the 
