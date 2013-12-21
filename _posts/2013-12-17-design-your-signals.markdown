@@ -302,7 +302,7 @@ Basically, we gained expressiveness and controlled complexity as a direct result
 Leaving signals, FRP, Elm, and actually pretty much all of the specifics of this 
 post aside, there seems to be an additional, and more general lesson here, 
 which if I had to formulate, would go something like this: The **less** interpretation 
-logic – such as conditionals and other forms of poking – we do on the 
+logic – such as conditionals and other forms of probing – we do on the 
 input arguments of a function, the **more** the function can be read as a simple equation,
 which is *A Good Thing*.
 
