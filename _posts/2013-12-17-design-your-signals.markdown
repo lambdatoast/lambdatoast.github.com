@@ -287,7 +287,7 @@ Motherflipper is done.
 
 ## Goodness achieved
 
-We went back to the drawing board and designed our signals, and:
+We went back to the drawing board, and:
 
 * Put the logic for computing the `ProgramState` in a better part of the program.
 * Avoided a set of problems entirely, by recognizing the usefulness of Elm's discrete signals and signal manipulation.
