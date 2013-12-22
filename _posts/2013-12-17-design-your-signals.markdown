@@ -287,11 +287,11 @@ Motherflipper is done.
 
 ## Goodness achieved
 
-We went back to the drawing board and designed our signals, and then:
+We went back to the drawing board and designed our signals, and:
 
-* We put the logic for computing the `ProgramState` in a better part of the program.
-* We avoided a set of problems entirely, by recognizing the usefulness of Elm's discrete signals and signal manipulation.
-* We made the `update` function react to a more semantic signal of `ProgramState`. Now it knows nothing about `Keyboard.enter`.
+* Put the logic for computing the `ProgramState` in a better part of the program.
+* Avoided a set of problems entirely, by recognizing the usefulness of Elm's discrete signals and signal manipulation.
+* Made the `update` function react to a more semantic signal of `ProgramState`. Now it knows nothing about `Keyboard.enter`.
 
 Basically, we gained expressiveness and controlled complexity as a direct result of *plugging the right signals into the right places*.
 
