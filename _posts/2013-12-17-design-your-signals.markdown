@@ -285,6 +285,10 @@ main = lift render <| foldp update m input
 
 Motherflipper is done.
 
+**revision Jan 10, 2014**: Or is it?. As [Apanatshka has noted](http://www.reddit.com/r/elm/comments/1ta9u6/a_little_note_on_avoiding_unnecessary_complexity/ceagqf6) the `ifRunning` 
+function, is *still* being used in one place more than it needs to be used. I'll leave the further simplification step as an exercise to 
+the reader! (hints in Apanatshka's comment.)
+
 ## Goodness achieved
 
 We went back to the drawing board, and:
