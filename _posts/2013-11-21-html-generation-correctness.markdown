@@ -5,7 +5,7 @@ date:   2013-11-21 00:43:06
 categories: html programming types scala
 ---
 
-I'm designing a little [library][ironhtml-repo] for generating HTML in Scala, and due to my ever-growing concerns regarding correctness, 
+I'm [brainstorming][ironhtml-repo] a little library for generating HTML in Scala, and due to my ever-growing concerns regarding correctness, 
 I've decided to go for a purely functional and strictly type-safe approach. By "strictly type-safe" I mean that everything I can enforce through types, I 
 will enforce. I won't go for "ease of use" and "flexibility" first. The latter should take care of itself if I know what I'm doing with 
 generics, parametric polymorphism, and typeclasses. The former is not well-defined, even for myself as currently the only user of this library!.
