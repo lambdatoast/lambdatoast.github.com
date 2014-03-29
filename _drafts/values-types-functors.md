@@ -19,7 +19,7 @@ upon, for the sake of keeping the focus on the main goal.
 Hopefully, this will provide incentive for the reader to engage in 
 further study on their own.
 
-## 2. General notions
+## 1. General notions
 
 Almost every concept we use in the programming world originates, 
 or derives, from a concept that predates and/or transcends computer programming.
@@ -27,27 +27,27 @@ or derives, from a concept that predates and/or transcends computer programming.
 In this section we're going to introduce some general notions, which 
 will later be placed in context of programming languages.
 
-### 2.1. What is a value?
+### 1.1. What is a value?
 
 A value is something that encodes and conveys information.
 
-### 2.2. What is a type?
+### 1.2. What is a type?
 
 Types are what we use to **communicate, exploit, and check whatever knowledge 
 we have about our values**. 
 
-### 2.3. What is an abstraction?
+### 1.3. What is an abstraction?
 
 "In programming this happens when a pattern repeats itself and we 
 wish to “separate” that pattern from the 'particular instances' 
 in which it appears." – Paul Hudak
 
-## 3. The use of computers
+## 2. The use of computers
 
 The general notions suggest the motivations we might have for getting 
 computers in the picture.
 
-### 3.1. What do we do with values in a computer?
+### 2.1. What do we do with values in a computer?
 
 The typical end of programming is to have something in the physical 
 world be affected according to the resulting value of a computation. 
@@ -68,7 +68,7 @@ a question whose answer is partly a matter of computability –
 which is in fact a concept that predates computers – and models of 
 computation.
 
-### 3.2. Models of computation
+### 2.2. Models of computation
 
 In 825, a clever Persian called Al-Khwarizmi wrote the book 
 "On the Calculation with Hindu Numerals", which specified several 
@@ -103,7 +103,7 @@ Exercises:
 computable functions, what other criteria might we use for choosing 
 one over the others in a particular situation?
 
-## 4. Enter programming languages
+## 3. Enter programming languages
 
 Studying Programming Languages (as opposed to just "How to program 
 with a language L") is a must, because a lot of the tasks that the 
@@ -117,7 +117,7 @@ useful for avoiding design mistakes.
 We can now put the previously mentioned notions of value, type, etc. 
 in a programming language context.
 
-### 4.1. Values
+### 3.1. Values
 
 When it comes to values, a programming language gives us constructs 
 which determine two things:
@@ -138,7 +138,7 @@ For now, let's continue by noting that, out of the observation
 that quite often we need to have several values with the same structure, 
 arises the notion and utility of classifying values into types.
 
-### 4.2. Types
+### 3.2. Types
 
 Consider a value `x`.
 
@@ -160,7 +160,7 @@ category, of values.
 * With types we can communicate and enforce, e.g. that a heart surgery robot should move once by 3**mm** instead of 3**cm**.
 * Note: the "static" vs. "dynamic" type *system* question is a separate discussion.
 
-### 4.3. Functions
+### 3.3. Functions
 
 Functions are *mappings* from input values to output values.
 
@@ -189,7 +189,7 @@ On **Functional Abstraction**:
 helpful to first identify those things that are not repeating, i.e. 
 those things that are changing." – Paul Hudak
 
-### 4.4. Programs
+### 3.4. Programs
 
 "A program can be regarded as an (abstract) mechanism embodying as 
 such the design of all computations that can possibly be evoked by 
@@ -211,6 +211,12 @@ It's a good idea to think about programming as a process of
 And consequently, we should view the following material as an 
 introduction to "common shapes of manageable and composable 
 computations".
+
+## 4. Polymorphism
+
+* Polymorphic types
+* "Polymorphic functions arise naturally when defining functions on 
+  lists and other polymorphic data types" – Paul Hudak
 
 ## 5. Type Constructors and Kinds
 
@@ -275,20 +281,18 @@ etc.  without even thinking/knowing what `*` will be?
 
 ### 5.3. A higher kind of type 
 
-## 6. Polymorphism
+## 6. Functions and Computation
 
-* Polymorphic types
-* "Polymorphic functions arise naturally when defining functions on 
-  lists and other polymorphic data types" – Paul Hudak
+At this point it should be clear that we are following the idea of 
+**computation as functional transformation**.
 
-## 7. Computation: Compositionality. Combining functions
+* Separation of what we want to do with how we want to do it.
+
+## 7. Compositionality. Modularization. Combining functions
 
 * Can a function be a value?
 * The description of the function
 * Higher-order functions
-
-At this point it should be clear that we are following the idea of 
-**computation as functional transformation**.
 
 "In denotational semantics one follows an ideal of compositionality, 
 where the meaning of a compound phrase is 
@@ -344,13 +348,17 @@ The abstractions we're studying here are no more than the principled
 and logically consistent study of this interest in "forms" of 
 computations.
 
-## 11. Isomorphisms
+## 11. Morphisms
+
+## 11.1. Homomorphisms
+## 11.2. Isomorphisms
 
 ## 12. A logical correspondence
 
 * The Curry-Howard isomorphism
 * `A -> B` as a logical implication
 * Quantification
+* Other logical correspondences
 
 ## Resources
 
