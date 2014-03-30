@@ -123,6 +123,8 @@ studying, by people who know about them, as well as relevant websites.
   - Sequent calculus:
     + [Sequent calculus @ Wikipedia](http://en.wikipedia.org/wiki/Sequent_calculus)
     + [Interactive tutorial of the sequent calculus](http://logitext.mit.edu/logitext.fcgi/tutorial)
+  - Truth:
+    + ["Outline of a Theory of Truth", by Saul Kripke (pdf)](http://philo.ruc.edu.cn/logic/reading/Kripke_%20Theory%20of%20Truth.pdf)
 * Logic programming:
   - [Curry: A Truly Integrated Functional Logic Language](http://www-ps.informatik.uni-kiel.de/currywiki/)
   - [Logic programming for the social web](http://www.intensivesystems.net/tutorials/logic_prog.html)
