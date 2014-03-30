@@ -313,7 +313,7 @@ demonstrably principled expectations from our system.
 
 There is something to be said about e.g. passing a value `x: A` and 
 a function `f: A -> B` to a function which is expected to compute a 
-a value of type `B`, for example.
+a value of type `B`.
 
 Instead of going around carrying a pack of recipes in our pocket, 
 we want to have a clear understanding of insights and principles that 
