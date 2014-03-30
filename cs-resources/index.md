@@ -6,7 +6,7 @@ title: Computer Science Resources
 # Computer Science Resources
 
 The following is a list of writings and videos on subjects I'm 
-studying, by people who know about them.
+studying, by people who know about them, as well as relevant websites.
 
 * Actors:
   - (video) [Hewitt, Meijer and Szyperski: The Actor Model (everything you wanted to know...)](http://www.youtube.com/watch?v=7erJ1DV_Tlo)
