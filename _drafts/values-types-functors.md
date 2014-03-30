@@ -311,8 +311,9 @@ These formalizations allow for program reuse, generic abstraction,
 predictability, machine-based verification, and quite importantly: 
 demonstrably principled expectations from our system.
 
-There is something to be said about e.g. passing a value `A` and an operation 
-`A -> B` to an operation which will give us a `B`.
+There is something to be said about e.g. passing a value `x: A` and 
+a function `f: A -> B` to a function which is expected to compute a 
+a value of type `B`, for example.
 
 Instead of going around carrying a pack of recipes in our pocket, 
 we want to have a clear understanding of insights and principles that 
