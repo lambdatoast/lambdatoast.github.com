@@ -144,8 +144,8 @@ Consider a value `x`.
 
 What do we know about this value, and what operations can we apply to it?
 
-The answer is that we cannot do anything meaningful or useful at 
-all with `x`, if we don't know anything about what type of value it is.
+The answer is that we cannot do anything actually meaningful or useful 
+with `x`, if we're not informed about the type of value it is.
 
 Types are what we inevitably get to when we start asking: 
 What is the difference between `"picture.jpeg"` and `42`? What is 
