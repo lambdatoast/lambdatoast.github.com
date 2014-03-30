@@ -277,7 +277,7 @@ of programming.
 
 Ignoring the bananas, aliens, etc. for a moment: Can anything be 
 said about the type constructors "a bunch of `*`", "a box of `*`", 
-etc.  without even thinking/knowing what `*` will be?
+etc.  without even thinking/knowing what `*` might be?
 
 ### 5.3. A higher kind of type 
 
