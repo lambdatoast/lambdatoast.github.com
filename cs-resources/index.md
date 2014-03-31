@@ -93,6 +93,7 @@ studying, by people who know about them, as well as relevant websites.
 ## Functional Programming
   - (video) [Guerrilla Guide to Pure Functional Programming](http://vimeo.com/20293743)
 ## Functional Reactive Programming (FRP)
+  - [Functional Reactive Animation, by Conal Elliott and Paul Hudak (pdf)](http://haskell.cs.yale.edu/wp-content/uploads/2011/02/icfp97.pdf)
   - [Introduction to Functional Reactive Programming (slides)](http://www.slideshare.net/edwardamsden/introduction-to-functional-reactive-programming)
 ## General
   - [Daan Leijen's publications @ Microsoft Research](http://research.microsoft.com/apps/mobile/showpage.aspx?page=/en-us/people/daan/pubs.aspx)
