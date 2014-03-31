@@ -47,6 +47,7 @@ studying, by people who know about them, as well as relevant websites.
   - [David Rydeheard's Research in Computing](http://www.cs.man.ac.uk/~david/)
   - [John Longley's research page](http://homepages.inf.ed.ac.uk/jrl/Research/)
   - [Notions of computability at higher types I (pdf)](http://homepages.inf.ed.ac.uk/jrl/Research/notions1.pdf)
+  - ["On termination", mailing list post by Conor McBride](http://www.haskell.org/pipermail/haskell-cafe/2003-May/004343.html)
   - [Realizability theory: difference in power between Lambda calculus and Turing Machines @ StackExchange](http://cstheory.stackexchange.com/questions/1117/realizability-theory-difference-in-power-between-lambda-calculus-and-turing-mac)
 ## Concurrency / Distributed / Parallelism
   - [A Note on Distributed Computing (paper)](http://doc.akka.io/docs/misc/smli_tr-94-29.pdf)
