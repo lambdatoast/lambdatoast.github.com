@@ -363,7 +363,7 @@ computations.
 
 ## 11. Algebras
 
-* Simply put: A set (called carrier) together with some functions that return values which belong to said set.
+* Simply put: A set (called carrier) together with some functions that return values which are elements of that set.
 * i.e. Boolean algebra: Carrier is a set with True and False. Operations are conjunction, disjunction, and negation.
 * Signature of the algebra.
 
