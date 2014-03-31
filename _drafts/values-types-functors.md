@@ -365,6 +365,7 @@ computations.
 
 * Simply put: A set (carrier) together with some operations on that set.
 * i.e. Boolean algebra: Carrier is a set with True and False. Operations are conjunction, disjunction, and negation.
+* Signature of the algebra.
 
 ## 12. Morphisms
 
