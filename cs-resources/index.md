@@ -22,6 +22,7 @@ studying, by people who know about them, as well as relevant websites.
 ## Algorithms
   - [Finding primes & proving primality](http://primes.utm.edu/prove/index.html)
   - [Even better Eratosthenes sieve and lucky numbers](http://article.gmane.org/gmane.comp.lang.haskell.cafe/19470)
+  - [Pearls of Functional Algorithm Design, by Richard Bird (pdf)](http://www.clyce.net/wp-content/uploads/2013/02/Pearls-of-Functional-Algorithm-Design.pdf)
   - [Thorough list of Algorithms and what they're used for @ StackExchange](http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773)
 ## Category Theory for Computer Science
   - [Applicative Programming with Effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
