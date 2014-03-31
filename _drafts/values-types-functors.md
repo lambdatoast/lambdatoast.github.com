@@ -36,11 +36,14 @@ A value is something that encodes and conveys information.
 Types are what we use to **communicate, exploit, and check whatever knowledge 
 we have about our values**. 
 
-### 1.3. What is an abstraction?
+### 1.3. Abstraction
 
 "In programming this happens when a pattern repeats itself and we 
 wish to “separate” that pattern from the 'particular instances' 
 in which it appears." – Paul Hudak
+
+Abstraction is about eliminating irrelevant detail and identifying 
+the essence.
 
 ## 2. The use of computers
 
@@ -339,6 +342,9 @@ composed system "working".
 
 The laws of behaviour of a structure is then just the collection of 
 the transitions it can make.
+
+Looking back at our definitions Abstraction, we can see that laws are 
+a direct result of it.
 
 "Proof by calculation is one way to connect the problem specification 
 with the program solution." – Paul Hudak
