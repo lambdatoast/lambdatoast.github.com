@@ -31,6 +31,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Youtube video series: Category Theory for Javascript](http://www.youtube.com/user/metawetayt/videos)
   - [Computational Category Theory (full book)](http://www.cs.man.ac.uk/~david/categories/)
   - (video) [Dead-Simple Dependency Injection](http://www.youtube.com/watch?v=ZasXwtTRkio)
+  - [Generic Programming - An Introduction, by Roland Backhouse, Patrik Jansson, Johan Jeuring and Lambert Meertens](http://www.cse.chalmers.se/~patrikj/poly/afp98/)
   - (video) [Brian Beckman: Don't fear the Monad](http://www.youtube.com/watch?v=ZhuHCtR3xq8)
   - (video) [John Bender: Faster JavaScript with Category Theory](http://www.youtube.com/watch?v=PtD-WKSC6ak)
   - [Haskell/Functor](http://en.wikibooks.org/wiki/Haskell/The_Functor_class)
