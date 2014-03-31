@@ -361,12 +361,17 @@ The abstractions we're studying here are no more than the principled
 and logically consistent study of this interest in "forms" of 
 computations.
 
-## 11. Morphisms
+## 11. Algebras
 
-## 11.1. Homomorphisms
-## 11.2. Isomorphisms
+* Simply put: A set (carrier) together with some operations on that set.
+* i.e. Boolean algebra: Carrier is a set with True and False. Operations are conjunction, disjunction, and negation.
 
-## 12. A logical correspondence
+## 12. Morphisms
+
+## 12.1. Homomorphisms
+## 12.2. Isomorphisms
+
+## 13. A logical correspondence
 
 * The Curry-Howard isomorphism
 * `A -> B` as a logical implication
