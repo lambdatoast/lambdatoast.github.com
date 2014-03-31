@@ -212,11 +212,17 @@ And consequently, we should view the following material as an
 introduction to "common shapes of manageable and composable 
 computations".
 
-## 4. Polymorphism
+## 4. Polymorphism. Generic vs. Specific. Parametricity.
 
 * Polymorphic types
 * "Polymorphic functions arise naturally when defining functions on 
   lists and other polymorphic data types" – Paul Hudak
+
+### 4.1. General vs. Specific
+
+### 4.2. Parametricity
+
+* Constraining/confining where values comes from and where they are going.
 
 ## 5. Type Constructors and Kinds
 
