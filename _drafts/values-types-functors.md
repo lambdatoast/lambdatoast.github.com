@@ -372,6 +372,13 @@ computations.
 ## 11. Morphisms
 
 ### 11.1. Homomorphisms
+
+Given two algebras of the same class, a function between their
+carrier sets that **preserves the structure** of the class, is called a 
+homomorphism.
+
+* Preserving the structure means satisfying some properties.
+
 ### 11.2. Isomorphisms
 
 ## 13. A logical correspondence
