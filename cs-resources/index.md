@@ -94,6 +94,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Generalised folds for nested datatypes](http://www.cs.ox.ac.uk/richard.bird/online/BirdPaterson99Generalised.pdf)
 ## Functional Programming
   - (video) [Guerrilla Guide to Pure Functional Programming](http://vimeo.com/20293743)
+  - [Introduction to Functional Programming, 1ed, by Richard Bird and Philip Wadler (full book) (pdf)](http://www.nlda-tw.nl/janmartin/vakken/TFIT/Extra%20materiaal/Bird_Wadler.%20Introduction%20to%20Functional%20Programming.1ed.pdf)
 ## Functional Reactive Programming (FRP)
   - [Functional Reactive Animation, by Conal Elliott and Paul Hudak (pdf)](http://haskell.cs.yale.edu/wp-content/uploads/2011/02/icfp97.pdf)
   - [Functional Reactive Types, by Alan Jeffrey (pdf)](http://ect.bell-labs.com/who/ajeffrey/papers/lics14.pdf)
