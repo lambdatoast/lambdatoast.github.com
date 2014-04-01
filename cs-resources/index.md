@@ -141,6 +141,7 @@ studying, by people who know about them, as well as relevant websites.
   - [A Course in Universal Algebra (full book)](http://www.math.uwaterloo.ca/~snburris/htdocs/ualg.html)
   - [Mathematics and Computation blog by Andrej Bauer](http://math.andrej.com/)
   - (video) [Mathematics for Computer Science @ MIT opencourseware](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
+  - [Roland Backhouse's Publications](http://www.cs.nott.ac.uk/~rcb/papers/papers.html)
   - [The Nature of Code (full book)](http://natureofcode.com/)
   - [Order Theory](http://en.wikipedia.org/wiki/Order_theory)
 ## Modularization
