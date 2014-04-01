@@ -349,7 +349,15 @@ a direct result of it.
 "Proof by calculation is one way to connect the problem specification 
 with the program solution." – Paul Hudak
 
-## 10. Algebraic Reasoning
+## 10. The Algebraic View
+
+### 10.1. What is an algebra?
+
+* Simply put: A set (called carrier) together with some functions that return values which are elements of that set.
+* i.e. Boolean algebra: Carrier is a set with True and False. Operations are conjunction, disjunction, and negation.
+* Signature of the algebra.
+
+### 10.2. Algebraic reasoning
 
 The observation of how often languages have been designed with the `+` 
 operation denoting integer addition, real addition, and string concatenation, 
@@ -361,16 +369,10 @@ The abstractions we're studying here are no more than the principled
 and logically consistent study of this interest in "forms" of 
 computations.
 
-## 11. Algebras
+## 11. Morphisms
 
-* Simply put: A set (called carrier) together with some functions that return values which are elements of that set.
-* i.e. Boolean algebra: Carrier is a set with True and False. Operations are conjunction, disjunction, and negation.
-* Signature of the algebra.
-
-## 12. Morphisms
-
-## 12.1. Homomorphisms
-## 12.2. Isomorphisms
+### 11.1. Homomorphisms
+### 11.2. Isomorphisms
 
 ## 13. A logical correspondence
 
