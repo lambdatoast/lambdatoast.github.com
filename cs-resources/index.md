@@ -96,6 +96,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Guerrilla Guide to Pure Functional Programming](http://vimeo.com/20293743)
   - [Functional Programming and 3D Games, a thesis by Mun Hon Cheong (pdf)](http://www.cse.unsw.edu.au/~pls/thesis/munc-thesis.pdf)
   - [Introduction to Functional Programming, 1ed, by Richard Bird and Philip Wadler (full book) (pdf)](http://www.nlda-tw.nl/janmartin/vakken/TFIT/Extra%20materiaal/Bird_Wadler.%20Introduction%20to%20Functional%20Programming.1ed.pdf)
+  - [Why Functional Programming Matters, by John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
 ## Functional Reactive Programming (FRP)
   - [Functional Reactive Animation, by Conal Elliott and Paul Hudak (pdf)](http://haskell.cs.yale.edu/wp-content/uploads/2011/02/icfp97.pdf)
   - [Functional Reactive Types, by Alan Jeffrey (pdf)](http://ect.bell-labs.com/who/ajeffrey/papers/lics14.pdf)
