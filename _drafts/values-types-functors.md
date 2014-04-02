@@ -133,6 +133,10 @@ In relation to the first point: there are certain
 and trees, to name a few – that are commonly used for structuring 
 values, according to our needs.
 
+If we have a problem, and our current information is represented 
+as some value `x` – which might be a compound value – the available 
+solutions to our problem will depend on how `x` is represented.
+
 We will expand on the second point when we get to functions and 
 computations, which will eventually become the focus of this
 post.
