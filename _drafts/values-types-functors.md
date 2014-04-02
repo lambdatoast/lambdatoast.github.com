@@ -381,6 +381,11 @@ homomorphism.
 
 ### 11.2. Isomorphisms
 
+* Review function composition.
+* "Cancelling" function of a function. 
+* The `id` function.
+* A homomorphism that has a cancelling homomorphism is called an isomorphism.
+
 ## 13. A logical correspondence
 
 * The Curry-Howard isomorphism
