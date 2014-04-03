@@ -45,6 +45,8 @@ in which it appears." – Paul Hudak
 Abstraction is about eliminating irrelevant detail and identifying 
 the essence.
 
+It's also about revealing common ideas in seemingly unrelated areas.
+
 ## 2. The use of computers
 
 The general notions suggest the motivations we might have for getting 
