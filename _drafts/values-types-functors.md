@@ -192,12 +192,6 @@ we specify them with an input and an output type, then they can also
 be viewed as a tool for specifying the **behavior** of the values 
 of the types involved.
 
-On **Functional Abstraction**:
-
-"In discerning the nature of a repeating pattern it is sometimes 
-helpful to first identify those things that are not repeating, i.e. 
-those things that are changing." – Paul Hudak
-
 ### 3.4. Programs
 
 "A program can be regarded as an (abstract) mechanism embodying as 
@@ -220,6 +214,20 @@ It's a good idea to think about programming as a process of
 And consequently, we should view the following material as an 
 introduction to "common shapes of manageable and composable 
 computations".
+
+### 3.5. Abstractions
+
+Given the basic notion of Abstraction we introduced earlier, 
+we can see that, in a context of programming languages and the design 
+of computations, a benefit of creating abstractions is to have a 
+*single* solution apply to many different problems, provided certain 
+commonalities are found.
+
+Notes on **Functional Abstraction**:
+
+"In discerning the nature of a repeating pattern it is sometimes 
+helpful to first identify those things that are not repeating, i.e. 
+those things that are changing." – Paul Hudak
 
 ## 4. Polymorphism. Generic vs. Specific. Parametricity.
 
