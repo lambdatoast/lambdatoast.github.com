@@ -25,6 +25,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Pearls of Functional Algorithm Design, by Richard Bird (pdf)](http://www.clyce.net/wp-content/uploads/2013/02/Pearls-of-Functional-Algorithm-Design.pdf)
   - [Thorough list of Algorithms and what they're used for @ StackExchange](http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773)
 ## Category Theory for Computer Science
+  - [An introduction to Category Theory for Software Engineers, by Steve Easterbrook (pdf)](http://www.cs.toronto.edu/~sme/presentations/cat101.pdf)
   - [Applicative Programming with Effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
   - [Basic Definitions](http://mathprelims.wordpress.com/2009/02/22/category-theory-basic-definitions/)
   - [Category Theory for Computing Science, by Michael Barr and Charles Wells (pdf)](http://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf)
