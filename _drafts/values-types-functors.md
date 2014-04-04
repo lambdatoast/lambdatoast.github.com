@@ -110,14 +110,12 @@ one over the others in a particular situation?
 
 ## 3. Enter programming languages
 
-Studying Programming Languages (as opposed to just "How to program 
-with a language L") is a must, because a lot of the tasks that the 
-so-called "real world programmer" does in their daily life are a 
-form of language design.  Sure, these languages may not be the "big", 
-"general purpose", "Turing complete" languages we think of when we 
-say "programming language", but the principles of programming 
-language design apply nonetheless, and familiarity with them is 
-useful for avoiding design mistakes.
+A lot of the tasks that the so-called "real world programmer" does in 
+their daily life are a form of language design. Sure, these languages 
+may not be the "big", "general purpose", "Turing complete" languages 
+we picture when we say "programming language", but the principles 
+of programming language design apply nonetheless, and familiarity 
+with them is useful for avoiding design mistakes.
 
 We can now put the previously mentioned notions of value, type, etc. 
 in a programming language context.
