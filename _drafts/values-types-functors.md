@@ -239,7 +239,24 @@ those things that are changing." – Paul Hudak
 
 * Constraining/confining where values comes from and where they are going.
 
-## 5. Type Constructors and Kinds
+## 5. More on Functions and Computation
+
+At this point it should be clear that we are following the idea of 
+**computation as functional transformation**.
+
+* Separation of what we want to do with how we want to do it.
+
+### 5.1. Compositionality. Modularization. Combining functions
+
+* Can a function be a value?
+* The description of the function
+* Higher-order functions
+
+"In denotational semantics one follows an ideal of compositionality, 
+where the meaning of a compound phrase is 
+given as a function of the meaning of its parts." – Plotkin
+
+## 6. Type Constructors and Kinds
 
 In the previous section we asked "what do we know about the value 
 `x`?", and noted that the process of specifying what we know about 
@@ -258,12 +275,12 @@ we either have a type which is ready to classify values, or a *type
 constructor*, which is *not* ready to classify values and is instead 
 a tool for what the term implies: constructing types.
 
-### 5.1. A simple kind of type
+### 6.1. A simple kind of type
 
 A type `A` of kind `*` is readily able to classify values, so we can just 
 have a value `x` of type `A`.
 
-### 5.2. A constructor kind of type 
+### 6.2. A constructor kind of type 
 
 Consider the following kind: `* -> *`.
 
@@ -298,26 +315,9 @@ Ignoring the bananas, aliens, etc. for a moment: Can anything be
 said about the type constructors "a bunch of `*`", "a box of `*`", 
 etc.  without even thinking/knowing what `*` might be?
 
-### 5.3. A higher kind of type 
+### 6.3. A higher kind of type 
 
-## 6. Functions and Computation
-
-At this point it should be clear that we are following the idea of 
-**computation as functional transformation**.
-
-* Separation of what we want to do with how we want to do it.
-
-## 7. Compositionality. Modularization. Combining functions
-
-* Can a function be a value?
-* The description of the function
-* Higher-order functions
-
-"In denotational semantics one follows an ideal of compositionality, 
-where the meaning of a compound phrase is 
-given as a function of the meaning of its parts." – Plotkin
-
-## 8. Values + Types + Operations. Fundamental relations
+## 7. Values + Types + Operations. Fundamental relations
 
 * There are fundamental data structures for values
 * There are also certain **fundamental descriptions of computations**
@@ -338,7 +338,7 @@ Instead of going around carrying a pack of recipes in our pocket,
 we want to have a clear understanding of insights and principles that 
 have been distilled into terse, precise formulations.
 
-## 9. Properties. Rules. Laws.
+## 8. Properties. Rules. Laws.
 
 Rules play a central role in the specification of behavior.
 
@@ -359,15 +359,15 @@ a direct result of it.
 "Proof by calculation is one way to connect the problem specification 
 with the program solution." – Paul Hudak
 
-## 10. The Algebraic View
+## 9. Introducing an algebraic view
 
-### 10.1. What is an algebra?
+### 9.1. What is an algebra?
 
 * Simply put: A set (called carrier) together with some functions that return values which are elements of that set.
 * i.e. Boolean algebra: Carrier is a set with True and False. Operations are conjunction, disjunction, and negation.
 * Signature of the algebra.
 
-### 10.2. Algebraic reasoning
+### 9.2. Algebraic reasoning
 
 The observation of how often languages have been designed with the `+` 
 operation denoting integer addition, real addition, and string concatenation, 
@@ -379,9 +379,9 @@ The abstractions we're studying here are no more than the principled
 and logically consistent study of this interest in "forms" of 
 computations.
 
-## 11. Morphisms
+## 10. Morphisms
 
-### 11.1. Homomorphisms
+### 10.1. Homomorphisms
 
 Given two algebras of the same class, a function between their
 carrier sets that **preserves the structure** of the class, is called a 
@@ -389,14 +389,14 @@ homomorphism.
 
 * Preserving the structure means satisfying some properties.
 
-### 11.2. Isomorphisms
+### 10.2. Isomorphisms
 
 * Review function composition.
 * "Cancelling" function of a function. 
 * The `id` function.
 * A homomorphism that has a cancelling homomorphism is called an isomorphism.
 
-## 13. A logical correspondence
+## 11. A logical correspondence
 
 * The Curry-Howard isomorphism
 * `A -> B` as a logical implication
