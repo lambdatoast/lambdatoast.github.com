@@ -359,6 +359,14 @@ a direct result of it.
 "Proof by calculation is one way to connect the problem specification 
 with the program solution." – Paul Hudak
 
+Let's see some examples of properties, relevant to what we've talked 
+about.
+
+### 8.1. Example 1 – Function composition is associative
+
+Given `f: A -> B`, `g: B -> C`, and `h: C -> D`, we have that 
+`(h . g) . f` is equal to `h . (g . f)`.
+
 ## 9. Introducing an algebraic view
 
 ### 9.1. What is an algebra?
