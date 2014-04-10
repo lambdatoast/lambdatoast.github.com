@@ -144,6 +144,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Papers of Michael Hanus on Functional Logic Programming et al](http://www.informatik.uni-kiel.de/~mh/papers/)
   - ["Simply Logical: Intelligent Reasoning by Example" by Peter Flach](http://www.cs.bris.ac.uk/~flach/SimplyLogical.html)
 ## Mathematics
+  - [A Computational Introduction to Number Theory and Algebra, by Victor Shoup (full book)](http://shoup.net/ntb/)
   - [A Course in Universal Algebra (full book)](http://www.math.uwaterloo.ca/~snburris/htdocs/ualg.html)
   - [Mathematics and Computation blog by Andrej Bauer](http://math.andrej.com/)
   - (video) [Mathematics for Computer Science @ MIT opencourseware](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
