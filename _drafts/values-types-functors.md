@@ -242,10 +242,8 @@ those things that are changing." – Paul Hudak
 ## 5. Type Constructors and Kinds
 
 In the previous section we asked "what do we know about the value 
-`x`?", and concluded that we have to know *something* about it, in 
-order to use it, and furthermore we saw that the process of specifying 
-what we know about our values leads naturally to classifying them 
-with types.
+`x`?", and noted that the process of specifying what we know about 
+our values leads naturally to classifying them with types.
 
 Now we ask: When is a type **able to classify values**?
 
