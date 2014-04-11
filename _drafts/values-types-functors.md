@@ -367,15 +367,21 @@ about.
 Given `f: A -> B`, `g: B -> C`, and `h: C -> D`, we have that 
 `(h . g) . f` is equal to `h . (g . f)`.
 
-## 9. Introducing an algebraic view
+## 9. Proof. Inference.
 
-### 9.1. What is an algebra?
+* The development of proof theory, and relevance to computer science.
+* Example of inference: if the assumption that all A have property P 
+  leads to an impossibility, the existence of an A with the contrary property not-P can be inferred.
+
+## 10. Introducing an algebraic view
+
+### 10.1. What is an algebra?
 
 * Simply put: A set (called carrier) together with some functions that return values which are elements of that set.
 * i.e. Boolean algebra: Carrier is a set with True and False. Operations are conjunction, disjunction, and negation.
 * Signature of the algebra.
 
-### 9.2. Algebraic reasoning
+### 10.2. Algebraic reasoning
 
 The observation of how often languages have been designed with the `+` 
 operation denoting integer addition, real addition, and string concatenation, 
@@ -387,9 +393,9 @@ The abstractions we're studying here are no more than the principled
 and logically consistent study of this interest in "forms" of 
 computations.
 
-## 10. Morphisms
+## 11. Morphisms
 
-### 10.1. Homomorphisms
+### 11.1. Homomorphisms
 
 Given two algebras of the same class, a function between their
 carrier sets that **preserves the structure** of the class, is called a 
@@ -397,14 +403,14 @@ homomorphism.
 
 * Preserving the structure means satisfying some properties.
 
-### 10.2. Isomorphisms
+### 11.2. Isomorphisms
 
 * Review function composition.
 * "Cancelling" function of a function. 
 * The `id` function.
 * A homomorphism that has a cancelling homomorphism is called an isomorphism.
 
-## 11. A logical correspondence
+## 12. A logical correspondence
 
 * The Curry-Howard isomorphism
 * `A -> B` as a logical implication
