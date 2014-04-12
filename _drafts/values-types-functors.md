@@ -317,7 +317,7 @@ etc.  without even thinking/knowing what `*` might be?
 
 ### 6.3. A higher kind of type 
 
-## 7. Values + Types + Operations. Fundamental relations
+## 7. Checkpoint: Putting things together. Fundamental relations.
 
 * There are fundamental data structures for values
 * There are also certain **fundamental descriptions of computations**
@@ -337,6 +337,16 @@ a value of type `B`.
 Instead of going around carrying a pack of recipes in our pocket, 
 we want to have a clear understanding of insights and principles that 
 have been distilled into terse, precise formulations.
+
+### 7.1. Types in programming language interpretation
+
+We've already made the point that types are fundamental and 
+inevitable when trying to design computations. We did this by asking 
+the "what can we do with some value `x` question?". 
+
+* Look back at the definition of a *language*
+* Give a simplified notion of interpreting a language
+* Note how types are essential for knowing how to interpret the stream of symbols.
 
 ## 8. Properties. Rules. Laws.
 
