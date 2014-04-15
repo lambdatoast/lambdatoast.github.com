@@ -163,7 +163,7 @@ studying, by people who know about them, as well as relevant websites.
 ## Philosophy of the Science
   - [Edsger W. Dijkstra on the historical rejection of Science and the state of Computing Science](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1041.html)
   - [John Baez on Research Tactics](http://intelligence.org/2014/02/21/john-baez-on-research-tactics/)
-## PLT
+## Programming Language Theory (PLT)
   - (video) [Advanced Topics in Programming Languages - Course - 2013 Fall: 15-819 ](http://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%2207756bb0-b872-4a4a-95b1-b77ad206dab3%22&sortColumn=1&sortAscending=true)
   - [Comparing Objective Caml and Standard ML](http://adam.chlipala.net/mlcomp/)
   - [Formal programming language semantics (course notes)](http://www.inf.ed.ac.uk/teaching/courses/fpls/)
