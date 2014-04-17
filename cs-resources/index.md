@@ -129,6 +129,7 @@ studying, by people who know about them, as well as relevant websites.
   - [De Morgan's laws](http://en.wikipedia.org/wiki/De_Morgan%27s_laws)
   - [Free-logic](http://plato.stanford.edu/entries/logic-free/)
   - [Introduction to Higher Mathematics - Lecture 6: Predicate Logic](http://www.youtube.com/watch?v=YbNmPievBak)
+  - [A taste of linear logic, by Philip Wadler (pdf)](http://homepages.inf.ed.ac.uk/wadler/papers/lineartaste/lineartaste-revised.pdf)
   - [Logic course materials from Cse371, Math371 @ Stony Brook University](http://www.cs.sunysb.edu/~cse371/)
   - [Modal Logic Playground](http://rkirsling.github.io/modallogic/)
   - [Symbolic Logic: A First Course (2nd edition)](http://courses.umass.edu/phil110-gmh/text.htm)
