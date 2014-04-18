@@ -134,6 +134,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Modal Logic Playground](http://rkirsling.github.io/modallogic/)
   - [Symbolic Logic: A First Course (2nd edition)](http://courses.umass.edu/phil110-gmh/text.htm)
   - [Michael J. C. Gordon's publications on HOL, et al](http://www.cl.cam.ac.uk/~mjcg/)
+  - [Proofs and Types. By Jean-Yves Girard (full book)](http://www.paultaylor.eu/stable/Proofs+Types.html)
   - Sequent calculus:
     + [Sequent calculus @ Wikipedia](http://en.wikipedia.org/wiki/Sequent_calculus)
     + [Interactive tutorial of the sequent calculus](http://logitext.mit.edu/logitext.fcgi/tutorial)
