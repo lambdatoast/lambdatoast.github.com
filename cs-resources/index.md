@@ -172,6 +172,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Introduction to Programming Languages (CSCI 1730)](http://cs.brown.edu/courses/csci1730/2012/Videos/) and [book](http://cs.brown.edu/courses/csci1730/2012/book/)
   - [Ken Slonneger's Formal Syntax and Semantics of Programming Languages book](http://homepage.cs.uiowa.edu/~slonnegr/plf/Book/)
   - (video) [Null References: The Billion Dollar Mistake](http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
+  - [Practical Foundations for Programming Languages, Second Edition. By Robert Harper (full book) (pdf)](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
   - [Principle of Parametricity (wikipedia)](http://en.wikipedia.org/wiki/Parametricity)
   - [Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/2007-04-26/)
 ## Polymorphism
