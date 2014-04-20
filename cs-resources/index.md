@@ -66,6 +66,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Simon Peyton Jones talks about Software Transactional Memory (STM)](http://www.youtube.com/watch?v=aQXgW55f7cg)
   - (video) [Lightning Talk: Scala STM](http://skillsmatter.com/podcast/scala/lightning-talks-talk-1-at-scalax)
   - (video) [Why Did We Think Large Scale Distributed Systems Would be Easy?](http://www.youtube.com/watch?v=kCcYip60_aY)
+  - [Scheduling Deterministic Parallel Programs. By Daniel John Spoonhower (pdf)](http://www.cs.cmu.edu/~rwh/theses/spoonhower.pdf)
   - Definitions:
     + [Parallelism /= Concurrency](http://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
     + [Parallelism is not Concurrency](http://existentialtype.wordpress.com/2011/03/17/parallelism-is-not-concurrency/)
