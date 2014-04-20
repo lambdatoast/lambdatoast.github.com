@@ -69,6 +69,7 @@ studying, by people who know about them, as well as relevant websites.
   - Definitions:
     + [Parallelism /= Concurrency](http://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
     + [Parallelism is not Concurrency](http://existentialtype.wordpress.com/2011/03/17/parallelism-is-not-concurrency/)
+    + [Parallelism and Concurrency, Revisited](http://existentialtype.wordpress.com/2014/04/09/parallelism-and-concurrency-revisited/)
 ## Contracts
   - (video) [ICFP 2012. Olaf Chitil: Practical Typed Lazy Contracts](http://www.youtube.com/watch?v=wpJp1MMOxCY)
 ## Data Structures
