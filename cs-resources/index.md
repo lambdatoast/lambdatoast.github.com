@@ -199,7 +199,6 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [The Value of Values](http://www.infoq.com/presentations/Value-Values)
 ## Type Theory
   - [Curry–Howard correspondence @ Wikipedia](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)
-  - [Dynamic languages are static languages](http://existentialtype.wordpress.com/2011/03/19/dynamic-languages-are-static-languages/)
   - [Existentially quantified types](http://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types)
   - [Fast and Loose Reasoning is Morally Correct](http://www.cse.chalmers.se/~nad/publications/danielsson-et-al-popl2006.html)
   - (video) [High Wizardry in the Land of Scala](http://vimeo.com/28793245)
@@ -228,6 +227,9 @@ studying, by people who know about them, as well as relevant websites.
     + (video) [A Taste of Agda with Francesco Mazzoli](http://vimeo.com/77168227)
   - Type inference:
     + (video) [Uncovering the Unknown: Principles of Type Inference](http://www.youtube.com/watch?v=fDTt_uo0F-g)
+  - Type systems:
+    + [Dynamic languages are static languages](http://existentialtype.wordpress.com/2011/03/19/dynamic-languages-are-static-languages/)
+    + [Bellman Confirms A Suspicion](https://existentialtype.wordpress.com/2014/04/21/bellman-confirms-a-suspicion/)
   - Subtyping:
     + [Are Cows Animals? by David L. Shang](http://visviva.3d-album.com/transframe/papers/covar.htm)
 ## Typeclasses
