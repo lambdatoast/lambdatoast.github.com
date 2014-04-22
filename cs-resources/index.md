@@ -156,6 +156,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Mathematics for Computer Science @ MIT opencourseware](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
   - [Roland Backhouse's Publications](http://www.cs.nott.ac.uk/~rcb/papers/papers.html)
   - [The Nature of Code (full book)](http://natureofcode.com/)
+  - [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
   - [Order Theory](http://en.wikipedia.org/wiki/Order_theory)
 ## Modularization
   - [Abstracting Your Monads. A presentation in mime by Daniel Spiewak](https://dl.dropboxusercontent.com/u/1679797/ScalaSyd/presentation.scala)
