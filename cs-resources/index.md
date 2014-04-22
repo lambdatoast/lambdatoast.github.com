@@ -154,6 +154,7 @@ studying, by people who know about them, as well as relevant websites.
   - [The Development of Proof Theory](http://plato.stanford.edu/entries/proof-theory-development/)
   - [Mathematics and Computation blog by Andrej Bauer](http://math.andrej.com/)
   - (video) [Mathematics for Computer Science @ MIT opencourseware](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
+  - [nLab: A wiki-lab for collaborative work on Mathematics, Physics and Philosophy with a Category Theory point of view](http://ncatlab.org/nlab/show/HomePage)
   - [Roland Backhouse's Publications](http://www.cs.nott.ac.uk/~rcb/papers/papers.html)
   - [The Nature of Code (full book)](http://natureofcode.com/)
   - [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
