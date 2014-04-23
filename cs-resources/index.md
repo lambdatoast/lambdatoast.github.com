@@ -129,6 +129,7 @@ studying, by people who know about them, as well as relevant websites.
 ## Logic
   - [BM2. Logical Equivalence](http://www.youtube.com/watch?v=1jgDPRz-z7E)
   - [De Morgan's laws](http://en.wikipedia.org/wiki/De_Morgan%27s_laws)
+  - [The Development of Intuitionistic Logic](http://plato.stanford.edu/entries/intuitionistic-logic-development/)
   - [Free-logic](http://plato.stanford.edu/entries/logic-free/)
   - [Introduction to Higher Mathematics - Lecture 6: Predicate Logic](http://www.youtube.com/watch?v=YbNmPievBak)
   - [A taste of linear logic, by Philip Wadler (pdf)](http://homepages.inf.ed.ac.uk/wadler/papers/lineartaste/lineartaste-revised.pdf)
