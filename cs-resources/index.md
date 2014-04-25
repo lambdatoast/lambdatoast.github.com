@@ -57,6 +57,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Clojure core.async](http://www.infoq.com/presentations/clojure-core-async)
   - [Concurrent Programming for Scalable Web Architectures (full book)](http://berb.github.io/diploma-thesis/index.html)
   - (video) [Deterministic Parallel Programming with Haskell - Duncan Coutts](http://www.youtube.com/watch?v=d6XigsnIk0s)
+  - [Differences between Node.js and Erlang](http://jlouisramblings.blogspot.fr/2010/12/differences-between-nodejs-and-erlang_14.html)
   - [MIT Theory of Distributed Systems (TDS) group](http://groups.csail.mit.edu/tds/)
   - [Parallel and Concurrent Programming in Haskell (full book)](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
   - [Parallelism vs. Concurrency @ Haskell Wiki](http://www.haskell.org/haskellwiki/Parallelism_vs._Concurrency)
