@@ -122,7 +122,8 @@ in a programming language context.
 
 ### 3.1. Values
 
-* Explain what terms and expressions are and how Values are what they evaluate to.
+* Explain what terms and expressions are and how Values are what they evaluate to:
+  - We phrase our computational ideas as *expressions* of some *type*.
 
 When it comes to values, a programming language gives us constructs 
 which determine two things:
