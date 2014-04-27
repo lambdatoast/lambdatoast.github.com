@@ -8,17 +8,6 @@ title: Computer Science Resources
 The following is a list of writings and videos on subjects I'm 
 studying, by people who know about them, as well as relevant websites.
 
-## Actors
-  - (video) [Hewitt, Meijer and Szyperski: The Actor Model (everything you wanted to know...)](http://www.youtube.com/watch?v=7erJ1DV_Tlo)
-  - [Actors: Foundations for Open System (compendium of papers)](http://erights.org/history/actors.html)
-  - [Concurrent Object-Oriented Programming in Act 1](http://web.media.mit.edu/~lieber/Lieberary/OOP/Act-1/Concurrent-OOP-in-Act-1.html)
-  - [Erlang Style Actors Are All About Shared State](http://james-iry.blogspot.com.ar/2009/04/erlang-style-actors-are-all-about.html)
-  - [Erlang Style Actors Are All About Locking](http://james-iry.blogspot.com.ar/2009/04/erlang-style-actors-are-all-about_16.html)
-  - [Start With Akka: Let's Write a Scraper](http://sap1ens.com/blog/2013/12/04/start-with-akka-lets-write-a-scraper/)
-  - Critiques:
-    + [Actors are not a good concurrency model](http://pchiusano.blogspot.com.ar/2010/01/actors-are-not-good-concurrency-model.html)
-    + [Actors are overly nondeterministic](http://pchiusano.blogspot.co.uk/2013/09/actors-are-overly-nondeterminstic.html)
-    + [Why I don't like Akka Actors](http://noelwelsh.com/programming/2013/03/04/why-i-dont-like-akka-actors/)
 ## Algorithms
   - [Finding primes & proving primality](http://primes.utm.edu/prove/index.html)
   - [Even better Eratosthenes sieve and lucky numbers](http://article.gmane.org/gmane.comp.lang.haskell.cafe/19470)
@@ -69,6 +58,16 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Lightning Talk: Scala STM](http://skillsmatter.com/podcast/scala/lightning-talks-talk-1-at-scalax)
   - (video) [Why Did We Think Large Scale Distributed Systems Would be Easy?](http://www.youtube.com/watch?v=kCcYip60_aY)
   - [Scheduling Deterministic Parallel Programs. By Daniel John Spoonhower (pdf)](http://www.cs.cmu.edu/~rwh/theses/spoonhower.pdf)
+  - Actors:
+    + (video) [Hewitt, Meijer and Szyperski: The Actor Model (everything you wanted to know...)](http://www.youtube.com/watch?v=7erJ1DV_Tlo)
+    + [Actors: Foundations for Open System (compendium of papers)](http://erights.org/history/actors.html)
+    + [Concurrent Object-Oriented Programming in Act 1](http://web.media.mit.edu/~lieber/Lieberary/OOP/Act-1/Concurrent-OOP-in-Act-1.html)
+    + [Erlang Style Actors Are All About Shared State](http://james-iry.blogspot.com.ar/2009/04/erlang-style-actors-are-all-about.html)
+    + [Erlang Style Actors Are All About Locking](http://james-iry.blogspot.com.ar/2009/04/erlang-style-actors-are-all-about_16.html)
+    + [Start With Akka: Let's Write a Scraper](http://sap1ens.com/blog/2013/12/04/start-with-akka-lets-write-a-scraper/)
+    + [Actors are not a good concurrency model](http://pchiusano.blogspot.com.ar/2010/01/actors-are-not-good-concurrency-model.html)
+    + [Actors are overly nondeterministic](http://pchiusano.blogspot.co.uk/2013/09/actors-are-overly-nondeterminstic.html)
+    + [Why I don't like Akka Actors](http://noelwelsh.com/programming/2013/03/04/why-i-dont-like-akka-actors/)
   - Definitions:
     + [Parallelism /= Concurrency](http://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
     + [Parallelism is not Concurrency](http://existentialtype.wordpress.com/2011/03/17/parallelism-is-not-concurrency/)
