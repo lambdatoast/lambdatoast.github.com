@@ -202,7 +202,6 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Stop Writing Classes](http://pyvideo.org/video/880/stop-writing-classes)
   - (video) [The Value of Values](http://www.infoq.com/presentations/Value-Values)
 ## Type Theory
-  - [Curry–Howard correspondence @ Wikipedia](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)
   - [Existentially quantified types](http://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types)
   - [Fast and Loose Reasoning is Morally Correct](http://www.cse.chalmers.se/~nad/publications/danielsson-et-al-popl2006.html)
   - (video) [High Wizardry in the Land of Scala](http://vimeo.com/28793245)
@@ -220,6 +219,8 @@ studying, by people who know about them, as well as relevant websites.
   - [Types, Logic, and Verification](https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html)
   - [Unification (computer science) @ Wikipedia](http://en.wikipedia.org/wiki/Unification_(computer_science))
   - [What is the logarithm or root operation in type-space?](http://cstheory.stackexchange.com/questions/17006/what-is-the-logarithm-or-root-operation-in-type-space)
+  - Logic:
+    + [Curry–Howard correspondence @ Wikipedia](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)
   - Dependent types:
     + [A Tutorial Implementation of a Dependently Typed Lambda Calculus](http://www.andres-loeh.de/LambdaPi/)
     + [Certified Programming with Dependent Types by Adam Chlipala](http://adam.chlipala.net/cpdt/)
@@ -234,6 +235,7 @@ studying, by people who know about them, as well as relevant websites.
   - Type systems:
     + [Dynamic languages are static languages](http://existentialtype.wordpress.com/2011/03/19/dynamic-languages-are-static-languages/)
     + [Bellman Confirms A Suspicion](https://existentialtype.wordpress.com/2014/04/21/bellman-confirms-a-suspicion/)
+    + [Lambda Calculi with Types. By Henk Barendregt (pdf)](http://ttic.uchicago.edu/~dreyer/course/papers/barendregt.pdf)
   - Subtyping:
     + [Are Cows Animals? by David L. Shang](http://visviva.3d-album.com/transframe/papers/covar.htm)
 ## Typeclasses
