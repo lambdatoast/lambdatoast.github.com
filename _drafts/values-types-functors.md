@@ -94,11 +94,11 @@ Church's thesis explains that they compute all computable functions.
 When folks say a programming language is **Turing complete**, they 
 mean that any computable function can be written in this language.
 
-It's interesting to note that a model of computation is not something
-to be necessarily viewed as a programming language. It is a rather 
-more fundamental and abstract tool, and actual programming languages 
-can be *based* on it – e.g. the so-called functional programming 
-languages are based on the Lambda calculus.
+Note that a model of computation is not something to be necessarily 
+viewed as a programming language. It is rather a more fundamental and 
+abstract tool, and actual programming languages can be *based* on it 
+– e.g. the so-called functional programming languages are based on 
+the Lambda calculus.
 
 * *Computability* is only one aspect. There also the  *complexity*.
 
@@ -137,8 +137,9 @@ and trees, to name a few – that are commonly used for structuring
 values, according to our needs.
 
 If we have a problem, and our current information is represented 
-as some value `x` – which might be a compound value – the available 
-solutions to our problem will depend on how `x` is represented.
+as some value `x` – which might be a compound value – the 
+availability and cost of the solutions to our problem will depend 
+will be affected by how `x` is represented.
 
 We will expand on the second point when we get to functions and 
 computations, which will eventually become the focus of this
@@ -154,12 +155,12 @@ Consider a value `x`.
 
 What do we know about this value, and what operations can we apply to it?
 
-The answer is that we cannot do anything actually meaningful or useful 
+The answer is that we can hardly do anything actually meaningful or useful 
 with `x`, if we're not informed about the type of value it is.
 
 Types are what we inevitably get to when we start asking: 
-What is the difference between `"picture.jpeg"` and `42`? What is 
-the meaning of `"Hello"` divided by `42`?.
+What is the *difference* between `"picture.jpeg"` and `42`? What, if 
+any, is the *meaning* of `"Hello"` divided by `42`?.
 
 As soon as we start building our systems, we start recognizing that 
 some values from our system's Universe belong together, and 
@@ -167,7 +168,7 @@ some operations make sense only on some classification, or
 category, of values. 
 
 * Verification of what we think we know is a great way to connect us in depth with the domain of our problem.
-* With types we can communicate and enforce, e.g. that a heart surgery robot should move once by 3**mm** instead of 3**cm**.
+* With types we can communicate and enforce, e.g. that a heart surgery robot should move once by 3 **mm** instead of 3 **cm**.
 * Note: the "static" vs. "dynamic" type *system* question is a separate discussion.
 
 ### 3.3. Functions
@@ -351,6 +352,16 @@ the "what can we do with some value `x` question?".
 * Give a simplified notion of interpreting a language
 * Note how types are essential for knowing how to interpret the stream of symbols.
 
+### 7.2. There is more to types
+
+Types are not just tags we slap on our values. There is a *lot* more 
+to them (and there also a lot more to know about the their relation 
+and coexistence with values).
+
+* Logic and Type theory
+* Expressivity of type systems
+* Phase distinction
+
 ## 8. Properties. Rules. Laws.
 
 Rules play a central role in the specification of behavior.
@@ -380,7 +391,7 @@ about.
 Given `f: A -> B`, `g: B -> C`, and `h: C -> D`, we have that 
 `(h . g) . f` is equal to `h . (g . f)`.
 
-## 9. Proof. Inference.
+## 9. Proof. Inference. Deduction.
 
 * The development of proof theory, and relevance to computer science.
 * Example of inference: if the assumption that all A have property P 
