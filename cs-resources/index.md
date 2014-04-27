@@ -230,6 +230,8 @@ studying, by people who know about them, as well as relevant websites.
     + [Learning Dependent Types](http://blog.codersbase.com/posts/2013-12-03-learning-dependent-types.html)
     + (video) [Scala vs Idris: Dependent Types, Now and in the Future](http://www.infoq.com/presentations/scala-idris)
     + (video) [A Taste of Agda with Francesco Mazzoli](http://vimeo.com/77168227)
+  - Formal systems:
+    + [The Calculus of Constructions @ nLab](http://nlab.mathforge.org/nlab/show/calculus+of+constructions)
   - Type inference:
     + (video) [Uncovering the Unknown: Principles of Type Inference](http://www.youtube.com/watch?v=fDTt_uo0F-g)
   - Type systems:
