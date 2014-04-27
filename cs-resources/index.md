@@ -59,6 +59,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Deterministic Parallel Programming with Haskell - Duncan Coutts](http://www.youtube.com/watch?v=d6XigsnIk0s)
   - [Differences between Node.js and Erlang](http://jlouisramblings.blogspot.fr/2010/12/differences-between-nodejs-and-erlang_14.html)
   - [MIT Theory of Distributed Systems (TDS) group](http://groups.csail.mit.edu/tds/)
+  - (video) [LVars: lattice-based data structures for deterministic parallelism (Lindsey Kuper) - RICON West 2013](https://www.youtube.com/watch?v=8dFO5Ir0xqY)
   - [Parallel and Concurrent Programming in Haskell (full book)](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
   - [Parallelism vs. Concurrency @ Haskell Wiki](http://www.haskell.org/haskellwiki/Parallelism_vs._Concurrency)
   - [Papers and presentations about transactional memory in Haskell](http://research.microsoft.com/en-us/um/people/simonpj/papers/stm/index.htm)
@@ -162,7 +163,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Order Theory](http://en.wikipedia.org/wiki/Order_theory)
   - Set theory:
     + [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
-    + [(video) Set Theory Lattices](https://www.youtube.com/watch?v=PulDFSXsBKo)
+    + (video) [Set Theory Lattices](https://www.youtube.com/watch?v=PulDFSXsBKo)
 ## Modularization
   - [Abstracting Your Monads. A presentation in mime by Daniel Spiewak](https://dl.dropboxusercontent.com/u/1679797/ScalaSyd/presentation.scala)
 ## Operating Systems
