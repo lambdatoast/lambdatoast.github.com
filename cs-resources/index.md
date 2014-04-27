@@ -159,8 +159,10 @@ studying, by people who know about them, as well as relevant websites.
   - [nLab: A wiki-lab for collaborative work on Mathematics, Physics and Philosophy with a Category Theory point of view](http://ncatlab.org/nlab/show/HomePage)
   - [Roland Backhouse's Publications](http://www.cs.nott.ac.uk/~rcb/papers/papers.html)
   - [The Nature of Code (full book)](http://natureofcode.com/)
-  - [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
   - [Order Theory](http://en.wikipedia.org/wiki/Order_theory)
+  - Set theory:
+    + [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
+    + [(video) Set Theory Lattices](https://www.youtube.com/watch?v=PulDFSXsBKo)
 ## Modularization
   - [Abstracting Your Monads. A presentation in mime by Daniel Spiewak](https://dl.dropboxusercontent.com/u/1679797/ScalaSyd/presentation.scala)
 ## Operating Systems
