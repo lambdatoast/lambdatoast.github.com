@@ -122,6 +122,8 @@ in a programming language context.
 
 ### 3.1. Values
 
+* Explain what terms and expressions are and how Values are what they evaluate to.
+
 When it comes to values, a programming language gives us constructs 
 which determine two things:
 
