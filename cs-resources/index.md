@@ -18,6 +18,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Applicative Programming with Effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
   - [Basic Definitions](http://mathprelims.wordpress.com/2009/02/22/category-theory-basic-definitions/)
   - [Category Theory for Computing Science, by Michael Barr and Charles Wells (pdf)](http://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf)
+  - (video) [Comonads, Applicative Functors, Monads and Other Principled Things. By Tony Morris](http://vimeo.com/90738761)
   - (video) [Youtube video series: Category Theory for Javascript](http://www.youtube.com/user/metawetayt/videos)
   - [Computational Category Theory (full book)](http://www.cs.man.ac.uk/~david/categories/)
   - (video) [Dead-Simple Dependency Injection](http://www.youtube.com/watch?v=ZasXwtTRkio)
