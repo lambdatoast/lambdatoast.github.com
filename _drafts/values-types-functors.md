@@ -362,6 +362,12 @@ and coexistence with values).
 * Expressivity of type systems
 * Phase distinction
 
+Exercises:
+
+1. A type system must decide if a term has been given a type, or 
+   if a type can be inferred for that term. What determines the 
+   convenience or utility of a type system?
+
 ## 8. Properties. Rules. Laws.
 
 Rules play a central role in the specification of behavior.
