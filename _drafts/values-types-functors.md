@@ -355,7 +355,7 @@ the "what can we do with some value `x` question?".
 ### 7.2. There is more to types
 
 Types are not just tags we slap on our values. There is a *lot* more 
-to them (and there also a lot more to know about the their relation 
+to them (and there's also a lot more to know about their relation 
 and coexistence with values).
 
 * Logic and Type theory
