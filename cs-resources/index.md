@@ -79,6 +79,7 @@ studying, by people who know about them, as well as relevant websites.
   - [The Algebra of Algebraic Data Types, Part 1](http://chris-taylor.github.io/blog/2013/02/10/the-algebra-of-algebraic-data-types/) ([video](http://www.youtube.com/watch?v=YScIPA8RbVE))
   - [The Essence of the Iterator Pattern](http://www.cs.ox.ac.uk/jeremy.gibbons/publications/iterator.pdf)
   - [Incremental multi-level input processing and collection enumeration](http://okmij.org/ftp/Streams.html)
+  - (video) [An Introduction to Scalaz-Stream. By Paul Chiusano](https://www.youtube.com/watch?v=GSZhUZT7Fyc)
   - (video) [Succinct Data Structures](https://www.youtube.com/watch?v=uA0Z7_4J7u8)
   - [What's new in purely functional data structures since Okasaki? @ StackExchange](http://cstheory.stackexchange.com/questions/1539/whats-new-in-purely-functional-data-structures-since-okasaki)
   - Lenses:
