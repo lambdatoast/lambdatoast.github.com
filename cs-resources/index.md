@@ -110,6 +110,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Functional Reactive Types, by Alan Jeffrey (pdf)](http://ect.bell-labs.com/who/ajeffrey/papers/lics14.pdf)
   - [Introduction to Functional Reactive Programming (slides)](http://www.slideshare.net/edwardamsden/introduction-to-functional-reactive-programming)
   - [The Yampa Arcade, by Courtney, Nilsson, and Peterson (pdf)](http://haskell.cs.yale.edu/wp-content/uploads/2011/01/yampa-arcade.pdf)
+  - [Why I switched from component-based game engine architecture to functional reactive programming](http://lambdor.net/?p=171)
 ## General
   - [Daan Leijen's publications @ Microsoft Research](http://research.microsoft.com/apps/mobile/showpage.aspx?page=/en-us/people/daan/pubs.aspx)
   - [Dissertations on logic, language, and computation.](http://www.illc.uva.nl/Research/Dissertations/)
