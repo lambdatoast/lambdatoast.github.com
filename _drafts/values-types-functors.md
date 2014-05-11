@@ -361,6 +361,7 @@ and coexistence with values).
 * Logic and Type theory
 * Expressivity of type systems
 * Phase distinction
+* Types as sets, and other models.
 
 Exercises:
 
