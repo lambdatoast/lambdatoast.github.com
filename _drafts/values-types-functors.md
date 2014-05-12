@@ -368,6 +368,8 @@ Exercises:
 1. A type system must decide if a term has been given a type, or 
    if a type can be inferred for that term. What determines the 
    convenience or utility of a type system?
+2. What would it mean to say that a type system is not as 
+   expressive as another one?
 
 ## 8. Properties. Rules. Laws.
 
