@@ -28,6 +28,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Haskell/Functor](http://en.wikibooks.org/wiki/Haskell/The_Functor_class)
   - [In Functional Programming, what is a functor? @ StackOverflow](http://stackoverflow.com/questions/2030863/in-functional-programming-what-is-a-functor)
   - [Introduction to Category Theory, course by Graham Hutton](http://www.cs.nott.ac.uk/~gmh/cat.html)
+  - [Understanding Yoneda. By Bartosz Milewski](https://www.fpcomplete.com/user/bartosz/understanding-yoneda)
 ## Compilers and Parsers
   - (video) [Daniel Spiewak: Functional Compilers in Scala](http://skillsmatter.com/podcast/scala/functional-compilers-from-cfg-to-exe)
   - [Java v7's JIT compiler overview](http://pic.dhe.ibm.com/infocenter/java7sdk/v7r0/index.jsp?topic=%2Fcom.ibm.java.win.70.doc%2Fdiag%2Funderstanding%2Fjit_overview.html)
