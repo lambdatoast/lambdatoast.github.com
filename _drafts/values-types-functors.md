@@ -91,8 +91,10 @@ led to the development of modern computability theory.
 The first three models can express the same class of functions. Alonzo 
 Church's thesis explains that they compute all computable functions.
 
-When folks say a programming language is **Turing complete**, they 
-mean that any computable function can be written in this language.
+So, all algorithms can be simulated by a Turing Machine – or anything 
+that is proven to be as powerful – and when folks say a programming 
+language is **Turing complete**, they mean that any computable 
+function can be written in this language.
 
 Note that a model of computation is not something to be necessarily 
 viewed as a programming language. It is rather a more fundamental and 
