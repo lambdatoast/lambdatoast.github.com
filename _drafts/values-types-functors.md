@@ -292,7 +292,7 @@ Consider the following kind: `* -> *`.
 
 Called a type constructor, it takes one argument which must be 
 a `*` kind of type, and with it it constructs the "final" – "actual", 
-"concrete", if you will – type for values to be classified.
+"concrete", if you will – type for values to be classified with.
 
 So, if `F` is of the `* -> *` kind, then it is a type constructor, and 
 so it will take another type, say `A`, as a parameter. And finally 
