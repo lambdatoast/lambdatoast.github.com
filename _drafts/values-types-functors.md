@@ -364,6 +364,7 @@ and coexistence with values).
 * Expressivity of type systems
 * Phase distinction
 * Types as sets, and other models.
+* Types as a tool for a quotient approach to problem solving.
 
 Exercises:
 
