@@ -133,17 +133,17 @@ which determine two things:
 1. The canonical forms of the values of a type.
 2. How to manipulate values of a type for computing more values.
 
-In relation to the first point: there are certain 
-**fundamental data structures** – such as lists, maps, tuples, 
-and trees, to name a few – that are commonly used for structuring 
-values, according to our needs.
+With regards to point 1: There are certain **fundamental data 
+structures** – such as lists, maps, tuples, and trees, to name a 
+few – that are commonly used for structuring values, according 
+to our needs.
 
-If we have a problem, and our current information is represented 
-as some value `x` – which might be a compound value – the 
-availability and cost of the solutions to our problem will depend 
-will be affected by how `x` is represented.
+When we have a problem that needs solving, and our current 
+information is represented as some value `x` – which might be a 
+compound value – the availability and cost of the solutions to 
+our problem will be directly affected by how `x` is represented.
 
-We will expand on the second point when we get to functions and 
+We will expand on point 2 when we get to functions and 
 computations, which will eventually become the focus of this
 post.
 
