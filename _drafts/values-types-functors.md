@@ -307,7 +307,7 @@ of the application is a fully constructed `*` kinded type, which can then
 classify values.
 
 The reason we've introduced type constructors is that, first of all, 
-we use the resulting types of their constructions *all the time*:
+we use the resulting types that they construct, *all the time*:
 
 * A pair of bananas
 * A mailbox with some mail
