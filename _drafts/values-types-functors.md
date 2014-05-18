@@ -165,9 +165,9 @@ What is the *difference* between `"picture.jpeg"` and `42`? What, if
 any, is the *meaning* of `"Hello"` divided by `42`?.
 
 As soon as we start building our systems, we start recognizing that 
-some values from our system's Universe belong together, and 
-some operations make sense only on some classification, or 
-category, of values. 
+some values from our system's Universe belong together, from the 
+point of view of some operations, which make sense only for some 
+classification, or category, of values. 
 
 * Verification of what we think we know is a great way to connect us in depth with the domain of our problem.
 * With types we can communicate and enforce, e.g. that a heart surgery robot should move once by 3 **mm** instead of 3 **cm**.
