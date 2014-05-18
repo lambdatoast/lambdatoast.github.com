@@ -79,7 +79,7 @@ In 825, a clever Persian called Al-Khwarizmi wrote the book
 "On the Calculation with Hindu Numerals", which specified several 
 procedures that we now call algorithms.
 
-Twentieth's century efforts to formalize the idea of an "algorithm" 
+Twentieth's century efforts to formalize the idea of an algorithm 
 and abstract away physical details of the device used for the calculations, 
 led to the development of modern computability theory.
 
