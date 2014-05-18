@@ -223,9 +223,9 @@ computations".
 
 Given the basic notion of Abstraction we introduced earlier, 
 we can see that, in a context of programming languages and the design 
-of computations, a benefit of creating abstractions is to have a 
-*single* solution apply to many different problems, provided certain 
-commonalities are found.
+of computations, one obvious benefit of creating abstractions, by 
+very definition, is to have a *single* solution apply to *many* 
+different problems, provided certain commonalities are found.
 
 Notes on **Functional Abstraction**:
 
