@@ -238,6 +238,7 @@ those things that are changing." – Paul Hudak
 * Polymorphic types
 * "Polymorphic functions arise naturally when defining functions on 
   lists and other polymorphic data types" – Paul Hudak
+* Example of a polymorphic function + type constructor
 
 ### 4.1. General vs. Specific
 
