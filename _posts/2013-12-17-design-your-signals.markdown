@@ -325,7 +325,7 @@ That's all for now.
 * Debussy's [La mer][la-mer]
 
 [elm-website]:   http://elm-lang.org/
-[elm-semantic]:   http://people.seas.harvard.edu/~chong/abstracts/CzaplickiC13.html
+[elm-semantics]:  http://people.seas.harvard.edu/~chong/abstracts/CzaplickiC13.html
 [grand-general]: http://www.last.fm/music/Grand+General
 [la-mer]:        http://www.youtube.com/watch?v=hlR9rDJMEiQ
 [fpis-book]:     http://www.manning.com/bjarnason
