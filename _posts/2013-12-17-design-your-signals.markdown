@@ -10,7 +10,7 @@ our brains adopt a corresponding way of thinking. Thus, opportunities for misuse
 and overcomplication present themselves in many places.
 
 In this case the new tool is [Elm][elm-website], and the way of thinking is Elm's 
-own semantic [formulation][elm-semantics] of FRP. Specifically discrete signals. 
+particular semantic [formulation][elm-semantics] of FRP. Specifically discrete signals. 
 We're going to see that having a seemingly convenient signal plugged to 
 the wrong part of our program can lead us to making up problems, and 
 having to come up with convoluted ways of solving them.
