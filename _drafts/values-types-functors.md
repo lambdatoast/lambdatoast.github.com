@@ -6,9 +6,10 @@ published: false
 
 ## Aim
 
-A progressive sequence of overviews of fundamental programming 
-concepts, from values to functors, for a reader who might not 
-necessarily be familiar with programming at all.
+A progressive sequence of introductions to fundamental programming 
+concepts, with a loosely followed thematic thread – "From values to 
+functors" – aimed at a reader who might not necessarily be familiar 
+with programming at all.
 
 ## Disclaimer
 
