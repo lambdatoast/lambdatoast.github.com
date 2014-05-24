@@ -325,7 +325,7 @@ etc.  without even thinking/knowing what `*` might be?
 
 ### 6.3. A higher kind of type 
 
-## 7. Checkpoint: Putting things together. Fundamental relations.
+## 7. Checkpoint 1: Putting things together. Fundamental relations.
 
 * There are fundamental data structures for values
 * There are also certain **fundamental descriptions of computations**
@@ -365,7 +365,7 @@ and coexistence with values).
 * Logic and Type theory
 * Expressivity of type systems
 * Phase distinction
-* Types as sets, and other models.
+* Types as sets, inductive types, other models.
 * Types as a tool for a quotient approach to problem solving.
 
 Exercises:
