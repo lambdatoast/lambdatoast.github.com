@@ -22,8 +22,8 @@ further study on their own.
 
 ## 1. General notions
 
-Almost every concept we use in the programming world originates, 
-or derives, from a concept that predates and/or transcends computer programming.
+Most of the concepts we use in the programming world originate, 
+or derive, from concepts that predate and/or transcend computer programming.
 
 In this section we're going to introduce some general notions, which 
 will later be placed in context of programming languages.
