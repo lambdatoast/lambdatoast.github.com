@@ -103,7 +103,7 @@ abstract tool, and actual programming languages can be *based* on it
 – e.g. the so-called functional programming languages are based on 
 the Lambda calculus.
 
-* *Computability* is only one aspect. There also the  *complexity*.
+* In addition to the *computability* aspect, there is also the  *complexity*.
 
 Exercises:
 
