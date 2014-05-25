@@ -205,9 +205,9 @@ it" – http://www.cs.utexas.edu/users/EWD/transcriptions/EWD02xx/EWD288.html
 
 You will have noticed that the actual language and syntax of our 
 examples is made up for our purposes. This is because the plain old 
-text in which we write programs is *not* what's important.  What's 
-important is the computations, which is something "created" by the 
-computer, as dictated by our specifications. 
+text in which we write programs is not the focus of this discussion.
+What's important is the computations, which is something "created" 
+by the computer, as dictated by our specifications. 
 
 It is the shape and structure, so to speak, of our computations, 
 that we're interested in. Concrete text such as `f: A -> B` is just 
