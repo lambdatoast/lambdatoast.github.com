@@ -114,11 +114,12 @@ one over the others in a particular situation?
 ## 3. Enter programming languages
 
 A lot of the tasks that the so-called "real world programmer" does in 
-their daily life are a form of language design. These languages may 
-not be the "big", "general purpose", "Turing complete" languages 
-we picture when we say "programming language", but the principles 
-of programming language design apply nonetheless, and familiarity 
-with them is useful for avoiding design mistakes.
+their daily life are a form of language design. The languages that 
+they design may not be the "big", "general purpose", "Turing complete" 
+languages normally associated with the title "programming language", 
+but the principles of programming language design apply nonetheless. 
+Familiarity with those principles is thus just as useful for avoiding 
+design mistakes in the "real world".
 
 We can now put the previously mentioned notions of value, type, etc. 
 in a programming language context.
