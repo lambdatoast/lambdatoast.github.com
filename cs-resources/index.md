@@ -206,6 +206,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Composing contracts: an adventure in financial engineering](http://ulf.wiger.net/weblog/2008/02/29/simon-peyton-jones-composing-contracts-an-adventure-in-financial-engineering/) ([material](http://research.microsoft.com/en-us/um/people/simonpj/papers/financial-contracts/contracts-icfp.htm))
   - [How to Design Programs](http://htdp.org/)
   - (video) [May Your Data Ever Be Coherent](http://www.youtube.com/watch?v=gVXt1RG_yN0)
+  - [rise4run.com – A community of software engineering tools](http://rise4fun.com/)
   - [A Short Introduction to the Art of Programming](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD03xx/EWD316.html)
   - (video) [Simple Made Easy Presented by Rich Hickey](http://www.infoq.com/presentations/Simple-Made-Easy)
   - (video) [Stop Writing Classes](http://pyvideo.org/video/880/stop-writing-classes)
