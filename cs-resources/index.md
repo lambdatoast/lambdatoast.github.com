@@ -132,6 +132,8 @@ studying, by people who know about them, as well as relevant websites.
   - [Region-based resource management](http://okmij.org/ftp/Haskell/regions.html)
 ## Laws / Theorems
   - (paper) [Theorems for free!](http://ttic.uchicago.edu/~dreyer/course/papers/wadler.pdf)
+  - Theorem proving:
+    + (video) [Advances in Automated Theorem Proving, talk by Thomas Ball](https://www.youtube.com/watch?v=unXzJEc3Pvk)
 ## Logic
   - [BM2. Logical Equivalence](http://www.youtube.com/watch?v=1jgDPRz-z7E)
   - [De Morgan's laws](http://en.wikipedia.org/wiki/De_Morgan%27s_laws)
