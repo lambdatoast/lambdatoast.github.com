@@ -122,7 +122,7 @@ Familiarity with those principles is thus just as useful for avoiding
 design mistakes in the "real world".
 
 We can now put the previously mentioned notions of value, type, etc. 
-in a programming language context.
+in the context of programming languages.
 
 ### 3.1. Values
 
