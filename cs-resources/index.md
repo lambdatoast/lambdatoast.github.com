@@ -248,6 +248,7 @@ studying, by people who know about them, as well as relevant websites.
   - Type inference:
     + (video) [Uncovering the Unknown: Principles of Type Inference](http://www.youtube.com/watch?v=fDTt_uo0F-g)
   - Type systems:
+    + [The abject failure of weak typing](http://techblog.realestate.com.au/the-abject-failure-of-weak-typing/)
     + [Dynamic languages are static languages](http://existentialtype.wordpress.com/2011/03/19/dynamic-languages-are-static-languages/)
     + [Bellman Confirms A Suspicion](https://existentialtype.wordpress.com/2014/04/21/bellman-confirms-a-suspicion/)
     + [Lambda Calculi with Types. By Henk Barendregt (pdf)](http://ttic.uchicago.edu/~dreyer/course/papers/barendregt.pdf)
