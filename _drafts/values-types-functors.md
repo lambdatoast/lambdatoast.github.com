@@ -113,7 +113,7 @@ one over the others in a particular situation?
 
 ## 3. Enter programming languages
 
-Many of the tasks that the so-called "real world programmer" does in 
+Many of the tasks that the so-called "real world programmer" has in 
 their daily life are a form of language design. The languages that 
 they design may not be the "big", "general purpose", "Turing complete" 
 languages normally associated with the title "programming language", 
