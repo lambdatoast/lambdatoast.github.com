@@ -212,6 +212,9 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Simple Made Easy Presented by Rich Hickey](http://www.infoq.com/presentations/Simple-Made-Easy)
   - (video) [Stop Writing Classes](http://pyvideo.org/video/880/stop-writing-classes)
   - (video) [The Value of Values](http://www.infoq.com/presentations/Value-Values)
+  - Type Classes:
+    + [Implementing, and Understanding Type Classes](http://okmij.org/ftp/Computation/typeclass.html)
+    + [Haskell Typeclassopedia](http://www.haskell.org/haskellwiki/Typeclassopedia)
 ## Type Theory
   - [Mailing list discussion on the concept of "type" used by Russell vs. that used in CS](http://lists.seas.upenn.edu/pipermail/types-list/2014/001745.html)
   - [Existentially quantified types](http://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types)
@@ -254,7 +257,5 @@ studying, by people who know about them, as well as relevant websites.
     + [Lambda Calculi with Types. By Henk Barendregt (pdf)](http://ttic.uchicago.edu/~dreyer/course/papers/barendregt.pdf)
   - Subtyping:
     + [Are Cows Animals? by David L. Shang](http://visviva.3d-album.com/transframe/papers/covar.htm)
-## Typeclasses
-  - [Haskell Typeclassopedia](http://www.haskell.org/haskellwiki/Typeclassopedia)
 ## Uniqueness
   - [Capabilities for Uniqueness and Borrowing](http://lampwww.epfl.ch/~phaller/capabilities.html)
