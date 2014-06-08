@@ -112,6 +112,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Functional Reactive Animation, by Conal Elliott and Paul Hudak (pdf)](http://haskell.cs.yale.edu/wp-content/uploads/2011/02/icfp97.pdf)
   - [Functional Reactive Types, by Alan Jeffrey (pdf)](http://ect.bell-labs.com/who/ajeffrey/papers/lics14.pdf)
   - [Introduction to Functional Reactive Programming (slides)](http://www.slideshare.net/edwardamsden/introduction-to-functional-reactive-programming)
+  - (video) [Push-pull Functional Reactive Programming, by Conal Elliott](http://vimeo.com/6686570)
   - [The Yampa Arcade, by Courtney, Nilsson, and Peterson (pdf)](http://haskell.cs.yale.edu/wp-content/uploads/2011/01/yampa-arcade.pdf)
   - [Why I switched from component-based game engine architecture to functional reactive programming](http://lambdor.net/?p=171)
 ## General
