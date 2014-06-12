@@ -95,6 +95,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Higher-Rank Polymorphism in Scala](http://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/)
   - [Towards an Effect System in Scala, Part 1: ST Monad](http://apocalisp.wordpress.com/2011/03/20/towards-an-effect-system-in-scala-part-1/)
 ## Evaluation
+  - [Does Haskell have tail-recursive optimization? @ StackOverflow](http://stackoverflow.com/questions/13042353/does-haskell-have-tail-recursive-optimization)
   - [Evaluation Strategy @ Wikipedia](http://en.wikipedia.org/wiki/Evaluation_strategy)
   - [Programming Languages: When did you realize the power of lazy evaluation in terms of performance?](http://www.quora.com/Programming-Languages/When-did-you-realize-the-power-of-lazy-evaluation-in-terms-of-performance)
   - Tail Call Elimination:
