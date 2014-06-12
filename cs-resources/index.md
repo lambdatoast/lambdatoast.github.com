@@ -108,6 +108,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Introduction to Functional Programming, 1ed, by Richard Bird and Philip Wadler (full book) (pdf)](http://www.nlda-tw.nl/janmartin/vakken/TFIT/Extra%20materiaal/Bird_Wadler.%20Introduction%20to%20Functional%20Programming.1ed.pdf)
   - [Prerequisite for Learning Haskell. By Albert Y. C. Lai](http://www.vex.net/~trebla/haskell/prerequisite.xhtml)
   - [Why Functional Programming Matters, by John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
+  - [Why calculating is better than scheming. By Philip Wadler (pdf)](http://www.cs.kent.ac.uk/people/staff/dat/miranda/wadler87.pdf)
 ## Functional Reactive Programming (FRP)
   - [Event streams and Signals - what is lost in using just signals? @ StackOverflow](http://stackoverflow.com/questions/22989253/frp-event-streams-and-signals-what-is-lost-in-using-just-signals/23050799)
   - [Functional Reactive Animation, by Conal Elliott and Paul Hudak (pdf)](http://haskell.cs.yale.edu/wp-content/uploads/2011/02/icfp97.pdf)
