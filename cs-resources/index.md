@@ -234,6 +234,7 @@ studying, by people who know about them, as well as relevant websites.
   - [Tagged union @ Wikipedia](http://en.wikipedia.org/wiki/Tagged_union)
   - [The Theory of Classification - A Course on OO Type Systems](http://lambda-the-ultimate.org/node/1332)
   - (video) [Type Systems. A talk by Prof. Vladimir Voevodsky](http://video.ias.edu/univalent/voevodsky2012Oct03)
+  - (video) [Type functions, by Simon Peyton Jones](https://www.youtube.com/watch?v=MSin0b04344)
   - [Types, Logic, and Verification](https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html)
   - [Types, and two approaches to problem solving. Blog post.](http://blog.sigfpe.com/2014/05/types-and-two-approaches-to-problem.html)
   - [Unification (computer science) @ Wikipedia](http://en.wikipedia.org/wiki/Unification_(computer_science))
