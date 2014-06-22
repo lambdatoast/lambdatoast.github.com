@@ -171,6 +171,8 @@ studying, by people who know about them, as well as relevant websites.
   - [Roland Backhouse's Publications](http://www.cs.nott.ac.uk/~rcb/papers/papers.html)
   - [The Nature of Code (full book)](http://natureofcode.com/)
   - [Order Theory](http://en.wikipedia.org/wiki/Order_theory)
+  - Category Theory:
+    + (video) [Category Theory by Tom LaGatta](https://www.youtube.com/watch?v=o6L6XeNdd_k)
   - Set theory:
     + [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
     + (video) [Set Theory Lattices](https://www.youtube.com/watch?v=PulDFSXsBKo)
