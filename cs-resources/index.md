@@ -103,6 +103,7 @@ studying, by people who know about them, as well as relevant websites.
 ## Folds
   - [Generalised folds for nested datatypes](http://www.cs.ox.ac.uk/richard.bird/online/BirdPaterson99Generalised.pdf)
 ## Functional Programming
+  - ["Everything is a function" in Haskell?, By Conal Elliott](http://conal.net/blog/posts/everything-is-a-function-in-haskell)
   - (video) [Guerrilla Guide to Pure Functional Programming](http://vimeo.com/20293743)
   - [Functional Programming and 3D Games, a thesis by Mun Hon Cheong (pdf)](http://www.cse.unsw.edu.au/~pls/thesis/munc-thesis.pdf) and [(source)](http://www.haskell.org/haskellwiki/Frag)
   - [Introduction to Functional Programming, 1ed, by Richard Bird and Philip Wadler (full book) (pdf)](http://www.nlda-tw.nl/janmartin/vakken/TFIT/Extra%20materiaal/Bird_Wadler.%20Introduction%20to%20Functional%20Programming.1ed.pdf)
