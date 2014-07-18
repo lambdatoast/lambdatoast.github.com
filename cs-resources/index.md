@@ -71,6 +71,7 @@ studying, by people who know about them, as well as relevant websites.
     + [Actors are not a good concurrency model](http://pchiusano.blogspot.com.ar/2010/01/actors-are-not-good-concurrency-model.html)
     + [Actors are overly nondeterministic](http://pchiusano.blogspot.co.uk/2013/09/actors-are-overly-nondeterminstic.html)
     + [Why I don't like Akka Actors](http://noelwelsh.com/programming/2013/03/04/why-i-dont-like-akka-actors/)
+    + [Don't use Actors for concurrency](http://www.chrisstucchio.com/blog/2013/actors_vs_futures.html)
   - Definitions:
     + [Parallelism /= Concurrency](http://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/)
     + [Parallelism is not Concurrency](http://existentialtype.wordpress.com/2011/03/17/parallelism-is-not-concurrency/)
