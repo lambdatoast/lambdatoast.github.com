@@ -224,6 +224,7 @@ studying, by people who know about them, as well as relevant websites.
     + [Haskell Typeclassopedia](http://www.haskell.org/haskellwiki/Typeclassopedia)
 ## Type Theory
   - [Mailing list discussion on the concept of "type" used by Russell vs. that used in CS](http://lists.seas.upenn.edu/pipermail/types-list/2014/001745.html)
+  - (video) [Datatype-Generic Programming in Haskell, by Andres Löh](https://skillsmatter.com/skillscasts/3932-a-haskell-lecture-with-leading-expert-andres-loh)
   - [Existentially quantified types](http://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types)
   - [Fast and Loose Reasoning is Morally Correct](http://www.cse.chalmers.se/~nad/publications/danielsson-et-al-popl2006.html)
   - (video) [High Wizardry in the Land of Scala](http://vimeo.com/28793245)
