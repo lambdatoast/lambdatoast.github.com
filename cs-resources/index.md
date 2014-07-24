@@ -61,6 +61,7 @@ studying, by people who know about them, as well as relevant websites.
   - (video) [Lightning Talk: Scala STM](http://skillsmatter.com/podcast/scala/lightning-talks-talk-1-at-scalax)
   - (video) [Why Did We Think Large Scale Distributed Systems Would be Easy?](http://www.youtube.com/watch?v=kCcYip60_aY)
   - [Scheduling Deterministic Parallel Programs. By Daniel John Spoonhower (pdf)](http://www.cs.cmu.edu/~rwh/theses/spoonhower.pdf)
+  - [Why Events Are A Bad Idea (for high-concurrency servers)](https://www.usenix.org/legacy/events/hotos03/tech/full_papers/vonbehren/vonbehren_html/index.html)
   - Actors:
     + (video) [Hewitt, Meijer and Szyperski: The Actor Model (everything you wanted to know...)](http://www.youtube.com/watch?v=7erJ1DV_Tlo)
     + [Actors: Foundations for Open System (compendium of papers)](http://erights.org/history/actors.html)
