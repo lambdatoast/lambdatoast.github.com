@@ -25,6 +25,7 @@ If any part of that sentence seems odd, then first
 read [this short post][values-types] I wrote on the subject.
 
 ## Example scenario
+
 ...
 
 ## Loading a user
@@ -67,35 +68,37 @@ propositions, we can state our data flow...
 
     "A UUID implies a User, which implies a Name"
 
-That reveals the wrongness – or naivety, if you will – of our 
+This reveals the wrongness – or naivety, if you will – of our 
 proposed data flow.  
 
-While it'd be awesome if a UUID *implied* a User, the truth is 
+While it'd be great if a UUID *implied* a User, the truth is 
 that it doesn't. There's not a User for *every possible UUID*, so 
 pretending that having a UUID *implies* having a User, is a brittle
 way to design, document, and present our data flow.
 
-But again: functions *are* logical implications. And we *want* to 
-create a function, therefore we *want* to state a logical implication!.
+But again: functions *are* logical implications, and we *want* to 
+create a function. Therefore, we still *want* to denote a logical implication!
 
-It seems that the right way to go is to state a more *accurate* implication.
+It seems that the right way to go is to come up with a more *accurate* implication.
 
 ## Taking partiality into account
 
 Here's a more accurate chain of implications:
 
-    UUID -> User or NULL -> Name or NULL
+    UUID -> User (or not) -> Name (or not)
 
-In informal speak:
+In other words:
 
-    "A UUID implies a User or NULL, which implies a Name or NULL"
+> A UUID implies a User (or not!), which implies a Name (or not!)
 
-Now the type is more *honest*. However, we can do better than 
-`User or NULL`.
+Now we're being more accurate.
 
-## NULL is unneeded, unsafe, unclear, and an acknowledged historical mistake.
+Looking at `UUID -> User (or not) -> Name (or not)`, you can see
+that there's a pattern, made apparent by the repetition of "(or not)"
+after a type (e.g. once after `User` and once after `Name`) 
 
-...
+Noticing the existence of a pattern is what leads to abstraction, 
+which is the next step.
 
 ## A more meaningful abstraction
 
@@ -175,7 +178,12 @@ Points to make:
 * Introducing `map`
 * Idea of "lifting" userName
 
+## Aside: "NULL" is unneeded, unsafe, unclear, and an acknowledged historical mistake.
+
+...
+
 ## Applicative
+
 ...
 
 [values-types]:   /
