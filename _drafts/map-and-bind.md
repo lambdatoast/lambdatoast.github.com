@@ -54,7 +54,7 @@ a valid output, but for other `UUID`s, it won't.
     UUID = { 0, 1, 2, 3, ..., Infinity } 
 
 On the other hand, `userName` is *total*: for *every possible input* 
-of its input type, it will evaluate to a valid output. 
+of type `User`, it will produce a valid output of type `Name`. 
 
 ## Seeing the partiality in our data flow
 
