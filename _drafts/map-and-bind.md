@@ -100,9 +100,9 @@ after a type (e.g. once after `User` and once after `Name`)
 Noticing the existence of a pattern is what leads to abstraction, 
 which is the next step.
 
-## A more meaningful abstraction
+## A meaningful abstraction
 
-Now I'm going to introduce a type that is going represent the 
+Let's introduce a type that is going represent the 
 pattern we've recognized. Namely, the notion of not being certain 
 about the existence of a value:
 
