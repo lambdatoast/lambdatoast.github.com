@@ -137,6 +137,8 @@ of the data flow partial as well. It's a chain of information:
 once a link in the chain becomes partial, the rest of the 
 information can't be assumed to exist for certain.
 
+(Point to develop further: types of "chain of information")
+
 Seeing the more accurate chain of implications, you 
 can picture the possible data flows, assuming a UUID:
 
