@@ -68,7 +68,7 @@ propositions, we can state our data flow...
 
 > A `UUID` implies a `User`, which implies a `Name`
 
-This reveals a ill-thought logical leap in the data flow's design.
+This reveals an ill-formed logical leap in the data flow's design.
 
 While it'd be great if a `UUID` *implied* a `User`, the reality (in 
 our hypothetical scenario) is that it doesn't. There does not exist a 
