@@ -102,8 +102,9 @@ which is the next step.
 
 ## A more meaningful abstraction
 
-Let's introduce a type that represent the notion of not being certain 
-about the existence of a value of some type:
+Now I'm going to introduce a type that is going represent the 
+pattern we've recognized. Namely, the notion of not being certain 
+about the existence of a value:
 
     data Possibly a = some(x: a) | nothing
 
