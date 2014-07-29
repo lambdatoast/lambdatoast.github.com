@@ -68,18 +68,19 @@ propositions, we can state our data flow...
 
     "A UUID implies a User, which implies a Name"
 
-This reveals the wrongness – or naivety, if you will – of our 
-proposed data flow.  
+This reveals a ill-thought logical leap in the data flow's design.
 
-While it'd be great if a UUID *implied* a User, the truth is 
-that it doesn't. There's not a User for *every possible UUID*, so 
-pretending that having a UUID *implies* having a User, is a brittle
-way to design, document, and present our data flow.
+While it'd be great if a `UUID` *implied* a `User`, the reality (in 
+our hypothetical scenario) is that it doesn't. There does not exist a 
+`User` for *every* possible `UUID`. Pretending that having a `UUID` 
+*implies* having a `User`, would lead to an unreliable design.
 
-But again: functions *are* logical implications, and we *want* to 
-create a function. Therefore, we still *want* to denote a logical implication!
+But again: functions *are* logical implications, and you *want* to 
+create this function. Therefore, you still *want* to express a logical 
+implication!
 
-It seems that the right way to go is to come up with a more *accurate* implication.
+The solution, then, is to come up with a more *accurate* implication, 
+by adding more information to it.
 
 ## Taking partiality into account
 
