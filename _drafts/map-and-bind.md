@@ -107,7 +107,7 @@ being certain about the existence of a value of some type:
 
     data Possibly a = some(x: a) | nothing
 
-This is read, in informal speak:
+In other words:
 
 > All data of the `Possibly a` type, will be either some value `x` 
 > of some type `a`, or nothing at all.
