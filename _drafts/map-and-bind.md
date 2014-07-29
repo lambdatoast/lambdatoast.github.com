@@ -66,7 +66,7 @@ propositions, we can state our data flow...
 
 ...in a more logically and computationally revealing way:
 
-    "A UUID implies a User, which implies a Name"
+> A `UUID` implies a `User`, which implies a `Name`
 
 This reveals a ill-thought logical leap in the data flow's design.
 
@@ -90,7 +90,7 @@ Here's a more accurate chain of implications:
 
 In other words:
 
-> A UUID implies a User (or not!), which implies a Name (or not!)
+> A `UUID` implies a `User` (or not!), which implies a `Name` (or not!)
 
 Now we're being more accurate.
 
