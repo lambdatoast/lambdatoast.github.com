@@ -102,8 +102,8 @@ which is the next step.
 
 ## A more meaningful abstraction
 
-Let's define a kind of data that expresses the idea of not 
-being certain about the existence of a value of some type:
+Let's introduce a type that represent the notion of not being certain 
+about the existence of a value of some type:
 
     data Possibly a = some(x: a) | nothing
 
