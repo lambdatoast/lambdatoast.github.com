@@ -109,8 +109,8 @@ being certain about the existence of a value of some type:
 
 This is read, in informal speak:
 
-    "All data of the `Possibly a` type, will be either some value 
-    `x` of some type `a`, or nothing at all."
+> All data of the `Possibly a` type, will be either some value `x` 
+> of some type `a`, or nothing at all.
 
 We have declared a "closed" type: Values of its type can only be 
 constructed with the specified `some` and `nothing` functions. 
