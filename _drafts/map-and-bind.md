@@ -127,10 +127,10 @@ Using our Possibly type, the more accurate chain of implications would be:
 
     UUID -> Possibly User -> Possibly Name
 
-Which you read:
+Which is read:
 
-    "The existence of a UUID, implies the possibility of a User, 
-    which in turn implies the possibility of a Name"
+> The existence of a UUID, implies the possibility of a User, 
+> which in turn implies the possibility of a Name"
 
 Note how the introduction of partiality makes the rest 
 of the data flow partial as well. It's a chain of information: 
