@@ -113,14 +113,18 @@ about the existence of a value:
 
 In other words:
 
-> All data of the `Possibly a` type, will be either some value `x` 
-> of some type `a`, or nothing at all.
+> For any type `a`, all data of `Possibly a` type is either some 
+> value `x` of type `a`, or nothing at all.
 
-We have declared a "closed" type: Values of its type can only be 
-constructed with the specified `some` and `nothing` functions. 
-The `nothing` function, suitably, takes no arguments.
+This is known as a *sum type*: Values of a type which is a sum type 
+will have one, and only one, of the allowed shapes that are in the sum.
 
-Here's a program that just declares some values manually:
+In `Possibly`'s case, any value of it can be constructed 
+with the `some` and `nothing` functions. The `nothing` function, 
+conveniently, holds no value and just represents the non-existence 
+of a value of type `a`.
+
+Here's some examples of declaring some `Possibly` values manually:
 
     x : Possibly UUID = some 42
     y : Possibly UUID = nothing
