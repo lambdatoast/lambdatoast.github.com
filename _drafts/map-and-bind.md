@@ -57,7 +57,7 @@ a valid output, but for other `UUID`s, it won't.
 On the other hand, `userName` is *total*: for *every possible input* 
 of type `User`, it will produce a valid output of type `Name`. 
 
-## Seeing the partiality in our data flow
+## Dealing with partiality in our data flow
 
 Using the fact that type annotations are just another view of logical 
 propositions, we can state our data flow...
@@ -68,12 +68,14 @@ propositions, we can state our data flow...
 
 > A `UUID` implies a `User`, which implies a `Name`
 
-This reveals an ill-formed logical leap in the data flow's design.
+In the context of the approach I'm presenting here, this data flow 
+statement reveals a bad logical leap. Missing information, basically.
 
 While it'd be great if a `UUID` *implied* a `User`, the reality (in 
-our hypothetical scenario) is that it doesn't. There does not exist a 
-`User` for *every* possible `UUID`. Pretending that having a `UUID` 
-*implies* having a `User`, would lead to an unreliable design.
+our hypothetical scenario, that is) is that it doesn't. 
+There does not exist a `User` for *every* possible `UUID`. Pretending 
+that having a `UUID` *implies* having a `User`, would lead to an 
+unreliable design.
 
 But again: functions *are* logical implications, and you *want* to 
 create this function. Therefore, you still *want* to express a logical 
