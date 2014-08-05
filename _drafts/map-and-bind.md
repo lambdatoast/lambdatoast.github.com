@@ -141,8 +141,8 @@ Which is read:
 
 Note how the introduction of partiality makes the rest 
 of the data flow partial as well. It's a chain of information: 
-once a link in the chain becomes partial, the rest of the 
-information can't be assumed to exist for certain.
+once a link in the chain becomes partial, the rest of the chain 
+becomes partial as well.
 
 (Point to develop further: types of "chain of information")
 
