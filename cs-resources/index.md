@@ -5,8 +5,7 @@ title: Computer Science Resources
 
 # Computer Science Resources
 
-The following is a list of writings and videos on subjects I'm 
-studying, by people who know about them, as well as relevant websites.
+The following is a list of material (papers, videos, articles, etc.) on subjects I'm studying.
 
 ## Algorithms
   - [Finding primes & proving primality](http://primes.utm.edu/prove/index.html)
