@@ -98,6 +98,10 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
     + [How Ur/Web records work and what it might mean for Haskell](http://blog.ezyang.com/2012/04/how-urweb-records-work-and-what-it-might-mean-for-haskell/)
   - Streams:
     + (video) [Advanced Stream Processing in Scala](http://www.youtube.com/watch?v=8fC2V9HX_m8)
+
+## Database Theory
+  - Relational:
+    + [A Simple Guide to Five Normal Forms in Relational Database Theory](http://www.bkent.net/Doc/simple5.htm)
     
 ## Effect Systems
   - [Higher-Rank Polymorphism in Scala](http://apocalisp.wordpress.com/2010/07/02/higher-rank-polymorphism-in-scala/)
