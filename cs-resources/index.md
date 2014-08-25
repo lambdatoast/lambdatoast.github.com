@@ -239,9 +239,8 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
 ## Security
   - (video) [The Science of Insecurity](http://www.youtube.com/watch?v=3kEfedtQVOY)
   
-## Software Engineering and Architecture
+## Software Design
   - (video) [Certifying your car with Erlang: John Hughes](http://vimeo.com/42751120)
-  - (video) [Composing contracts: an adventure in financial engineering](http://ulf.wiger.net/weblog/2008/02/29/simon-peyton-jones-composing-contracts-an-adventure-in-financial-engineering/) ([material](http://research.microsoft.com/en-us/um/people/simonpj/papers/financial-contracts/contracts-icfp.htm))
   - [How to Design Programs](http://htdp.org/)
   - (video) [May Your Data Ever Be Coherent](http://www.youtube.com/watch?v=gVXt1RG_yN0)
   - [rise4run.com – A community of software engineering tools](http://rise4fun.com/)
@@ -252,6 +251,10 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - Type Classes:
     + [Implementing, and Understanding Type Classes](http://okmij.org/ftp/Computation/typeclass.html)
     + [Haskell Typeclassopedia](http://www.haskell.org/haskellwiki/Typeclassopedia)
+
+## Software Engineering Anecdotes
+  - (video) [Composing contracts: an adventure in financial engineering](http://ulf.wiger.net/weblog/2008/02/29/simon-peyton-jones-composing-contracts-an-adventure-in-financial-engineering/) ([material](http://research.microsoft.com/en-us/um/people/simonpj/papers/financial-contracts/contracts-icfp.htm))
+  - [Facebook Engineering: What is Facebook's architecture?](http://getprismatic.com/story/1408093361209?comment-id=22535566673427&share=MTk5Nw.MTQwODA5MzM2MTIwOQ.GdjiKbXF29UTKMmMMwc-h5tsMxQ)
     
 ## Type Theory
   - [Mailing list discussion on the concept of "type" used by Russell vs. that used in CS](http://lists.seas.upenn.edu/pipermail/types-list/2014/001745.html)
