@@ -63,9 +63,9 @@ Whatever the problem is, it has an essential part, and a non-essential part.
 Any "abstract vs. concrete" discussion, must be re-phrased into the "essential vs. non-essential", 
 and thus **necessarliy** take place in the context of a well-defined problem.
 
-The problem you define, will then become **the** problem, and it will be as real 
-world as anything can be, regardless of what your boss, your parents, society, your 
-favorite "software architecture" book, etc. might say. 
+The problem you define, will then become **the** problem, and it will be as "real 
+world" as any problem can be, regardless of what your boss, parents, society, or 
+favorite "software architecture" book might say. 
 
 There is no fixed "level of abstractness" of anything; which is another way of saying that 
 nothing is simply essential or non-essential "in general", from *all* perspectives.
