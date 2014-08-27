@@ -139,32 +139,28 @@ between, and **nothing** around it.
 
 ## Design Patterns (as in the GoF book, etc)
 
-Patterns must be found in the **problem**, not in the 
-**design**. Remember: Essential or non-essential. Abstract, or specialized.
-With respect to a problem.
+Patterns must be found in the *problem*, not in the 
+*design*. Remember: Essential or non-essential. Abstract, or specialized.
+In the context of a problem.
 
-Again, your **first** goal is to define the problem, and find its essence.
 Finding the essence is finding the abstraction. Creating a solution for 
 the essence is creating a solution for *all* the specializations of the 
 problem.
 
-Design patterns, as in e.g. that GoF book, just don't enter the picture, 
-at all, in this problem-solving process. 
+Design patterns, as in the GoF book, just don't enter the picture 
+at all, in this problem-defining and problem-solving process. 
 
 When you're getting started on working on the process, the book is flat out 
-not appropriate (you should be focused on studying the problem). 
+not appropriate – you should be focused on studying *your* problem instead.
 
-When you're done finding the essence of the problem, the book 
+When you're done finding the essence of your problem, the book 
 isn't necessary: you have found the abstraction. 
 
 Finally, when you want to know if your abstraction is something already 
-known, then the book is once again just not appropriate, given that the 
-recipes in the book aren't mathematically principled. 
+known, then the book is once again not appropriate, given that the 
+recipes in it aren't mathematically principled. 
 
-You're better off asking a mathematician (it's often good to get out of the intellectually 
-stagnant and incestuous bubble that is the programmer community, and reaching 
-out to people from other disciplines) if there's a known mathematical 
-object/operation/etc .that describes **exactly** what you're doing. Then 
-you can e.g. implement thorough scientific tests to ensure that your 
+You're better off asking a mathematician if there's a known mathematical 
+object/operation/etc that describes **exactly** what you're doing. Then 
+you can implement thorough scientific tests to ensure that your 
 implementation is sound.
-
