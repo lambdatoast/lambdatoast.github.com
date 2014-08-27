@@ -4,27 +4,19 @@ title: Concrete vs Abstract
 published: false
 ---
 
-I hate seeing newcomers to programming being confused by bullshit 
-propagated by the "experienced", and/or the rockstars of their 
-programming language community.
+The talk of "Concrete vs. Abstract", as commonly practiced in "the industry", 
+can be very unhelpful and misguiding, causing programmers to design programs badly.
 
-One common source (or result?) of bad thinking is the "Concrete vs. Abstract" 
-dichotomy. Always poorly-thought. Never substantiated.
-
-To be clear, I'm not going to claim that the individual terms "abstract" 
-and "concrete" are bullshit (though the latter might be), but rather that 
-the notion of "Concrete vs. Abstract", as commonly used in "the industry", 
-is very unhelpful, creates unnecessary scary monsters, and eventually 
-cause people to design programs badly.
-
-## On abstraction
+## On abstraction and the real world
 
 I have been told many times, in different ways, that the "abstract" has 
-less to do with the "real world", than the "concrete", which deals with "real", "practical", stuff.
+less to do with the "real world", than the "concrete", which in turn deals 
+with more "real", "practical", stuff.
 
 But what is an abstraction? 
 
-To have an abstraction means to have a way to talk about **the** problem, and **nothing** else. 
+If you have a problem, then to have an abstraction means to have a way to talk 
+about **the** problem, and **nothing** else. 
 
 This is why, when using lists, you'll see something like `length: List[A] => Int` 
 (where `A` is a type parameter).
@@ -57,32 +49,36 @@ decision making during software design), you should think of it in terms of "ess
 always with respect to a well-defined problem P.
 
 Where does "concrete" enter the picture, then? If we're replacing terms here, and "abstract" 
-becomes the "essential", then "concrete" would become the "non-essential".
+corresponds to "essential", then "concrete" corresponds to "non-essential".
 
-However, a `lengthOfListOfBananas` is very damn essential to someone working with bananas!
-And that's where the core problem with this discussion is revealed. It is a question that 
-people ignore when they talk about almost all things software, which is: **What is the problem?**
+However, a `lengthOfListOfBananas` is clearly very essential to someone working with bananas!
 
-Whatever the problem is, it has an essential part, and a non-essential part. 
+That's where the core question of this discussion is revealed. A question that 
+people skip over when they decide to talk about almost all things software, namely: 
+**What is the problem?**
+
+Now, whatever the problem is, it has an essential part, and a non-essential part. 
 
 "Compute the length of a list" is the essence of "Compute the length of a list of bananas".
 "Compute the length of a list of bananas" might be the essence of something else. Which 
-brings up the questions, is P the essence of Q? Or is P a sub-problem in a collection 
-of problems that someone else might refer to as a single problem? 
+brings up the questions: is P the essence of Q (a.k.a. is Q a specialization of P)? Or 
+is P a sub-problem in a collection of problems that you refer to as Q?
 
-If you rephrase your "abstract vs. concrete" into "essential vs. non-essential", 
-then any further discussion will **necessarliy** have to take place in the context 
-of a well-defined problem.
+If you rephrase "abstract vs. concrete" into "essential vs. non-essential", 
+then any further discussion will **necessarily** have to take place in the context 
+of a well-defined problem, in order to make sense at all.
 
-The problem you define will then become **the** problem, and it will be as "real 
-world" as any other problem, regardless of what your boss, parents, society, or 
-favorite "software architecture" book might say. 
+The problem you define will become *The Problem*, and it will be as "real 
+world" as any problem can be. Then the question is whether the problem 
+is a problem worth solving, but that question is for you to decide, or, 
+in a less autonomous situation, for your boss, friends, society, etc. to 
+decide with, or for, you. 
 
-There is no fixed "level of abstractness" of anything; which is another way of saying that 
-nothing is simply essential or non-essential "in general", from *all* perspectives.
+Back to software design. There is no fixed "level of abstractness" of anything; 
+which is another way of saying that nothing is simply essential or non-essential, "in general".
 
-There are only problems, sub-problems, different problems, etc. all of them with 
-an essence.
+There are only problems, sub-problems, different problems, etc. each of them with 
+an essence waiting to be discovered.
 
 Where does all of this leave you with regards to phrases such as "that's too abstract"?
 
@@ -136,4 +132,44 @@ be referring to something that has nothing to do with the utility of abstraction
 Then they probably mean "Don't put layers of indirection before you know you will need them", 
 which can be reduced to "Don't use things before you know you will need them", and eventually 
 reduced to some truistic thing such as "think before doing".
+
+Additionally, you can see how abstraction cannot possibly be "indirection". 
+Abstraction, is precisely the opposite: An abstraction is what deals with 
+a problem more directly, with **nothing** in between, and **nothing** around it.
+
+When you see a software developer talking about "indirection", that is 
+likely due to some historical baggage of unprincipled software 
+design practices (i.e. making "abstractions" that are not abstractions, 
+but something else, and then suffering the consequences of that).
+
+## Design Patterns (as in the GoF book, etc)
+
+Patterns must be found in the **problem**, not in the 
+**design**. Remember: Essential or non-essential. Abstract, or specialized.
+With respect to a problem.
+
+Again, your **first** goal is to define the problem, and find its essence.
+Finding the essence is finding the abstraction. Creating a solution for 
+the essence is creating a solution for *all* the specializations of the 
+problem.
+
+Design patterns, as in e.g. that GoF book, just don't enter the picture, 
+at all, in this problem-solving process. 
+
+When you're getting started on working on the process, the book is flat out 
+not appropriate (you should be focused on studying the problem). 
+
+When you're done finding the essence of the problem, the book 
+isn't necessary: you have found the abstraction. 
+
+Finally, when you want to know if your abstraction is something already 
+known, then the book is once again just not appropriate, given that the 
+recipes in the book aren't mathematically principled. 
+
+You're better off asking a mathematician (it's often good to get out of the intellectually 
+stagnant and incestuous bubble that is the programmer community, and reaching 
+out to people from other disciplines) if there's a known mathematical 
+object/operation/etc .that describes **exactly** what you're doing. Then 
+you can e.g. implement thorough scientific tests to ensure that your 
+implementation is sound.
 
