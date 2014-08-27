@@ -65,17 +65,26 @@ people ignore when they talk about almost all things software, which is: **What 
 
 Whatever the problem is, it has an essential part, and a non-essential part. 
 
-Any "abstract vs. concrete" discussion, must be re-phrased into the "essential vs. non-essential", 
-and thus **necessarliy** take place in the context of a well-defined problem.
+"Compute the length of a list" is the essence of "Compute the length of a list of bananas".
+"Compute the length of a list of bananas" might be the essence of something else. Which 
+brings up the questions, is P the essence of Q? Or is P a sub-problem in a collection 
+of problems that someone else might refer to as a single problem? 
 
-The problem you define, will then become **the** problem, and it will be as "real 
-world" as any problem can be, regardless of what your boss, parents, society, or 
+If you rephrase your "abstract vs. concrete" into "essential vs. non-essential", 
+then any further discussion will **necessarliy** have to take place in the context 
+of a well-defined problem.
+
+The problem you define will then become **the** problem, and it will be as "real 
+world" as any other problem, regardless of what your boss, parents, society, or 
 favorite "software architecture" book might say. 
 
 There is no fixed "level of abstractness" of anything; which is another way of saying that 
 nothing is simply essential or non-essential "in general", from *all* perspectives.
 
-So, where does that leave us with phrases such as "that's too abstract"?
+There are only problems, sub-problems, different problems, etc. all of them with 
+an essence.
+
+Where does all of this leave you with regards to phrases such as "that's too abstract"?
 
 ## "That is too abstract"
 
