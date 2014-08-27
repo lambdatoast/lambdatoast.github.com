@@ -14,7 +14,7 @@ in "the industry", is very unhelpful. It leads programmers down several paths
 of wrongness, in thinking, and therefore in practice.
 
 I have been told many times that when something is abstract, it has less to do with 
-the "real world". whereas when something id concrete, it deals with "real", "practical", 
+the "real world". whereas when something is concrete, it deals with "real", "practical", 
 stuff.
 
 But what is an abstraction? 
@@ -61,7 +61,7 @@ people ignore when they talk about almost all things software, which is: **What 
 Whatever the problem is, it has an essential part, and a non-essential part. 
 
 Any "abstract vs. concrete" discussion, must be re-phrased into the "essential vs. non-essential", 
-**and** take place in the context of a well-defined problem.
+and thus **necessarliy** take place in the context of a well-defined problem.
 
 The problem you define, will then become **the** problem, and it will be as real 
 world as anything can be, regardless of what your boss, your parents, society, your 
