@@ -48,8 +48,8 @@ Abstract `length` is just what is common, or, the **essence**, of the "compute t
 of a list of banana" problem. That is its relation to `lengthOfListOfBananas`.
 
 And what does it mean for a programmer, when they have found the **essence** of a problem? 
-Well, it means they can then create a single solution to deal with the problem, in many 
-of its possible specializations.
+Well, it means they can then create a single solution to deal with the essence problem, and 
+reuse it in all (this is key: not some, not many, but *all*) of its possible specializations.
 
 My recommendation is then that, as a computer programmer, instead of playing the 
 "Abstract vs. Concrete" game, and engaging in pointless debate (or, way worse, confused 
