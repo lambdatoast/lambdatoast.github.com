@@ -39,9 +39,9 @@ at some point in time, or ever, though)
 Abstract `length` is just what is common, or, the **essence**, of the "compute the length 
 of a list of banana" problem. That is its relation to `lengthOfListOfBananas`.
 
-And what does it mean for a programmer, when they have found the **essence** of a problem? 
-Well, it means they can then create a single solution to deal with the essence problem, and 
-reuse it in all (this is key: not some, not many, but *all*) of its possible specializations.
+And what does it mean for a programmer to have found the **essence** of a problem? 
+Well, it means that they can then create a single solution to deal with the essential, and 
+reuse it in all – this is key: not some, not many, but *all* – of the specializations.
 
 My recommendation is then that, as a computer programmer, instead of playing the 
 "Abstract vs. Concrete" game, and engaging in pointless debate (or, way worse, confused 
@@ -66,52 +66,71 @@ is P a sub-problem in a collection of problems that you refer to as Q?
 
 If you rephrase "abstract vs. concrete" into "essential vs. non-essential", 
 then any further discussion will **necessarily** have to take place in the context 
-of a well-defined problem, in order to make sense at all.
+of a well-defined problem, in order to even make sense at all. 
 
-The problem you define will become *The Problem*, and it will be as "real 
-world" as any problem can be. Then the question is whether the problem 
-is a problem worth solving, but that question is for you to decide, or, 
-in a less autonomous situation, for your boss, friends, society, etc. to 
-decide with, or for, you. 
+Once the problem is spelled out, the next question is whether it is a 
+problem worth solving, and the answer to that is up to you, or, in a 
+less autonomous situation, up to your boss, economic situation, society, etc.
 
-Back to software design. There is no fixed "level of abstractness" of anything; 
-which is another way of saying that nothing is simply essential or non-essential, "in general".
+Back to the science of software design. There is no fixed "level of abstractness" 
+of anything; which is another way of saying: nothing is simply essential or 
+non-essential, "in general".
 
 There are only problems, sub-problems, different problems, etc. each of them with 
 an essence waiting to be discovered.
 
-Where does all of this leave you with regards to phrases such as "that's too abstract"?
+## The process of abstracting, the tools, and the results of the process
 
-## "That is too abstract"
+Even when the ideas the programmer is telling you isn't incoherent, or 
+confused, you should still be prepared to ask what they're talking 
+about *within* the world of abstractions. The process is not the 
+as the tools. The tools are not the same as the result.
 
-This would translate to "that's too essential". But what the hell do they think 
-they're advicing you to actually do, if they actually meant this? I don't know. 
+Back to `length[A]`. This function is the *result* of having found 
+the essence of a problem. It is not the problem. It is not the tool 
+you used for abstracting (finding the essence of) the problem. It 
+is, rather specifically, your recording, of the solution you came 
+up with.
 
-Chances are they are **not** talking about the essential and the non-essential, 
-and therefore **they are not talking about abstraction at all**.
+Nevertheless, be prepared to listen to programmers refer to the essence, 
+the tools for finding the essence, and the resulting 
+solution, as "the abstraction".
 
-## "Abstraction should not be a goal"
+## On common phrases
 
-This one is very strange. Abstraction is not the goal for whom? and when?
+So how does what I've said so far play with phrases people often throw around?
+
+### "That's too abstract"
+
+This would translate to "That's too essential", which is ridiculous. 
+So chances are they are not talking about the essential and the 
+non-essential, and therefore **they are not talking about abstraction at all**.
+
+### "Abstraction should not be a goal"
+
+This one is strange. Abstraction is not the goal for whom? and when?
 Clearly, if you have a problem P, and you need to solve it, then identifying the 
 essence of it *has* to be your immediate goal, otherwise you can't know what 
 to solve. And considering the fact that we *rarely* attain all the knowledge 
-about what the essence of a problem is, then it seems that we'll always be 
-looking for the essence of the problem. So creating, and improving, the abstraction 
-of your problem, is always going to be your goal.
+about the essence of a problem, then it seems that we'll be perpetually looking 
+for it. Therefore the process of abstraction is certainly a perpetual goal.
 
-Now, if you later realize that some of what you thought was non-essential 
+Maybe they mean it in the sense that, if the goal is to swim in the ocean, 
+and you're in the desert, then traveling to the ocean is not the goal?
+
+In any case, if you find in a situation where what you initially thought was non-essential 
 noise is actually essential, then great, now you know more about the problem, and 
 should update your abstraction accordingly. If this evolution becomes a nightmare, 
-it will be for reasons entirely unrelated to the utility of abstracting. 
+it will be for reasons entirely unrelated to "the utility of abstraction as a tool". 
 Maybe your programming language sucks and its type system makes modifications a
-dangerous and/or tedious endeavor.
+dangerous and/or tedious endeavor, in which case the problem is *the tool used for abstraction*, 
+which is not the same as *abstraction as a tool*.
 
 Blaming "abstraction" (as a tool) for nightmares caused by a poor language/type system/etc. is 
 like blaming the idea of software version numbering (as a tool) for nightmares 
 caused by poor software dependency managers.
 
-## "Don't abstract early"
+### "Don't abstract early"
 
 This one is related to the previous one, but it's especially incoherent, given 
 that **nothing** you use as a programmer *isn't* an abstraction. Literally not one thing. 
@@ -135,30 +154,3 @@ Also, note that *abstraction* cannot possibly be "indirection". Abstraction is p
 the opposite: It is what deals with a problem more directly, with **nothing** in 
 between, and **nothing** around it.
 
-## Design Patterns (as in the GoF book, etc)
-
-Patterns must be found in the *problem*, not in the 
-*design*. Remember: Essential or non-essential. Abstract, or specialized.
-In the context of a problem.
-
-Finding the essence is finding the abstraction. Creating a solution for 
-the essence is creating a solution for *all* the specializations of the 
-problem.
-
-Design patterns, as in the GoF book, just don't enter the picture 
-at all, in this problem-defining and problem-solving process. 
-
-When you're getting started on working on the process, the book is flat out 
-not appropriate – you should be focused on studying *your* problem instead.
-
-When you're done finding the essence of your problem, the book 
-isn't necessary: you have found the abstraction. 
-
-Finally, when you want to know if your abstraction is something already 
-known, then the book is once again not appropriate, given that the 
-recipes in it aren't mathematically principled. 
-
-You're better off asking a mathematician if there's a known mathematical 
-object/operation/etc that describes **exactly** what you're doing. Then 
-you can implement thorough scientific tests to ensure that your 
-implementation is sound.
