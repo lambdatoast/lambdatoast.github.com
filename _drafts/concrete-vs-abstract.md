@@ -116,11 +116,11 @@ software dependency managers.
 ## "Don't abstract early"
 
 This one is related to the previous one, but it's especially incoherent, given 
-that **nothing** you use as a programmer *isn't* an abstraction. Literally **nothing**.  Not one thing. 
+that **nothing** you use as a programmer *isn't* an abstraction. Literally not one thing. 
 
-When you write the primitive `5` in your language, you are immediately in the realm 
-of abstraction. You are not caring about a massive ton of non-essential aspects 
-(operational noise, hardware electronics, etc) of using "the number five". 
+For example, when you write the primitive `5` in your language, you are immediately in the realm 
+of abstraction. You are not caring about a huge amount of non-essential aspects 
+(operational concerns such as hardware electronics, etc) of using "the number five". 
 `5` being the essential part of "working with the arabic number `5` on a von neumann machine".
 
 Moreover, when "Don't abstract early" gets translated to "don't identify the 
@@ -133,14 +133,9 @@ Then they probably mean "Don't put layers of indirection before you know you wil
 which can be reduced to "Don't use things before you know you will need them", and eventually 
 reduced to some truistic thing such as "think before doing".
 
-Additionally, you can see how abstraction cannot possibly be "indirection". 
-Abstraction, is precisely the opposite: An abstraction is what deals with 
-a problem more directly, with **nothing** in between, and **nothing** around it.
-
-When you see a software developer talking about "indirection", that is 
-likely due to some historical baggage of unprincipled software 
-design practices (i.e. making "abstractions" that are not abstractions, 
-but something else, and then suffering the consequences of that).
+Note that *abstraction* cannot possibly be "indirection". Abstraction is precisely 
+the opposite: It is what deals with a problem more directly, with **nothing** in 
+between, and **nothing** around it.
 
 ## Design Patterns (as in the GoF book, etc)
 
