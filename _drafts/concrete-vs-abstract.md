@@ -131,9 +131,9 @@ But let's assume the best intentions, and say that, once again, they must
 be referring to something that has nothing to do with the utility of abstraction. 
 Then they probably mean "Don't put layers of indirection before you know you will need them", 
 which can be reduced to "Don't use things before you know you will need them", and eventually 
-reduced to some truistic thing such as "think before doing".
+reduced to some truistic advice such as "think before you act".
 
-Note that *abstraction* cannot possibly be "indirection". Abstraction is precisely 
+Also, note that *abstraction* cannot possibly be "indirection". Abstraction is precisely 
 the opposite: It is what deals with a problem more directly, with **nothing** in 
 between, and **nothing** around it.
 
