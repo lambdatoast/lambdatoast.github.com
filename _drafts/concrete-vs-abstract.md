@@ -4,18 +4,23 @@ title: Concrete vs Abstract
 published: false
 ---
 
-"Concrete vs. Abstract" discussions are bullshit that confuses, and hurts, newcomers, 
-totally unnecessarily.
+I hate seeing newcomers to programming being confused by bullshit 
+propagated by the "experienced", and/or the rockstars of their 
+programming language community.
 
-To be clear, I'm not saying that the individual terms "abstract" and "concrete" are 
-bullshit (though the latter might be), but rather that the notion of 
-"Concrete vs. Abstract", as commonly used and propagated like a virus, 
-in "the industry", is very unhelpful. It leads programmers down several paths 
-of wrongness, in thinking, and therefore in practice.
+One common source (or result?) of bad thinking is the "Concrete vs. Abstract" 
+dichotomy. Always poorly-thought. Never substantiated.
 
-I have been told many times that when something is abstract, it has less to do with 
-the "real world". whereas when something is concrete, it deals with "real", "practical", 
-stuff.
+To be clear, I'm not going to claim that the individual terms "abstract" 
+and "concrete" are bullshit (though the latter might be), but rather that 
+the notion of "Concrete vs. Abstract", as commonly used in "the industry", 
+is very unhelpful, creates unnecessary scary monsters, and eventually 
+cause people to design programs badly.
+
+## On abstraction
+
+I have been told many times, in different ways, that the "abstract" has 
+less to do with the "real world", than the "concrete", which deals with "real", "practical", stuff.
 
 But what is an abstraction? 
 
@@ -70,8 +75,56 @@ favorite "software architecture" book might say.
 There is no fixed "level of abstractness" of anything; which is another way of saying that 
 nothing is simply essential or non-essential "in general", from *all* perspectives.
 
-So, where does that leave us with phrases such as "that's too abstract". Well, that is 
-then translates to "that's too essential". And what the hell would people mean, if 
-they actually mean this? I don't know. Chances are they are **not** talking about 
-essential and non-essential, and therefore **they are not talking about abstraction at all**.
-You will have to ask them more about what the problem is.
+So, where does that leave us with phrases such as "that's too abstract"?
+
+## "That is too abstract"
+
+This would translate to "that's too essential". But what the hell do they think 
+they're advicing you to actually do, if they actually meant this? I don't know. 
+
+Chances are they are **not** talking about the essential and the non-essential, 
+and therefore **they are not talking about abstraction at all**.
+
+## "Abstraction should not be a goal"
+
+This one is very strange. Abstraction is not the goal for whom? and when?
+Clearly, if you have a problem P, and you need to solve it, then identifying the 
+essence of it *has* to be your immediate goal, otherwise you can't know what 
+to solve. And considering the fact that we *rarely* attain all the knowledge 
+about what the essence of a problem is, then it seems that we'll always be 
+looking for the essence of the problem. So creating an abstraction of the problem, 
+**is** our long term goal.
+
+Now, if you later realize that some of what you thought was non-essential 
+noise is actually essential, then great, now you know more about the problem, and 
+should update your abstraction accordingly. If this evolution becomes a nightmare, 
+it will be for reasons entirely unrelated to the utility of abstracting. 
+Maybe your programming language sucks and its type system is inexpressive. You exposed 
+too many things. Maybe you were so mistaken about what the problem was that the 
+previously considered non-essential parts were actually the very essence of the problem.
+Etc, etc.
+
+Don't blame the idea of abstraction for things caused by a poor language/type system/etc.
+It's like blaming the idea of software version numbers for things caused by poor 
+software dependency managers.
+
+## "Don't abstract early"
+
+This one is related to the previous one, but it's especially incoherent, given 
+that **nothing** you use as a programmer *isn't* an abstraction. Literally **nothing**.  Not one thing. 
+
+When you write the primitive `5` in your language, you are immediately in the realm 
+of abstraction. You are not caring about a massive ton of non-essential aspects 
+(operational noise, hardware electronics, etc) of using "the number five". 
+`5` being the essential part of "working with the arabic number `5` on a von neumann machine".
+
+Moreover, when "Don't abstract early" gets translated to "don't identify the 
+essence of the problem early", then it goes from simply not making sense to flat out 
+harmful. 
+
+But let's assume the best intentions, and say that, once again, they must 
+be referring to something that has nothing to do with the utility of abstraction. 
+Then they probably mean "Don't put layers of indirection before you know you will need them", 
+which can be reduced to "Don't use things before you know you will need them", and eventually 
+reduced to some truistic thing such as "think before doing".
+
