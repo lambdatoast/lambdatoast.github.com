@@ -97,21 +97,19 @@ Clearly, if you have a problem P, and you need to solve it, then identifying the
 essence of it *has* to be your immediate goal, otherwise you can't know what 
 to solve. And considering the fact that we *rarely* attain all the knowledge 
 about what the essence of a problem is, then it seems that we'll always be 
-looking for the essence of the problem. So creating an abstraction of the problem, 
-**is** our long term goal.
+looking for the essence of the problem. So creating, and improving, the abstraction 
+of your problem, is always going to be your goal.
 
 Now, if you later realize that some of what you thought was non-essential 
 noise is actually essential, then great, now you know more about the problem, and 
 should update your abstraction accordingly. If this evolution becomes a nightmare, 
 it will be for reasons entirely unrelated to the utility of abstracting. 
-Maybe your programming language sucks and its type system is inexpressive. You exposed 
-too many things. Maybe you were so mistaken about what the problem was that the 
-previously considered non-essential parts were actually the very essence of the problem.
-Etc, etc.
+Maybe your programming language sucks and its type system makes modifications a
+dangerous and/or tedious endeavor.
 
-Don't blame the idea of abstraction for things caused by a poor language/type system/etc.
-It's like blaming the idea of software version numbers for things caused by poor 
-software dependency managers.
+Blaming "abstraction" (as a tool) for nightmares caused by a poor language/type system/etc. is 
+like blaming the idea of software version numbering (as a tool) for nightmares 
+caused by poor software dependency managers.
 
 ## "Don't abstract early"
 
