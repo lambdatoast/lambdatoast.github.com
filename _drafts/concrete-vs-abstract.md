@@ -4,8 +4,8 @@ title: Concrete vs Abstract
 published: false
 ---
 
-The talk of "Concrete vs. Abstract", as commonly practiced in "the industry", 
-can be very unhelpful and misguiding, causing programmers to design programs badly.
+Don't let talk of "Concrete vs. Abstract" in the industry misguide you 
+into missing the point of abstractions in the design of computer programs.
 
 ## On abstraction and the real world
 
@@ -15,41 +15,45 @@ with more "real", "practical", stuff.
 
 But what is an abstraction? 
 
-If you have a problem, then to have an abstraction means to have a way to talk 
-about **the** problem, and **nothing** else. 
+Assume you have a problem. Then, to have an abstraction means to have a 
+way to talk about **the problem**, and **nothing else**. 
 
 This is why, when using lists, you'll see something like `length: List[A] => Int` 
 (where `A` is a type parameter).
 
 The problem that the function solves is "compute the length of a list". It's not 
-"compute the length of a list of bananas", "compute the length of a list of dinosaurs", etc.
+"compute the length of a list of bananas", or "compute the length of a list of dinosaurs as 
+long as today isn't Friday", or anything else.
 
-At this point you could make up some story, if it helps you, about how when the first humans 
-that sat down to implement the computation, realized that the nature of the list's elements 
-was irrelevant to the process of "computing the length of a list".
+If it helps, you can make up some story, about how when the first humans 
+that sat down to implement the computation, realized that the nature of 
+the list's elements was irrelevant to the process of computing the length of the list.
 
-However, clearly something like `lengthOfListOfBananas: List[Banana] => Int` would be a perfectly 
-valid function. And we can make a difference between `length` and `lengthOfListOfBananas`. The 
-latter can be called a "specific instance", or "specialization" of the former. 
+However, clearly something like `lengthOfListOfBananas: List[Banana] => Int` is be a perfectly 
+valid function. And we can declare a relation between `length` and `lengthOfListOfBananas`. 
+Namely, that the latter can be called a *specific instance*, or *specialization*, of the former. 
 
 But in no way is `length` somehow "farther away from the real world". The "abstract" problem:
-"compute the length of a list" problem is a very real problem! (it might not be *your* problem
-at some point in time, or ever, though)
+"compute the length of a list" is a very real problem! (it might not be *your* problem at some 
+point in time, though)
 
-Abstract `length` is just what is common, or, the **essence**, of the "compute the length 
-of a list of banana" problem. That is its relation to `lengthOfListOfBananas`.
+The abstract `length` function is just the solution to what is common, or, the 
+**essence**, of the "compute the length of a list" problem.
 
-And what does it mean for a programmer to have found the **essence** of a problem? 
-Well, it means that they can then create a single solution to deal with the essential, and 
+What does it mean for a programmer to have found the **essence** of a problem? 
+It means that they can then create a single solution to deal with the essential, and 
 reuse it in all – this is key: not some, not many, but *all* – of the specializations.
 
 My recommendation is then that, as a computer programmer, instead of playing the 
 "Abstract vs. Concrete" game, and engaging in pointless debate (or, way worse, confused 
-decision making during software design), you should think of it in terms of "essential vs. non-essential", 
-always with respect to a well-defined problem P.
+decision-making during software design), you should think of it in terms of 
+"essential vs. non-essential", always with respect to a well-defined problem P.
 
-Where does "concrete" enter the picture, then? If we're replacing terms here, and "abstract" 
-corresponds to "essential", then "concrete" corresponds to "non-essential".
+## On concreteness and problem definition
+
+Where does "concrete" enter the picture, then? 
+
+If "abstract" corresponds to "essential", then "concrete" corresponds to "non-essential".
 
 However, a `lengthOfListOfBananas` is clearly very essential to someone working with bananas!
 
@@ -81,76 +85,83 @@ an essence waiting to be discovered.
 
 ## The process of abstracting, the tools, and the results of the process
 
-Even when the ideas the programmer is telling you isn't incoherent, or 
-confused, you should still be prepared to ask what they're talking 
-about *within* the world of abstractions. The process is not the 
-as the tools. The tools are not the same as the result.
+Even when what a programmer in "the industry" is telling you isn't incoherent, 
+or confused, you should still be prepared to ask what they're talking 
+about *within* the subject of abstractions. 
 
-Back to `length[A]`. This function is the *result* of having found 
+The process is not the same as the tools. The tools are not the same as the result.
+
+Back to the abstract `length`. This function is the *resulting solution* to 
 the essence of a problem. It is not the problem. It is not the tool 
 you used for abstracting (finding the essence of) the problem. It 
-is, rather specifically, your recording, of the solution you came 
-up with.
+is, rather specifically, the solution, stored as something you and others can use.
 
 Nevertheless, be prepared to listen to programmers refer to the essence, 
-the tools for finding the essence, and the resulting 
-solution, as "the abstraction".
+the tools for finding the essence, and the resulting solution, all, as 
+"the abstraction". And then proceed to tag them vaguely as "bad", "unnecessary", 
+etc.
 
 ## On common phrases
 
-So how does what I've said so far play with phrases people often throw around?
+On that note: how does what I've said so far play with some of the phrases people
+in the industry often throw around? 
+
+Let's see.
 
 ### "That's too abstract"
 
 This would translate to "That's too essential", which is ridiculous. 
-So chances are they are not talking about the essential and the 
-non-essential, and therefore **they are not talking about abstraction at all**.
+Chances are they are not talking about the process of identifying the essential 
+and the non-essential, and therefore **they are not talking about abstraction at all**.
 
 ### "Abstraction should not be a goal"
 
-This one is strange. Abstraction is not the goal for whom? and when?
-Clearly, if you have a problem P, and you need to solve it, then identifying the 
+This one is strange. 
+Clearly, if you have a problem `P`, and you need to solve it, then identifying the 
 essence of it *has* to be your immediate goal, otherwise you can't know what 
 to solve. And considering the fact that we *rarely* attain all the knowledge 
-about the essence of a problem, then it seems that we'll be perpetually looking 
-for it. Therefore the process of abstraction is certainly a perpetual goal.
+about the essence of a problem, then it seems that the process of abstraction 
+is certainly a perpetual goal.
 
 Maybe they mean it in the sense that, if the goal is to swim in the ocean, 
 and you're in the desert, then traveling to the ocean is not the goal?
 
-In any case, if you find in a situation where what you initially thought was non-essential 
+In any case, if you find yourself in a situation where what you initially thought was non-essential 
 noise is actually essential, then great, now you know more about the problem, and 
-should update your abstraction accordingly. If this evolution becomes a nightmare, 
-it will be for reasons entirely unrelated to "the utility of abstraction as a tool". 
+should update your solution accordingly. If this revision turns out to be a nightmare to make, 
+it will be for reasons entirely unrelated to the idea of abstraction.
 Maybe your programming language sucks and its type system makes modifications a
 dangerous and/or tedious endeavor, in which case the problem is *the tool used for abstraction*, 
 which is not the same as *abstraction as a tool*.
 
-Blaming "abstraction" (as a tool) for nightmares caused by a poor language/type system/etc. is 
-like blaming the idea of software version numbering (as a tool) for nightmares 
-caused by poor software dependency managers.
+Blaming *abstraction as a tool* for nightmares caused by a clumsy language/type system/etc. is 
+like blaming the *software version numbering as a tool* for nightmares 
+caused by clumsy software dependency managers.
 
 ### "Don't abstract early"
 
 This one is related to the previous one, but it's especially incoherent, given 
-that **nothing** you use as a programmer *isn't* an abstraction. Literally not one thing. 
+that **nothing** you use as a programmer *isn't* abstracted. Literally not one thing. 
 
-For example, when you write the primitive `5` in your language, you are immediately in the realm 
-of abstraction. You are not caring about a huge amount of non-essential aspects 
-(operational concerns such as hardware electronics, etc) of using "the number five". 
-`5` being the essential part of "working with the arabic number `5` on a von neumann machine".
+For example, when you write the primitive `5` in your language, you are using an abstraction. 
+You are not caring about the huge amount of non-essential aspects 
+(operational concerns such as hardware electronics, etc) involved in using "the number five". 
+Having the primitive `5` as a tool of expression is the solution to the essence of 
+the problem that is "working with the arabic number `5` on a von neumann machine".
 
-Moreover, when "Don't abstract early" gets translated to "don't identify the 
-essence of the problem early", then it goes from simply not making sense to flat out 
-harmful. 
+Additionally, when "Don't abstract early" gets translated to "Don't identify the 
+essence of the problem early", then the so-called advice goes from simply incoherent 
+to flat out harmful. 
 
-But let's assume the best intentions, and say that, once again, they must 
-be referring to something that has nothing to do with the utility of abstraction. 
+But let's assume the best intentions of the person saying these things, and once 
+again consider that they might be referring to something that has nothing to do with 
+the utility of abstraction. 
+
 Then they probably mean "Don't put layers of indirection before you know you will need them", 
 which can be reduced to "Don't use things before you know you will need them", and eventually 
 reduced to some truistic advice such as "think before you act".
 
 Also, note that *abstraction* cannot possibly be "indirection". Abstraction is precisely 
-the opposite: It is what deals with a problem more directly, with **nothing** in 
-between, and **nothing** around it.
+the opposite: It is for you to deal with a problem directly, with **nothing** in
+between. With the least possible amount of assumptions.
 
