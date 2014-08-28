@@ -33,8 +33,8 @@ However, clearly something like `lengthOfListOfBananas: List[Banana] => Int` is 
 valid function. And we can declare a relation between `length` and `lengthOfListOfBananas`. 
 Namely, that the latter can be called a *specific instance*, or *specialization*, of the former. 
 
-The programmer who created `length` simply found, and solved, the **essence** of the problem. 
-And in no way is their work somehow "farther away from the real world".
+The programmer who created `length` simply found, and presumably solved, the **essence** of the problem. 
+In no way is their work somehow divorced from the "real world".
 
 ## Think essential vs. non-essential instead
 
