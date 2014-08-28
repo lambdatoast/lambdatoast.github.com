@@ -5,15 +5,13 @@ published: false
 ---
 
 Don't let talk of "Concrete vs. Abstract" in the industry misguide you 
-into missing the point of abstractions in the design of computer programs.
+into missing the point of abstraction in the design of computations.
 
 ## On abstraction and the real world
 
 I have been told many times, in different ways, that the abstract has 
 less to do with the "real world" than the "concrete", which deals 
-with more "real", "practical", stuff.
-
-But what is an abstraction? 
+with more "real", "practical", stuff. But what is an abstraction? 
 
 Assume you have a problem. Then, to have an abstraction means to have a 
 way to talk about **the problem**, and **nothing else**. 
@@ -25,13 +23,13 @@ The problem that the function solves is "compute the length of a list". It's not
 "compute the length of a list of bananas", or "compute the length of a list of dinosaurs as 
 long as today isn't Friday", or anything else.
 
-If it helps form the example, you can make up some story, about how when the first humans 
+If it helps, you can make up some story, about how when the first humans 
 that sat down to implement the computation, realized that the nature of 
 the list's elements was irrelevant to the process of computing the length of the list.
 
-However, clearly something like `lengthOfListOfBananas: List[Banana] => Int` is a perfectly 
-valid function. And we can declare a relation between `length` and `lengthOfListOfBananas`. 
-Namely, that the latter can be called a *specific instance*, or *specialization*, of the former. 
+However, something like `lengthOfListOfBananas: List[Banana] => Int` is a perfectly 
+valid function as well. And we can declare a relation between `length` and `lengthOfListOfBananas`. 
+Namely, the latter can be called a *specific instance*, or *specialization*, of the former. 
 
 The programmer who created `length` simply found, and presumably solved, the **essence** of the problem. 
 In no way is their work somehow divorced from the "real world".
