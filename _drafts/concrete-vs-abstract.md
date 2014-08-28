@@ -89,7 +89,10 @@ Even when what a programmer in "the industry" is telling you isn't incoherent,
 or confused, you should still be prepared to ask what they're talking 
 about *within* the subject of abstractions. 
 
-The process is not the same as the tools. The tools are not the same as the result.
+The things involved are: the problem, the process of abstraction, the tools 
+for abstraction, the resulting solution.
+
+The problem is not the same as the process. The process is not the same as the tools. The tools are not the same as the result.
 
 Back to the abstract `length`. This function is the *resulting solution* to 
 the essence of a problem. It is not the problem. It is not the tool 
