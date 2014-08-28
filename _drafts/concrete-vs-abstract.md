@@ -10,7 +10,7 @@ into missing the point of abstractions in the design of computer programs.
 ## On abstraction and the real world
 
 I have been told many times, in different ways, that the abstract has 
-less to do with the "real world" than the "concrete", which in deals 
+less to do with the "real world" than the "concrete", which deals 
 with more "real", "practical", stuff.
 
 But what is an abstraction? 
