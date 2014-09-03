@@ -276,6 +276,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - (video) [Type functions, by Simon Peyton Jones](https://www.youtube.com/watch?v=MSin0b04344)
   - [Types, Logic, and Verification](https://www.cs.uoregon.edu/research/summerschool/summer13/curriculum.html)
   - [Types, and two approaches to problem solving. Blog post.](http://blog.sigfpe.com/2014/05/types-and-two-approaches-to-problem.html)
+  - [[TYPES] Types in distributed systems](http://lists.seas.upenn.edu/pipermail/types-list/2014/001791.html)
   - [Unification (computer science) @ Wikipedia](http://en.wikipedia.org/wiki/Unification_(computer_science))
   - [What is the logarithm or root operation in type-space?](http://cstheory.stackexchange.com/questions/17006/what-is-the-logarithm-or-root-operation-in-type-space)
   - Logic:
