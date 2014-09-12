@@ -192,6 +192,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - (video) [Mathematics for Computer Science @ MIT opencourseware](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
   - [nLab: A wiki-lab for collaborative work on Mathematics, Physics and Philosophy with a Category Theory point of view](http://ncatlab.org/nlab/show/HomePage)
   - [Roland Backhouse's Publications](http://www.cs.nott.ac.uk/~rcb/papers/papers.html)
+  - [The multinomial coefficients](http://probabilityandstats.wordpress.com/2011/05/19/the-multinomial-coefficients/)
   - [The Nature of Code (full book)](http://natureofcode.com/)
   - [Order Theory](http://en.wikipedia.org/wiki/Order_theory)
   - Category Theory:
