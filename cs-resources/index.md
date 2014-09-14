@@ -123,6 +123,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - (video) [Guerrilla Guide to Pure Functional Programming](http://vimeo.com/20293743)
   - [Functional Programming and 3D Games, a thesis by Mun Hon Cheong (pdf)](http://www.cse.unsw.edu.au/~pls/thesis/munc-thesis.pdf) and [(source)](http://www.haskell.org/haskellwiki/Frag)
   - [Introduction to Functional Programming, 1ed, by Richard Bird and Philip Wadler (full book) (pdf)](http://www.nlda-tw.nl/janmartin/vakken/TFIT/Extra%20materiaal/Bird_Wadler.%20Introduction%20to%20Functional%20Programming.1ed.pdf)
+  - [The Lambda Calculus @ Stanford Encyclopedia of Philosophy](http://plato.stanford.edu/entries/lambda-calculus/)
   - [Prerequisite for Learning Haskell. By Albert Y. C. Lai](http://www.vex.net/~trebla/haskell/prerequisite.xhtml)
   - [Why Functional Programming Matters, by John Hughes](http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html)
   - [Why calculating is better than scheming. By Philip Wadler (pdf)](http://www.cs.kent.ac.uk/people/staff/dat/miranda/wadler87.pdf)
