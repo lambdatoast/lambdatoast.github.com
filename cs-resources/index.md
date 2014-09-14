@@ -39,6 +39,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
     + [Pratt Parsers: Expression Parsing Made Easy](http://journal.stuffwithstuff.com/2011/03/19/pratt-parsers-expression-parsing-made-easy/)
     + [Top Down Operator Precedence](http://javascript.crockford.com/tdop/tdop.html)
     + [Write Yourself a Scheme in 48 Hours](http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours)
+    + (video) [Parsing with Derivatives](https://www.youtube.com/watch?v=ZzsK8Am6dKU)
     
 ## Computing / Computability
   - [David Rydeheard's Research in Computing](http://www.cs.man.ac.uk/~david/)
