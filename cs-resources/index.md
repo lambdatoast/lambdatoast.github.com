@@ -12,6 +12,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [Even better Eratosthenes sieve and lucky numbers](http://article.gmane.org/gmane.comp.lang.haskell.cafe/19470)
   - [Pearls of Functional Algorithm Design, by Richard Bird (pdf)](http://www.clyce.net/wp-content/uploads/2013/02/Pearls-of-Functional-Algorithm-Design.pdf)
   - [Thorough list of Algorithms and what they're used for @ StackExchange](http://cstheory.stackexchange.com/questions/19759/core-algorithms-deployed/19773#19773)
+  - [Visualizing Garbage Collection Algorithms](http://spin.atomicobject.com/2014/09/03/visualizing-garbage-collection-algorithms/)
   
 ## Category Theory for Computer Science
   - [An introduction to Category Theory for Software Engineers, by Steve Easterbrook (pdf)](http://www.cs.toronto.edu/~sme/presentations/cat101.pdf)
