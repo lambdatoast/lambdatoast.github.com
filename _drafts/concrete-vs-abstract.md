@@ -14,12 +14,12 @@ practical, real world stuff.
 However, after asking a lot about it, and thinking a lot about it, I've 
 concluded that such a view is not even wrong: it is utter nonsense. And 
 I'm writing this article about it, because I think it matters that you know 
-this, otherwise it can mislead you into confused design of your computer 
+this. Otherwise it can mislead you into confused design of your computer 
 programs.
 
 I also want to recommend an already existing, more explicit, *and* 
 familiar, language for talking about this subject, so that we stop propagating 
-bad advice such as "don't abstract too much!".
+bad advice such as "don't abstract too much!"
 
 Countless times I've dealt with the consequences of innocently adopting such 
 advice, as a maintainer of codebases.
@@ -43,9 +43,14 @@ Friday", or *anything* else.
 From here on, I'm going to refer to the "compute the successor of a number" problem as 
 SuccessorProblem.
 
-Now, something like `successor_of_forty_one = 41 + 1` is a perfectly valid function as well. 
-And indeed we can declare a relation between `successor` and `successor_of_forty_one`, 
-*with respect to SuccessorProblem*. Namely, the latter can be called a *specific instance*, 
+Now, consider something like `successor_of_forty_one = 41 + 1`, which is a perfectly valid 
+function as well. Nothing wrong with it.
+
+The problem `successor_of_forty_one` addresses is not SuccessorProblem, though. It is 
+the "compute the successor of forty-one" problem. Let's call it SuccessorOfFortyOneProblem.
+
+We can declare a relation between `successor` and `successor_of_forty_one`, 
+*with respect to the problems they solve*. Namely, the latter can be called a *specific instance*, 
 or *specialization*, of the former. Indeed, `successor_of_forty_one` can be defined in 
 terms of `successor`, i.e. `successor_of_forty_one = successor 41`. 
 
@@ -57,23 +62,26 @@ way is `successor_of_forty_one` "more practical" or "closer to the real world" t
 
 What does it mean for a programmer to have found the essence of a problem? 
 It means that they can then create one solution, and reuse it in all – this is 
-key: not some, not many, but *all* – of the specializations of the problem.
+key: not some, not many, but *all* – of the specializations of the problem. E.g. 
+the solution for SuccessorProblem *must* work for SuccessorOfFortyOneProblem, and 
+all possible instances of SuccessorProblem.
 
 What I propose then is that you frame your conversation in terms 
-of "essential vs. non-essential", instead of "abstract vs. concrete", at least initially, 
+of "essential vs. non-essential", instead of "abstract vs. concrete", at least internally, 
 as a way to keep yourself, and your team, on the right track. 
 
 ## On concreteness
 
 Where does "concreteness" enter the picture, anyway?
 
-Well, if "abstract" corresponds to "essential", then "concrete" corresponds to "non-essential".
+Well, if "abstract" corresponds to "essential", then I guess "concrete" corresponds to "non-essential".
 
-However, a `successor_of_forty_one` function could very well be essential to *somebody*'s problem!
+However, the `successor_of_forty_one` function could very well be essential to *somebody*'s problem.
+It's certainly addressing the essence of SuccessorOfFortyOneProblem!
 
 That's where a crucial question in this discussion is revealed. A question that 
-most people skip over when they decide to megaphone their advice and views on 
-software design ("Don't abstract!!", etc.) Namely: **What is the problem?**
+most people skip over when they decide to megaphone their advice and rants on 
+software design (e.g. "Don't abstract!", etc.) Namely: **What is the problem?**
 
 ## On identifying the problem
 
