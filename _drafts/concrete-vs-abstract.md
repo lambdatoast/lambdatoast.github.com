@@ -12,16 +12,17 @@ less to do with the Real World than "the concrete", which
 is what deals with "the real", and "the practical".
 
 However, after asking a lot about it, thinking a lot about it, etc. I've 
-concluded that such as view is not even wrong, it is utter nonsense. And 
+concluded that such a view is not even wrong, it is utter nonsense. And 
 I'm writing this article about it, because I think it matters that you know 
-that it is utter nonsense, and why, because otherwise it can mislead you 
-into confused design of the computer programs that are supposed to solve 
-problems.
+this, otherwise it can mislead you into confused design of your computer 
+programs.
 
-I also want to recommend an already existing more explicit *and* 
-familiar language, for talking about this subject, so that we stop propagating 
-bad advice such as "don't abstract too much!". Countless times I've dealt with 
-the consequences of innocently adopting such advice.
+I also want to recommend an already existing, more explicit, *and* 
+familiar, language for talking about this subject, so that we stop propagating 
+bad advice such as "don't abstract too much!".
+
+Countless times I've dealt with the consequences of innocently adopting such 
+advice, as a maintainer of codebases.
 
 ## On abstraction and the real world
 
@@ -33,7 +34,7 @@ Consider the function `successor`:
     successor x = x + 1
 
 You can think of this function as "an expression `x + 1` waiting for a value to 
-plugged into `x` in order to compute a result".
+plugged into `x` in order to compute the result".
 
 The problem that the function solves is "compute the successor of a number". It's not 
 "compute the successor of 9", "compute the successor of 42 as long as today isn't 
@@ -42,15 +43,15 @@ Friday", or *anything* else.
 From here on, I'm going to refer to the "compute the successor of a number" problem as 
 SuccessorProblem.
 
-Now, something like `successor_of_41 = 41 + 1` is a perfectly valid function as well. 
-And indeed we can declare a relation between `successor` and `successor_of_41`, 
+Now, something like `successor_of_forty_one = 41 + 1` is a perfectly valid function as well. 
+And indeed we can declare a relation between `successor` and `successor_of_forty_one`, 
 *with respect to SuccessorProblem*. Namely, the latter can be called a *specific instance*, 
-or *specialization*, of the former. Indeed, `successor_of_41` can be defined in 
-terms of `successor`, i.e. `successor_of_41 = successor 41`. 
+or *specialization*, of the former. Indeed, `successor_of_forty_one` can be defined in 
+terms of `successor`, i.e. `successor_of_forty_one = successor 41`. 
 
 The programmer who created `successor` simply found, and presumably solved, the **essence** 
-of SuccessorProblem. In no way is their work somehow divorced from the "real world", and 
-in no way is `successor_of_41` "more practical" or "more real world" than `successor`.
+of SuccessorProblem. In no way is their work somehow divorced from the "real world". In no 
+way is `successor_of_forty_one` "more practical" or "closer to the real world" than `successor`.
 
 ## Think essential vs. non-essential instead
 
@@ -68,7 +69,7 @@ Where does "concreteness" enter the picture, anyway?
 
 Well, if "abstract" corresponds to "essential", then "concrete" corresponds to "non-essential".
 
-However, a `successor_of_41` function could very well be essential to *somebody*'s problem!
+However, a `successor_of_forty_one` function could very well be essential to *somebody*'s problem!
 
 That's where a crucial question in this discussion is revealed. A question that 
 most people skip over when they decide to megaphone their advice and views on 
@@ -87,20 +88,20 @@ This will force you to spell out the problem, and so the next question will be
 whether such a problem is worth solving, and the answer to that will depend on 
 many factors: you, your boss, your economic situation, society, etc.
 
-*That* is where the notions of "real world", "practical", etc. enter the picture.
-
-That is, whether something is "real world" or not, is entirely unrelated 
-to it being an *abstraction*. 
+*That* is where the notions of "real world", "practical", etc. enter the picture. That 
+is, whether something is "real world" or not, is entirely unrelated to it being an 
+*abstraction*. "Real world" is a property of the problem, not of your abstractions, 
+and whether a problem is a "real world problem" is a discussion totally orthogonal 
+to the process of abstraction.
 
 When you change your "level of abstraction", what you're moving closer to, 
-or away from, is some *problem*, not "the real world". And, again, whether 
-a problem is a "real world problem" is a totally separate discussion.
+or away from, is some *problem*, not "the real world".
 
 Now, what you'll see is that defining the problem goes in parallel with 
 identifying the essence of it, which again, is what designing an abstraction is.
 
-There's actually no generally good or bad "level of abstractness"; which is 
-obvious, since *nothing* is either essential or non-essential "in general".
+*Nothing* is either essential or non-essential "in general". It makes 
+no sense to talk about them without defining what the problem is.
 
 ## Abstraction: The process, the tools, and the result
 
