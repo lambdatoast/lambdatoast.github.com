@@ -8,7 +8,7 @@ Don't let talk of "Concrete vs. Abstract" in the industry misguide you
 into missing the point of abstraction.
 
 I have been told many times, in different ways, that "the abstract" has 
-less to do with the real world than "the concrete", which deals with the 
+less to do with the real world than "the concrete", which supposedly deals with the 
 practical, real world stuff.
 
 However, after asking a lot about it, and thinking a lot about it, I've 
