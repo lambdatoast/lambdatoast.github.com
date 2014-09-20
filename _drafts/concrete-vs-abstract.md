@@ -108,17 +108,20 @@ no sense to talk about them without defining what the problem is.
 Be prepared for listening to programmers conflating many aspects of the 
 whole subject of this discussion.
 
-Consider the following aspects: the problem (e.g. SuccessorProblem), the process of abstraction, 
-the tools for abstraction, and the resulting solution.
+Consider the following aspects: the problem (e.g. SuccessorProblem), the 
+process of abstraction (e.g. thinking about the essence of SuccessorProblem), 
+the tools for abstraction (e.g. functions, procedures, etc.), and the resulting 
+solution (e.g. writing a `successor` function).
 
 The problem is not the same as the process. The process is not the same as the tools. The tools are not the same as the result.
 
-And yet, you'll often see programmers calling each of these things "the abstraction", and
-then proceeding to tag it vaguely as "bad", "unnecessary", too this, and too that, etc. 
+And yet you'll often hear programmers calling each of these things "the abstraction", and
+then proceeding to vaguely tag it as good/bad, necessarily/unnecessary, too much this, 
+lacking that, etc. 
 
 ## Common phrases
 
-How does what I've said so far align with the things people in 
+How does what I've said so far interact with the things people in 
 the industry often say? 
 
 Let's see.
@@ -126,66 +129,61 @@ Let's see.
 ### "That's too abstract"
 
 This would translate to "That's too essential", to which I can only 
-answer "You say it like it's a bad thing!".
+answer "You say it like it's a bad thing!"
 
-Joking aside, chances are people who say this are not referring to the essential and 
-the non-essential, so **they are not talking about abstraction at all**.
+Joking aside, chances are people who say this are not referring to the 
+essential and the non-essential, so **they are not talking about abstraction at all**.
 
-The solution is to ask them what they're talking about. Or maybe you've 
-caught *yourself* thinking that phrase. Ask yourself what you're really 
+A way to handle this is to ask them what they're really talking about. Or maybe you've 
+caught *yourself* uttering this phrase. Ask yourself what you're really 
 talking about, then!
 
 ### "Abstraction should not be a goal"
 
 This one is odd. 
 
-Assuming they *are* talking about the essence, then the point might be, 
-"don't identify the essence of the problem and then forget to solve it", or 
-something. But, who does that? 
+Assuming they *are* talking about the essence, then their point might be, 
+"don't identify the essence of the problem and then forget to solve it". 
+But, who does that? 
 
-Also, what if the job *is* just to create a model of the essence of the problem, 
+Also, what if the job *is* to just create a model of the essence of the problem, 
 so that others can talk about the problem and/or solve their own problems using
 specializations of this model as a means of communication?
 
-Maybe they just mean "don't create models for things that aren't the essence 
-of a problem P and thus no one suffering from P will really need". In this case, that's obviously
-right, however "abstraction should not be a goal" is a very misleading way to phrase this.
+Maybe they just mean "When solving a problem P, don't create models for things that 
+aren't the essence P and thus no one suffering from P will really need". In this case, that's obviously
+right, however "abstraction should not be a goal" is a very confusing way to phrase this advice.
 
 If you find yourself in a situation where what you initially thought was non-essential 
 is actually essential (or vice versa), because now you know more about the problem, then you 
-should update your design accordingly. If this revision turns out to 
-be a nightmare to complete, it will be for reasons entirely unrelated to the 
-idea of "using abstraction".
+should revise your design accordingly. If this revision turns out to 
+be a nightmare to achieve, it will be for reasons entirely unrelated to the 
+the fact that you're "using abstraction".
 
-Maybe your programming language sucks and it makes modifications a dangerous 
+Maybe your programming language sucks, and it makes modifications a dangerous 
 and/or tedious activity, in which case the problem is the *tool used for abstraction*, 
 which is not the same as the problem being *abstraction as a tool*.
-
-So, mail your complaints to the right mailbox. The Intergalactic Ministry of Abstraction 
-doesn't like to waste time reading letters that should have been sent to 
-the Stagnation Enforcement Committee for your programming language of choice.
 
 ### "Don't abstract early"
 
 This one is related to the previous one, but it's especially incoherent, given 
 that **nothing** you use as a programmer *isn't* abstracted. Literally not one thing. 
 From the monoid coproduct, to the list, to the memory pointer, to the assembly syscall. 
-All of them are the result of the process abstraction.
+All of them are the result of abstraction.
 
 For example, when you write the primitive `5` in your language, you are using an abstraction. 
-You are not dealing with the huge amount of non-essential aspects (physics, electronics, etc.) 
+You are not dealing with the tons of non-essential aspects (physics, electronics, etc.) 
 involved in having an electronic digital computer use the Hindu–Arabic number Five.
 
 Additionally, if "Don't abstract early" gets translated to "Don't identify the 
 essence of the problem early", then the advice goes from simply incoherent 
-to flat out harmful.
+to flat out harmful. So again, let's assume the best intentions from the person giving 
+this advice, and consider that they might not be referring to abstraction as a tool. 
 
-But again, let's assume the best intentions from the person giving this advice, and 
-consider that they might not be referring to abstraction as a tool. In that case, 
-they probably mean "Don't put layers of indirection before you know you will need them", 
-which is not only unrelated to abstraction, but can also be reduced to "Don't use things before you know you will need them", 
-and eventually to a plain truistic advice such as "think before you act", which is common
-knowledge.
+In that case, they probably mean "Don't put layers of indirection before you know you will need them", 
+which is not only unrelated to the usefulness of abstraction, but can also be reduced to 
+"Don't use things before you know you will need them", and eventually to a plain truistic advice 
+such as "think before you act", which is common knowledge.
 
 Most importantly, note that *abstraction* cannot possibly be "indirection". Abstraction 
 is precisely the opposite: It is for you to deal with a problem directly, with **nothing** in
@@ -193,7 +191,8 @@ between.
 
 ### "Don't abstract"
 
-This one is totally meaningless. So I'll leave it as a fun exercise for 
-you. That is, apply the same things I did for the previous ones: Rephrase 
-it in terms of "essential vs. non-essential"; If it makes no sense, then
-find out, or ponder, what the person *really* meant when they said this.
+This one is totally meaningless. So I'll leave it to you as an exercise.
+That is, apply the same "technique" I did for the previous ones: Rephrase 
+it in terms of "essential vs. non-essential"; If it makes no sense, or sounds 
+massively harmful, then find out, or just ponder, what the person *really* meant 
+when they said this.
