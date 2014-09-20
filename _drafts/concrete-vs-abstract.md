@@ -146,19 +146,18 @@ talking about, then!
 This one is odd. 
 
 Assuming they *are* talking about the essence, then their point might be, 
-"don't identify the essence of the problem and then forget to solve it". 
-But, who does that? 
+"don't identify the essence of the problem and then forget to solve it" But, who does that? 
 
 Also, what if the job *is* to just create a model of the essence of the problem, 
-so that others can talk about the problem and/or solve their own problems using
-specializations of this model as a means of communication?
+so that others can talk about the problem and/or solve their own specializations of 
+the problem?
 
 Maybe they just mean "When solving a problem P, don't create models for things that 
 aren't the essence P and thus no one suffering from P will really need". In this case, that's obviously
 right, however "abstraction should not be a goal" is a very confusing way to phrase this advice.
 
 If you find yourself in a situation where what you initially thought was non-essential 
-is actually essential (or vice versa), because now you know more about the problem, then you 
+is actually essential (or vice versa), because you've obtained more knowledge about the problem, then you 
 should revise your design accordingly. If this revision turns out to 
 be a nightmare to achieve, it will be for reasons entirely unrelated to the 
 the fact that you're "using abstraction".
@@ -183,22 +182,18 @@ essence of the problem early", then the advice goes from simply incoherent
 to flat out harmful. So again, let's assume the best intentions from the person giving 
 this advice, and consider that they might not be referring to abstraction as a tool. 
 
-In that case, they probably mean "Don't put layers of indirection before you know you will need them", 
-which is not only unrelated to the usefulness of abstraction, but can also be reduced to 
-"Don't use things before you know you will need them", and eventually to a plain truistic advice 
-such as "think before you act", which is common knowledge.
-
-Most importantly, note that *abstraction* cannot possibly be "indirection". Abstraction 
-is precisely the opposite: It is for you to deal with a problem directly, with **nothing** in
-between.
+In this case, they often mean "Don't put layers of indirection before you know you will need them", 
+which is totally unrelated to the usefulness of abstraction, since abstraction is not "indirection". 
+Indeed, *abstraction* cannot possibly be "indirection". Abstraction is precisely the opposite: 
+It is for you to deal with a problem directly, with **nothing** in between.
 
 ### "Don't abstract"
 
-This one is totally meaningless. So I'll leave it to you as an exercise.
+This one is totally meaningless, so I'll leave it to you as an exercise!
 That is, apply the same "technique" I did for the previous ones: Rephrase 
 it in terms of "essential vs. non-essential"; If it makes no sense, or sounds 
-massively harmful, then find out, or just ponder, what the person *really* meant 
-when they said this.
+massively harmful, then find out, or just ponder, what the programmer giving 
+this "advice" *really* meant when they said this.
 
 ## Final notes
 
@@ -212,10 +207,13 @@ Namely, I am *not* encouraging you to karate kick your way into ongoing
 conversations and demand that everyone stops using the terms they're 
 using.
 
-I'm just warning you about what can happen if phrases such as 
-"that's too abstract!" are absorbed by your mind and end up *actually* 
-informing your choices in program design. That would be a disaster. And so I'm 
-proposing the simple "essential vs. non-essential" view as a better question 
+I'm just warning you about what can happen if the "abstract vs. concrete" 
+view, accompanied by phrases such as "that's too abstract!", is absorbed by 
+your mind and ends up *actually* informing your choices in program design. 
+That would be a disaster. 
+
+And so I'm proposing the simple "essential vs. non-essential" view, and a 
+phrase such as "is this essential to the problem?" as a better question 
 not only for asking but also for allowing its answers to inform your program 
 design.
 
