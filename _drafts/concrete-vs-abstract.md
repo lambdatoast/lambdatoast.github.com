@@ -8,8 +8,8 @@ Don't let talk of "Concrete vs. Abstract" in the industry misguide you
 into missing the point of abstraction.
 
 I have been told many times, in different ways, that "the abstract" has 
-less to do with the Real World than "the concrete", which 
-is what deals with "the real", and "the practical".
+less to do with the real world than "the concrete", which deals with the 
+practical, real world stuff.
 
 However, after asking a lot about it, and thinking a lot about it, I've 
 concluded that such a view is not even wrong: it is utter nonsense. And 
@@ -196,3 +196,23 @@ That is, apply the same "technique" I did for the previous ones: Rephrase
 it in terms of "essential vs. non-essential"; If it makes no sense, or sounds 
 massively harmful, then find out, or just ponder, what the person *really* meant 
 when they said this.
+
+## Final notes
+
+I started this post with this sentence: 
+
+> Don't let talk of "Concrete vs. Abstract" in the industry misguide you into missing the point of abstraction.
+
+And I meant exactly that, and no more. 
+
+Namely, I am *not* encouraging you to karate kick your way into ongoing 
+conversations and demand that everyone stops using the terms they're 
+using.
+
+I'm just warning you about what can happen if phrases such as 
+"that's too abstract!" are absorbed by your mind and end up *actually* 
+informing your choices in program design. That would be a disaster. And so I'm 
+proposing the simple "essential vs. non-essential" view as a better question 
+not only for asking but also for allowing its answers to inform your program 
+design.
+
