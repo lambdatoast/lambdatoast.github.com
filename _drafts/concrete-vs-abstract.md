@@ -17,7 +17,7 @@ this. Otherwise you can be misled into confused design of computer programs.
 
 I also want to recommend an already existing, more explicit, *and* 
 familiar language for talking about this subject, so that we stop propagating 
-bad advice such as "don't abstract too much!". Countless times I've suffered, as 
+bad advice such as "don't abstract too much!" Countless times I've suffered, as 
 a hired maintainer of software, the consequences of innocent adoption of such advice.
 
 ## On abstraction and the real world
