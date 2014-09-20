@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Concrete vs Abstract
+title: Abstract vs. Concrete
 published: false
 ---
 
-Don't let talk of "Concrete vs. Abstract" in the industry misguide you 
+Don't let talk of "Abstract vs. Concrete" in the industry misguide you 
 into missing the point of abstraction.
 
 I have been told many times, in different ways, that "the abstract" has 
@@ -199,7 +199,7 @@ this "advice" *really* meant when they said this.
 
 I started this post with this sentence: 
 
-> Don't let talk of "Concrete vs. Abstract" in the industry misguide you into missing the point of abstraction.
+> Don't let talk of "Abstract vs. Concrete" in the industry misguide you into missing the point of abstraction.
 
 And I meant exactly that, and no more. 
 
