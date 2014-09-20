@@ -105,11 +105,8 @@ to the process of abstraction.
 When you change your "level of abstraction", what you're moving closer to, 
 or away from, is some *problem*, not "the real world".
 
-Now, what you'll see is that defining the problem goes in parallel with 
-identifying the essence of it, which again, is what designing an abstraction is.
-
 *Nothing* is either essential or non-essential "in general". It makes 
-no sense to talk about them without defining what the problem is.
+no sense to even use those words without defining what the problem is.
 
 ## Abstraction: The process, the tools, and the result
 
@@ -117,22 +114,20 @@ Be prepared for listening to programmers conflating many aspects of the
 whole subject of this discussion.
 
 Consider the following aspects: the problem (e.g. SuccessorProblem), the 
-process of abstraction (e.g. thinking about the essence of SuccessorProblem), 
+process of abstraction (e.g. identifying the essence of SuccessorProblem), 
 the tools for abstraction (e.g. functions, procedures, etc.), and the resulting 
 solution (e.g. writing a `successor` function).
 
-The problem is not the same as the process. The process is not the same as the tools. The tools are not the same as the result.
+The problem is not the same as the process. The process is not the same as the tools. The tools are not the same as the solution.
 
 And yet you'll often hear programmers calling each of these things "the abstraction", and
-then proceeding to vaguely tag it as good/bad, necessarily/unnecessary, too much this, 
+then vaguely tagging them as good/bad, necessarily/unnecessary, too much this, 
 lacking that, etc. 
 
 ## Common phrases
 
-How does what I've said so far interact with the things people in 
-the industry often say? 
-
-Let's see.
+Let's apply what I've been saying to some of the things people in 
+the industry often say.
 
 ### "That's too abstract"
 
