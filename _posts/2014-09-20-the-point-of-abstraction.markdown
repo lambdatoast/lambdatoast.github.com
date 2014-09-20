@@ -159,7 +159,7 @@ aren't the essence of P and thus no one suffering from P will actually need". Ho
 By the way, if you find yourself in a situation where what you initially considered non-essential 
 is revealed to be actually essential (or vice versa), after you've obtained more knowledge about the problem, then you 
 should revise your design accordingly. If this revision turns out to 
-be a nightmare to implement, it will be for reasons entirely unrelated to the 
+be a nightmare to implement, it will be for reasons entirely unrelated to
 the fact that you used abstractions.  Maybe your programming language sucks, and it makes 
 modifications a dangerous and/or tedious activity, in which case the problem is 
 the *tool used for abstraction*, which is not the same as the problem being *abstraction as a tool*.
