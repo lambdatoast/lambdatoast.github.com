@@ -26,8 +26,8 @@ advice, as a maintainer of codebases.
 
 ## On abstraction and the real world
 
-Assume you have a problem `P`. Then, to have an abstraction is to have a 
-way to talk about `P`, and **nothing else**. 
+Assume you have a problem. Then, to have an abstraction is to have a 
+way to talk about the *problem*, and *nothing* else. 
 
 Consider the function `successor`:
 
