@@ -11,8 +11,8 @@ I have been told many times, in different ways, that "the abstract" has
 less to do with the Real World than "the concrete", which 
 is what deals with "the real", and "the practical".
 
-However, after asking a lot about it, thinking a lot about it, etc. I've 
-concluded that such a view is not even wrong, it is utter nonsense. And 
+However, after asking a lot about it, and thinking a lot about it, I've 
+concluded that such a view is not even wrong: it is utter nonsense. And 
 I'm writing this article about it, because I think it matters that you know 
 this, otherwise it can mislead you into confused design of your computer 
 programs.
