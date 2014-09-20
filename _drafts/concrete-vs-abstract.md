@@ -9,20 +9,16 @@ into missing the point of abstraction.
 
 I have been told many times, in different ways, that "the abstract" has 
 less to do with the real world than "the concrete", which supposedly deals with the 
-practical, real world stuff.
+practical, real world stuff.  
 
-However, after asking a lot about it, and thinking a lot about it, I've 
-concluded that such a view is not even wrong: it is utter nonsense. And 
-I'm writing this article about it, because I think it matters that you know 
-this. Otherwise it can mislead you into confused design of your computer 
-programs.
+However, I've recently concluded that this is a nonsensical claim, and
+I'm writing this article about it, because I think it is important that you know 
+this. Otherwise you can be misled into confused design of computer programs.
 
 I also want to recommend an already existing, more explicit, *and* 
-familiar, language for talking about this subject, so that we stop propagating 
-bad advice such as "don't abstract too much!"
-
-Countless times I've dealt with the consequences of innocently adopting such 
-advice, as a maintainer of codebases.
+familiar language for talking about this subject, so that we stop propagating 
+bad advice such as "don't abstract too much!". Countless times I've suffered, as 
+a hired maintainer of software, the consequences of innocent adoption of such advice.
 
 ## On abstraction and the real world
 
