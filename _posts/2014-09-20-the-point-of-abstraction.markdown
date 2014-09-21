@@ -210,7 +210,7 @@ using.
 I'm just warning you about what can happen if the "abstract vs. concrete" 
 view, accompanied by phrases such as "that's too abstract!", is absorbed by 
 your thought process and ends up *actually* informing your choices in program design, 
-which would be a disaster. 
+which would lead to disaster. 
 
 Secondly, I'm proposing the simple "essential vs. non-essential" view, accompanied 
 by queries such as "is X essential to the problem?" which are better, both 
