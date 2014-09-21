@@ -59,8 +59,8 @@ way is `successor_of_forty_one` "more practical" or "closer to the real world" t
 ## Think essential vs. non-essential instead
 
 What does it mean for a programmer to have found the essence of a problem? 
-It means that they can then create one solution, and reuse it in all – this is 
-key: not some, not many, but *all* – of the specializations of the problem. e.g. 
+It means that they can then create one solution, and reuse it for all – this is 
+key: not some, not many, but *all* – the specializations of the problem. e.g. 
 the solution for SuccessorProblem *must* work for SuccessorOfFortyOneProblem, and 
 all of the possible instances of SuccessorProblem.
 
