@@ -142,6 +142,28 @@ A way to handle this is to ask them what they're really talking about. Or maybe 
 caught *yourself* uttering this phrase. Ask yourself what you're really 
 talking about, then!
 
+> That's too abstract (meaning "non-physical")
+
+Leaving aside the tons of fuzziness that the "non-physical vs. physical" view itself carries with it
+(see [recommended reading](#recommended-reading)); leaving aside the irony of opening 
+such a philosophical can of worms while (presumably) arguing for more "real world practicality"; 
+I still can't make head or tail of this point. It's certainly not talking about solving problems. 
+The best approach then is to ask them "too non-physical for what?"
+
+Maybe they really mean "That's not modelling the physical machine M". And surely by now you 
+know the question that's coming: *What is the problem?* 
+
+If the problem is "Model the machine M such that using the non-physical 
+model makes people feel like they're physically using M", and the resulting 
+"solution" doesn't solve that problem, then the resulting solution is aiming for the wrong problem.
+But this situation has got nothing to say about the utility of abstraction as a tool.
+
+Last note on this point: Don't forget that the point of abstraction
+is about satisfying goals and solving problems, not about blindly representing how the world 
+"really is". Consider this: "Represent a machine M how it 'really is' in the physical world," 
+Call it RepresentMachinePhysicalBehaviorProblem. It is *a* problem. It may or may not 
+be *your* problem. If it is, then solve it. If it isn't, don't go around assuming it is. 
+
 > Abstraction should not be the goal
 
 This one is odd. 
