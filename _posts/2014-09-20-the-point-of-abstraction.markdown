@@ -97,7 +97,7 @@ whether such a problem is worth solving, and the answer to that will depend on
 many factors: you, your boss, your economic situation, society, etc.
 
 *That* is where the notions of "real world", "practicality", etc. enter the picture. That 
-is, whether something is "real world" or not, is entirely unrelated to it being an 
+is, whether something is "practical in the real world" or not, is entirely unrelated to it being an 
 *abstraction*. "Real world" is a property of problems. It's not a property of abstractions.
 And whether a problem is a "real world problem" is a discussion totally orthogonal 
 to the process of abstraction.
