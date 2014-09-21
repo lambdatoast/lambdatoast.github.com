@@ -103,7 +103,7 @@ And whether a problem is a "real world problem" is a discussion totally orthogon
 to the process of abstraction.
 
 When you change your "level of abstraction", what you're moving closer to, 
-or away from, is some *problem*, not "the real world".
+or away from, is some *problem*, not "the real world."
 
 *Nothing* is either essential or non-essential "in general". It makes 
 no sense to even use those words without defining what the problem is.
