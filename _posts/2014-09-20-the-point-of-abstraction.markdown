@@ -155,7 +155,7 @@ know the question that's coming: *What is the problem?*
 
 If the problem is "Model the machine M such that using the non-physical 
 model makes people feel like they're physically using M", and the resulting 
-"solution" doesn't solve that problem, then the resulting solution is aiming for the wrong problem.
+"solution" doesn't solve that problem, then the resulting solution is aiming at the wrong problem.
 But this situation has got nothing to say about the utility of abstraction as a tool.
 
 Last note on this point: Don't forget that the point of abstraction
