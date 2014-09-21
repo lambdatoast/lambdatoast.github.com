@@ -29,8 +29,8 @@ Consider the function `successor`:
 
     successor x = x + 1
 
-You can think of this function as "an expression `x + 1` waiting for a value to 
-plugged into `x` in order to compute its successor."
+You can think of this function as "an expression `x + 1` waiting for a 
+value to be plugged into `x` in order to compute its successor."
 
 The problem that the function solves is "compute the successor of a number." It's not 
 "compute the successor of 9." It's not "compute the successor of 42 as long as today isn't 
