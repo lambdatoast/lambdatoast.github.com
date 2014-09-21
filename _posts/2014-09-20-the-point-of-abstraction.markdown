@@ -123,7 +123,7 @@ Consider the following elements:
 The problem is not the same as the process. The process is not the same as the tools. The tools are not the same as the solution.
 
 And yet you'll often hear programmers calling each of these things "the abstraction", and
-vaguely tagging them as good/bad, necessarily/unnecessary, etc.
+vaguely tagging them as good/bad, necessary/unnecessary, etc.
 
 ## Common phrases
 
