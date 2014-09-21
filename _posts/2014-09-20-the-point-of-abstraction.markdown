@@ -64,7 +64,7 @@ key: not some, not many, but *all* – the specializations of the problem. e.g.
 the solution for SuccessorProblem *must* work for SuccessorOfFortyOneProblem, and 
 all of the possible instances of SuccessorProblem.
 
-Anyway, when engaging in communication and deliberation related to program design, I propose that 
+Anyway, I propose that, when engaging in communication and deliberation related to program design,
 you speak and think – or at least just think – in terms of essential vs. non-essential, instead 
 of abstract vs. concrete, as a way to keep yourself, and your team, on the right track. 
 
