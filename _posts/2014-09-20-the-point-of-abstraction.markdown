@@ -42,7 +42,7 @@ SuccessorProblem.
 Now, consider something like `successor_of_forty_one = 41 + 1`, which is a perfectly valid 
 function as well. Nothing wrong with it.
 
-The problem `successor_of_forty_one` solves is not SuccessorProblem, though. It is 
+The problem that `successor_of_forty_one` solves is not SuccessorProblem, though. It is 
 the "compute the successor of forty-one" problem. Let's call it SuccessorOfFortyOneProblem.
 
 There is a relation between `successor` and `successor_of_forty_one`, 
