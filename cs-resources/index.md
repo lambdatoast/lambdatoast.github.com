@@ -291,6 +291,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
     + [Certified Programming with Dependent Types by Adam Chlipala](http://adam.chlipala.net/cpdt/)
     + (video) [Conor McBride's "Dependently-Typed Metaprogramming (in Agda)" course](http://www.youtube.com/playlist?list=PL_shDsyy0xhKhsBUaVXTJ2uJ78EGBpvQa) ([additional material](http://lambda-the-ultimate.org/taxonomy/term/29))
     + (video) [Dependently Typed Programming in Idris: A Demo. By David Raymond Christiansen](http://bmsherman.github.io/idris-drc-3-26-14/)
+    + (video) [Idris: Practical Dependent Types with Practical Examples, by Brian McKenna](https://www.youtube.com/watch?v=4i7KrG1Afbk)
     + [Learning type-level hacking (dependent types, etc)](https://groups.google.com/forum/#!msg/pdxfunc/W83dpzc1tsc/nTLM5RJr_JQJ)
     + [Learning Dependent Types](http://blog.codersbase.com/posts/2013-12-03-learning-dependent-types.html)
     + (video) [Scala vs Idris: Dependent Types, Now and in the Future](http://www.infoq.com/presentations/scala-idris)
