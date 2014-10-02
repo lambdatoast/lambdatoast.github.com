@@ -199,6 +199,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [The multinomial coefficients](http://probabilityandstats.wordpress.com/2011/05/19/the-multinomial-coefficients/)
   - [The Nature of Code (full book)](http://natureofcode.com/)
   - [Order Theory](http://en.wikipedia.org/wiki/Order_theory)
+  - [Practical Foundations of Mathematics, by Paul Taylor (full book)](http://www.paultaylor.eu/~pt/prafm/index.html)
   - Category Theory:
     + (video) [Category Theory by Tom LaGatta](https://www.youtube.com/watch?v=o6L6XeNdd_k)
   - Set theory:
