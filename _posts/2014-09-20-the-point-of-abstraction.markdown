@@ -25,7 +25,7 @@ a hired maintainer of software, the consequences of innocent adoption of such ad
 Assume you have a problem. Then, to have an abstraction is to have a 
 way to talk about the *problem*, and *nothing* else. 
 
-Consider the function `successor`:
+Consider the function `successor`, for natural numbers:
 
     successor x = x + 1
 
