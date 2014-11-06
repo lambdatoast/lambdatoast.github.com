@@ -246,6 +246,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - (video) [The Science of Insecurity](http://www.youtube.com/watch?v=3kEfedtQVOY)
   
 ## Software Design
+  - [Boolean Blindness](http://existentialtype.wordpress.com/2011/03/15/boolean-blindness/)
   - (video) [Certifying your car with Erlang: John Hughes](http://vimeo.com/42751120)
   - [How to Design Programs](http://htdp.org/)
   - (video) [May Your Data Ever Be Coherent](http://www.youtube.com/watch?v=gVXt1RG_yN0)
