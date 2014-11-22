@@ -260,10 +260,10 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
     + [Haskell Typeclassopedia](http://www.haskell.org/haskellwiki/Typeclassopedia)
 
 ## Software Engineering Anecdotes
+  - (video) [Caml Trading, by Yaron Minsky](http://vimeo.com/14317442)
   - (video) [Composing contracts: an adventure in financial engineering](http://ulf.wiger.net/weblog/2008/02/29/simon-peyton-jones-composing-contracts-an-adventure-in-financial-engineering/) ([material](http://research.microsoft.com/en-us/um/people/simonpj/papers/financial-contracts/contracts-icfp.htm))
   - [Facebook Engineering: What is Facebook's architecture?](http://getprismatic.com/story/1408093361209?comment-id=22535566673427&share=MTk5Nw.MTQwODA5MzM2MTIwOQ.GdjiKbXF29UTKMmMMwc-h5tsMxQ)
   - [[erlang-questions] What can I only do in Erlang?](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
-  - (video) [Caml Trading, by Yaron Minsky](http://vimeo.com/14317442)
     
 ## Type Theory
   - [Mailing list discussion on the concept of "type" used by Russell vs. that used in CS](http://lists.seas.upenn.edu/pipermail/types-list/2014/001745.html)
