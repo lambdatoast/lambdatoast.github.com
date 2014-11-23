@@ -113,6 +113,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
 ## Evaluation
   - [Does Haskell have tail-recursive optimization? @ StackOverflow](http://stackoverflow.com/questions/13042353/does-haskell-have-tail-recursive-optimization)
   - [Evaluation Strategy @ Wikipedia](http://en.wikipedia.org/wiki/Evaluation_strategy)
+  - [How Lazy Evaluation Works in Haskell, by Heinrich Apfelmus](https://hackhands.com/lazy-evaluation-works-haskell/)
   - [Programming Languages: When did you realize the power of lazy evaluation in terms of performance?](http://www.quora.com/Programming-Languages/When-did-you-realize-the-power-of-lazy-evaluation-in-terms-of-performance)
   - Tail Call Elimination:
     + (video) [Stackless Scala With Free Monads](http://skillsmatter.com/podcast/scala/stackless-scala-free-monads)
