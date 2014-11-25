@@ -141,6 +141,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [Why I switched from component-based game engine architecture to functional reactive programming](http://lambdor.net/?p=171)
   
 ## General
+  - [Andreas Abel's Publications](http://www2.tcs.ifi.lmu.de/~abel/publications.html)
   - [Daan Leijen's publications @ Microsoft Research](http://research.microsoft.com/apps/mobile/showpage.aspx?page=/en-us/people/daan/pubs.aspx)
   - [Dissertations on logic, language, and computation.](http://www.illc.uva.nl/Research/Dissertations/)
   - [Foundations of Computer Science by Al Aho and Jeff Ullman (full book)](http://i.stanford.edu/~ullman/focs.html)
