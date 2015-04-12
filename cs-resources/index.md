@@ -295,6 +295,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [What is the logarithm or root operation in type-space?](http://cstheory.stackexchange.com/questions/17006/what-is-the-logarithm-or-root-operation-in-type-space)
   - Logic:
     + [Curry–Howard correspondence @ Wikipedia](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence)
+    + [Haskell/The Curry–Howard isomorphism](http://en.wikibooks.org/wiki/Haskell/The_Curry%E2%80%93Howard_isomorphism)
   - Dependent types:
     + [A Tutorial Implementation of a Dependently Typed Lambda Calculus](http://www.andres-loeh.de/LambdaPi/)
     + [Certified Programming with Dependent Types by Adam Chlipala](http://adam.chlipala.net/cpdt/)
