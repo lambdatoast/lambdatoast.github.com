@@ -135,6 +135,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [Why calculating is better than scheming. By Philip Wadler (pdf)](http://www.cs.kent.ac.uk/people/staff/dat/miranda/wadler87.pdf)
   
 ## Functional Reactive Programming (FRP)
+  - [The Essence of FRP, talk by Conal Elliott](http://begriffs.com/posts/2015-07-22-essence-of-frp.html)
   - [Event streams and Signals - what is lost in using just signals? @ StackOverflow](http://stackoverflow.com/questions/22989253/frp-event-streams-and-signals-what-is-lost-in-using-just-signals/23050799)
   - [Functional Reactive Animation, by Conal Elliott and Paul Hudak (pdf)](http://haskell.cs.yale.edu/wp-content/uploads/2011/02/icfp97.pdf)
   - [Functional Reactive Types, by Alan Jeffrey (pdf)](http://ect.bell-labs.com/who/ajeffrey/papers/lics14.pdf)
