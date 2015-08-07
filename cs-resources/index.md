@@ -211,6 +211,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - Set theory:
     + [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
     + (video) [Set Theory Lattices](https://www.youtube.com/watch?v=PulDFSXsBKo)
+    + [Revised Notes on Lattice Theory, by J. B. Nation](http://www.math.hawaii.edu/~jb/books.html)
     
 ## Modularization
   - [Abstracting Your Monads. A presentation in mime by Daniel Spiewak](https://dl.dropboxusercontent.com/u/1679797/ScalaSyd/presentation.scala)
