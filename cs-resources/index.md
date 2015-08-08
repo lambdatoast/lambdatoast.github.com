@@ -125,6 +125,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [Generalised folds for nested datatypes](http://www.cs.ox.ac.uk/richard.bird/online/BirdPaterson99Generalised.pdf)
   
 ## Functional Programming
+  - [The Original 'Lambda Papers' by Guy Steele and Gerald Sussman](http://library.readscheme.org/page1.html)
   - ["Everything is a function" in Haskell?, By Conal Elliott](http://conal.net/blog/posts/everything-is-a-function-in-haskell)
   - (video) [Guerrilla Guide to Pure Functional Programming](http://vimeo.com/20293743)
   - [Functional Programming and 3D Games, a thesis by Mun Hon Cheong (pdf)](http://www.cse.unsw.edu.au/~pls/thesis/munc-thesis.pdf) and [(source)](http://www.haskell.org/haskellwiki/Frag)
