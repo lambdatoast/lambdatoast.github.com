@@ -149,6 +149,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [Andreas Abel's Publications](http://www2.tcs.ifi.lmu.de/~abel/publications.html)
   - [Daan Leijen's publications @ Microsoft Research](http://research.microsoft.com/apps/mobile/showpage.aspx?page=/en-us/people/daan/pubs.aspx)
   - [Dissertations on logic, language, and computation.](http://www.illc.uva.nl/Research/Dissertations/)
+  - [Eugenio Moggi's Publications](http://www.disi.unige.it/person/MoggiE/publications.html)
   - [Foundations of Computer Science by Al Aho and Jeff Ullman (full book)](http://i.stanford.edu/~ullman/focs.html)
   - [Journal of Universal Computer Science](http://www.jucs.org/jucs_articles_by_category)
   - [The Little Books](http://www.ccs.neu.edu/home/matthias/books.html)
