@@ -210,6 +210,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [Practical Foundations of Mathematics, by Paul Taylor (full book)](http://www.paultaylor.eu/~pt/prafm/index.html)
   - Category Theory:
     + (video) [Category Theory by Tom LaGatta](https://www.youtube.com/watch?v=o6L6XeNdd_k)
+    + (video) [Category theory: a framework for reasoning, by mlbaker](https://www.youtube.com/watch?v=ba_hon70qbg)
   - Set theory:
     + [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
     + (video) [Set Theory Lattices](https://www.youtube.com/watch?v=PulDFSXsBKo)
@@ -283,6 +284,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - (video) [High Wizardry in the Land of Scala](http://vimeo.com/28793245)
   - [History of Type Theory @ Wikipedia](http://en.wikipedia.org/wiki/History_of_type_theory)
   - (video) [Homotopy Type Theory (full course)](http://www.cs.cmu.edu/~rwh/courses/hott/)
+  - (video) [Lambda Jam 2014 - Gershom Bazerman - Homotopy Type Theory: What's the Big Idea](https://www.youtube.com/watch?v=OupcXmLER7I)
   - [On the formulae–as–types correspondence for classical logic](http://www.textproof.com/paper/dphil.html)
   - (video) [The Trouble With Types by Martin Odersky](http://www.infoq.com/presentations/data-types-issues)
   - [Phantom Type / Generalized Algebraic Data Type](http://en.wikipedia.org/wiki/Phantom_type)
