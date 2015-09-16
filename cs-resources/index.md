@@ -285,6 +285,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [History of Type Theory @ Wikipedia](http://en.wikipedia.org/wiki/History_of_type_theory)
   - (video) [Homotopy Type Theory (full course)](http://www.cs.cmu.edu/~rwh/courses/hott/)
   - (video) [Lambda Jam 2014 - Gershom Bazerman - Homotopy Type Theory: What's the Big Idea](https://www.youtube.com/watch?v=OupcXmLER7I)
+  - (video) [A survey of Univalent Foundations (by Eric Finster, November 13th, 2014)](https://www.youtube.com/watch?v=z3IBvmrcObg)
   - [On the formulae–as–types correspondence for classical logic](http://www.textproof.com/paper/dphil.html)
   - (video) [The Trouble With Types by Martin Odersky](http://www.infoq.com/presentations/data-types-issues)
   - [Phantom Type / Generalized Algebraic Data Type](http://en.wikipedia.org/wiki/Phantom_type)
