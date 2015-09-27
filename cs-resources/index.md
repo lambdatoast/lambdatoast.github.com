@@ -215,6 +215,9 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
     + [Partially ordered set](https://www.princeton.edu/~achaney/tmve/wiki100k/docs/Partially_ordered_set.html)
     + (video) [Set Theory Lattices](https://www.youtube.com/watch?v=PulDFSXsBKo)
     + [Revised Notes on Lattice Theory, by J. B. Nation](http://www.math.hawaii.edu/~jb/books.html)
+  - Linear Algebra:
+    + [Linear Algebra – A Primer](http://jeremykun.com/2011/06/19/linear-algebra-a-primer/)
+    + [Inner Product Spaces – A Primer](http://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/)
     
 ## Modularization
   - [Abstracting Your Monads. A presentation in mime by Daniel Spiewak](https://dl.dropboxusercontent.com/u/1679797/ScalaSyd/presentation.scala)
@@ -277,6 +280,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [[erlang-questions] What can I only do in Erlang?](http://erlang.org/pipermail/erlang-questions/2014-November/081570.html)
     
 ## Type Theory
+  - (video) ["Propositions as Types" by Philip Wadler](https://youtu.be/IOiZatlZtGU?list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R)
   - [Mailing list discussion on the concept of "type" used by Russell vs. that used in CS](http://lists.seas.upenn.edu/pipermail/types-list/2014/001745.html)
   - (video) [Datatype-Generic Programming in Haskell, by Andres Löh](https://skillsmatter.com/skillscasts/3932-a-haskell-lecture-with-leading-expert-andres-loh)
   - [Existentially quantified types](http://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types)
