@@ -291,7 +291,6 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - (video) [Lambda Jam 2014 - Gershom Bazerman - Homotopy Type Theory: What's the Big Idea](https://www.youtube.com/watch?v=OupcXmLER7I)
   - (video) [A survey of Univalent Foundations (by Eric Finster, November 13th, 2014)](https://www.youtube.com/watch?v=z3IBvmrcObg)
   - [On the formulae–as–types correspondence for classical logic](http://www.textproof.com/paper/dphil.html)
-  - (video) [The Trouble With Types by Martin Odersky](http://www.infoq.com/presentations/data-types-issues)
   - [Phantom Type / Generalized Algebraic Data Type](http://en.wikipedia.org/wiki/Phantom_type)
   - (video) [Sexy Types – Are We Done Yet?](http://research.microsoft.com/apps/video/dl.aspx?id=150045)
   - [Some type systems are much better than others](http://failex.blogspot.com.ar/2012/04/some-type-systems-are-much-better-than.html)
@@ -318,6 +317,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
     + [Learning Dependent Types](http://blog.codersbase.com/posts/2013-12-03-learning-dependent-types.html)
     + (video) [Scala vs Idris: Dependent Types, Now and in the Future](http://www.infoq.com/presentations/scala-idris)
     + (video) [A Taste of Agda with Francesco Mazzoli](http://vimeo.com/77168227)
+    + (video) [From Scheme to Dependent Types in 100 lines by Gershom Bazerman (Part 1)](https://vimeo.com/134561872)
   - Formal systems:
     + [The Calculus of Constructions @ nLab](http://nlab.mathforge.org/nlab/show/calculus+of+constructions)
   - Type inference:
