@@ -221,7 +221,7 @@ Or I should say "arrow," in singular! Because luckily for us, we have parametric
 
 **Exercise**: Show that the identity equations hold, i.e. `compose(id, square)` is the same as just `square` is the same as `compose(square, id)`.
 
-**Exercise**: Show that `square`, though being an arrow from an object to itself (`number -> number`) is not the `number` identity.
+**Exercise**: Show that `square`, even though it is an arrow from an object to itself (`number -> number`), it is not the identity for it.
 
 ## 2.10 Summary
 
