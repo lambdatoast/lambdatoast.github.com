@@ -93,7 +93,7 @@ For vocabulary points: note that `square`'s input and output sets are the same (
 
 Think about your functional programs *equationally*. Forget about the `return` syntax ceremony when thinking about functions.
 
-The main benefit (or rather, the root of all the benefits) of FP is **equational reasoning**, which is a direct result of using *functions*. So `square(4)` doesn't "return" `16`. It *is* `16`. It is just another way of *expressing* it. It is an *expression*. An *expression* of `16`.
+The main benefit (or rather, the root of all the benefits) of FP is **equational reasoning**, which is a direct result of using *functions*. So `square(4)` doesn't "return" `16`. It *is* `16`. It is just another way of *expressing* it. It is an *expression*. An *expression* of `16`. It does nothing else but be an expression of `16`. 
 
 Approach it the same way you do arithmetic in your mind: Not "2 + 2 returns 4," but "2 + 2 *equals* 4".
 
