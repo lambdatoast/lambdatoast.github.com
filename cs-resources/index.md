@@ -155,6 +155,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - [The Little Books](http://www.ccs.neu.edu/home/matthias/books.html)
   - [Manuel M. T. Chakravarty's publications](http://www.cse.unsw.edu.au/~chak/papers/papers.html)
   - [Mark P. Jones' publications](http://web.cecs.pdx.edu/~mpj/pubs.html)
+  - [Ralf Hinze's publications](http://www.cs.ox.ac.uk/ralf.hinze/publications/)
   - [The manuscripts of Edsger W. Dijkstra](http://www.cs.utexas.edu/users/EWD/)
   - [okmij.org: A general collection of CS/PLT articles](http://okmij.org/ftp/)
   - [Research papers @ Haskell.org](http://www.haskell.org/haskellwiki/Research_papers)
