@@ -231,9 +231,9 @@ We're observing that our programming language gives rise to a category **PL** in
 
 There's plenty more to say about categories. Namely, categorical constructions which arise in enough places (many of them relevant to programming languages) to deserve their own names and study, e.g. products, exponential objects, etc. but I will skip those for now, because the basic knowledge we have now is enough to introduce the basics of functoriality.
 
-Let's see what we've seen so far:
+Let's step back and look at our progress so far:
 
-1. Functions, which are **mappings between sets**.
+1. We revised *functions*, which are **mappings between sets**.
 2. We noted that *types and their values* correspond to *sets and their elements* nicely, and shifted our discourse to say **mappings between types**.
 3. We introduced the "collections with algebraic rules of compositionality" things, called *categories*, which hold both our types and their mappings.
 
