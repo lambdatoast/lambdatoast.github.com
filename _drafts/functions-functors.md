@@ -192,7 +192,7 @@ To be clear: The program `compose(g, f)` is the implementation of what the mathe
 
 When we design computer programs, we look for building blocks that can be put together, in order to create new things, which themselves can be building blocks for something else.
 
-We look for that sort of thing, because it keeps complexity under control. And not just in software, but in general. Two lego pieces composed together are a lego piece. Two unix programs piped together are a unix program.
+We look for that sort of thing, because it keeps complexity under control. Not just in programming, but in general. Two lego pieces composed together are a lego piece. Two unix programs piped together are a unix program.
 
 Function composition is FP's classic answer to this. And the generalization (and as we'll see later, "preservation") of such composition, in a mathematically precise way, is what CT contributes to the matter.
 
