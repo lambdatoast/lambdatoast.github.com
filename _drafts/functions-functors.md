@@ -131,9 +131,9 @@ They are not the interesting part of a category, just like sets are not the inte
 
 One of the most studied categories is the one called **Set**, which is the one where the objects are, unsurprisingly, *sets*.
 
-We've previously decided that our programming types are *sets*. Now let's say that:
+We've previously decided that our programming types are *sets*. We'll keep relying on this method, i.e. deciding that an X in the programming language represents a Y in math (as long as it precisely satisfies the definitional properties of Y).
 
-**The objects in PL are the types in our programming language.**
+In this case, I'm going to say that that **the types in our programming language are the implementation of the objects in our PL category.**
 
 There's not much code to write here, if we're using Javascript. Let's just say that the language provides us with `number`, `boolean`, and other types.
 
