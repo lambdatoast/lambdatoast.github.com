@@ -129,9 +129,7 @@ They are not the interesting part of a category, just like sets are not the inte
 
 ## 2.2 Objects in a programming language
 
-One of the most studied categories is the one called **Set**, which is the one where the objects are, unsurprisingly, *sets*.
-
-We've previously decided that our programming types are *sets*. We'll keep relying on this method, i.e. deciding that an X in the programming language represents a Y in math (as long as it precisely satisfies the definitional properties of Y).
+Previously, we decided that our programming types were *sets*. We'll keep applying that method, i.e. deciding that X in a programming language represents Y in mathematics (as long as it precisely satisfies the definitional properties of Y).
 
 In this case, I'm going to say that that **the types in our programming language are the implementation of the objects in our PL category.**
 
