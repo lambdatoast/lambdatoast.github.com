@@ -115,9 +115,9 @@ The objects can be anything, and so can the arrows.
 
 And if you're still reading after I literally used the words "things," "something," and "anything," while describing a concept: Thank you for sticking around! 
 
-There's more to it, of course. Namely, **there are certain *equational properties* that must be satisfied** in order for something to be considered a category. Whatever satisfies those properties can *reliably* use all the categorical tools (machine-wise and brain-wise), proofs, etc. that apply to it.
+There's more to it, of course. Namely, there are certain **equational properties** that must be satisfied in order for something to be considered a category. Whatever satisfies those properties can *reliably* use all the categorical proofs, etc. that apply to it.
 
-Fittingly, in FP equational reasoning is second nature, so we can always demonstrate whether or not a given equational property is satisfied.
+Fittingly, equational reasoning is second nature in FP.
 
 We will now dive into each part that a category is made up of. As we go through it, we will see how a programming language gives rise to a category. I will unimaginatively call this category "**PL**".
 
@@ -131,51 +131,51 @@ They are not the interesting part of a category, just like sets are not the inte
 
 Previously, we decided that our programming types were *sets*. We'll keep applying that method, i.e. deciding that X in a programming language represents Y in mathematics (as long as it precisely satisfies the definitional properties of Y).
 
-In this case, I'm going to say that that **the types in our programming language are the implementation of the objects in our PL category.**
+Now I'm going to say that **the types in our programming language are the implementation of the objects in our PL category.**
 
 There's not much code to write here, if we're using Javascript. Let's just say that the language provides us with `number`, `boolean`, and other types.
 
-If you're playing with another language, like Haskell, where you can create types and user-defined primitive values of those types, e.g. `data Fruit = Banana | Peach | Tomato`, then the `Fruit` type would be an object in the category.
+If you're playing with another language, like Haskell, then you can also create types yourself, as well as primitive values of those types, e.g. `data Fruit = Banana | Peach | Tomato`, then the `Fruit` type would be an object in the (Haskell version of the) **PL** category.
 
-OK so the types are **PL**'s objects. Moving on.
+OK so in short: types are **PL**'s objects.
 
 ## 2.3 Arrows
 
-Just like with objects, arrows too can be anything: functions, other kinds of mappings, as well as stuff such as numbers, etc.
+Just like with objects, arrows too can be anything: functions, other kinds of relations, numbers, etc.
 
-The idea is that we choose things which can be **meaningful** as connections between objects of the category in question.
+The idea is that we choose things which can be **meaningful** to us (i.e. with regards to information) as connections between the objects of the category in question.
 
-Graphically, the arrows would be the edges in a directed graph (which is how they are usually drawn).
+If you want to picture it, the arrows would be the edges in a directed graph (which is actually how categories are often drawn).
 
 ## 2.4 Arrows in a programming language
 
-We're going to make the obvious choice here. If *types* are our objects in **PL**, then:
+We're going to make a natural choice here. If *types* are our objects in **PL**, then what could work as the arrows between them?
 
 **The arrows in PL are our functions between the types.**
 
-For example, we have already added an arrow to our category: The `square` function, which is an arrow from the `number` object to itself. 
+And we have already added an arrow to our category: The `square` function, which is an arrow from the `number` object to itself.  (Yes, *endo*arrow!)
 
-OK, so this is all well and good, but it seems pointless. I mean, we're just *calling* existing things by new words (types serve as "the objects", functions serve as "the arrows"). It seems pretty intuitive, but useless. 
+## 2.5 Checkpoint: Objects and Arrows. So what?
 
-Now, in the previous section I mentioned that arrows could be *anything*, e.g. natural numbers, which perhaps are not something you've ever imagined presenting as an arrow. How could, say, the number `2`, serve as an arrow? Where would that arrow come from and go to? And how could *that* possibly be **meaningful**?
+So far this is all well and good, but it seems pointless. I mean, we're just *calling* existing things by new words (types are being "the objects", functions are "the arrows"). It seems pretty intuitive, but useless. 
 
-The answer lies in the next part a category must have, the part that gives it meaning, and structure: the arrow composition operation.
+Now, in the previous section I mentioned that arrows could be *almost anything*, e.g. natural numbers, which perhaps are not something you've ever imagined presenting as an arrow. How could, say, the number `2`, serve as an arrow? Where would that arrow come from and go to? And how could *that* possibly be **meaningful**?
 
-## 2.5 The arrow composition operation
+The answer lies in the next part a category must have, the part that gives it meaning and structure: the arrow composition operation.
 
-**This is key**. This is where the magic happens. This is what functors will carefully preserve, when they do their thing.
+## 2.6 The arrow composition operation
 
-This operation has the symbol `∘` in CT books, and is what handles the domain-specific way that arrows in your categories compose.
+**This is key**. This is where the magic happens. This is what functors will carefully preserve when they do their thing.
 
-`∘` (which is useful to pronounce "after") is a binary operation, that takes two arrows, and *somehow* produces another arrow, i.e. however it makes sense to do so, for the category in question.
+This operation has the symbol `∘` in CT books, and is what handles the specific way that arrows in a category compose.
 
-`∘` must be associative, i.e. let three arrows `f`, `g`, `h`, be composable, then `(h ∘ g) ∘ f = h ∘ (g ∘ f)`.
+`∘` (which is usefully pronounced "after") is a binary operation. It takes two arrows, and produces another arrow, however it makes sense to do so, for the category in question.
 
-## 2.6 The arrow composition operation, in a programming language
+`∘` must be associative, i.e. given three composable arrows `f`, `g`, `h`, then `(h ∘ g) ∘ f = h ∘ (g ∘ f)`.
 
-So far, the objects in **PL** are types, and the arrows are *functions*. 
+## 2.7 The arrow composition operation, in a programming language
 
-Since `∘` is supposed to compose arrows, and *functions* are our arrows, then in our programming language this operation has to compose functions:
+Since `∘` has to compose arrows, and we're saying that *functions* are our arrows, then in our programming language this operation has to compose functions:
 
         // (b → c, a → b) -> (a → c)
         function compose(g, f) { return function (x) { return g(f(x)); }; }
@@ -186,15 +186,15 @@ To be clear: The program `compose(g, f)` is the implementation of what the mathe
 
 **Exercise**: Verify that `compose` satisfies the associativity property. I.e. `compose(compose(h, g), f)` equals `compose(h, compose(g, f))`.
 
-## 2.7 Arrow composition in the big picture
+## 2.8 Arrow composition in the big picture
 
 When we design computer programs, we look for building blocks that can be put together, in order to create new things, which themselves can be building blocks for something else.
 
-We look for that sort of thing, because it keeps complexity under control. Not just in programming, but in general. Two lego pieces composed together are a lego piece. Two unix programs piped together are a unix program.
+We look for that sort of thing, because it keeps complexity under control. Not just in programming, but in general. Two lego pieces composed together form a lego piece. Two unix programs piped together form a unix program.
 
 Function composition is FP's classic answer to this. And the generalization (and as we'll see later, "preservation") of such composition, in a mathematically precise way, is what CT contributes to the matter.
 
-## 2.8 Identity arrows
+## 2.9 Identity arrows
 
 Every object in a category must have an identity arrow. That is:
 
@@ -210,7 +210,7 @@ Of course, it's not enough to just draw an arrow from an object to itself and *c
 
 The utility of this seemingly useless arrow will be made clear later.
 
-## 2.9 The Identity arrows in a programming language
+## 2.10 The Identity arrows in a programming language
 
 Or I should say "arrow," in singular! Because luckily for us, we have parametric polymorphism in our programming languages, so the following function can be the identity arrow for *every* object in **PL**:
 
@@ -219,11 +219,11 @@ Or I should say "arrow," in singular! Because luckily for us, we have parametric
 
 **Exercise**: Show that the identity equations hold, i.e. `compose(id, square)` is the same as just `square` is the same as `compose(square, id)`.
 
-**Exercise**: Show that `square`, even though it is an arrow from an object to itself (`number -> number`), it is not the identity for it.
+**Exercise**: Show that `square`, even though it is an arrow from an object to itself (`number → number`), it is not the identity for it.
 
-## 2.10 Summary
+## 2.11 Summary
 
-To sum up, a category consists of: objects, arrows, arrow composition, and identities.
+To sum up, a category consists of: objects, arrows, arrow composition, and identity arrows.
 
 We're observing that our programming language gives rise to a category **PL** in which the corresponding parts are: types, functions, function composition, and the polytypic identity function.
 
@@ -233,7 +233,7 @@ Let's step back and look at our progress so far:
 
 1. We revised *functions*, which are **mappings between sets**.
 2. We noted that *types and their values* correspond to *sets and their elements* nicely, and shifted our discourse to say **mappings between types**.
-3. We introduced the "collections with algebraic rules of compositionality" things, called *categories*, which hold both our types and their mappings.
+3. We introduced the things called *categories*, which hold both our types and their mappings, with some rules of composition.
 
 It is now time to talk about **mappings between categories**!
 
@@ -253,7 +253,7 @@ Additionally, this "two-part mapping," if you will, must be such that, for all *
 1. `F(idA) = idF(A)`
 2. `F(g ∘ f) = F(g) ∘ F(f)`
 
-Satisfying these equations is what makes the functor "preserve the structure".
+Satisfying these equations is what makes the functor "preserve the structure" of a category.
 
 **A notation clarification**: when you see an object named `F(X)` in `D` (as a result of the object part of a functor `F`), the object is given such a name in order to communicate the following two things about it:
 
@@ -262,11 +262,11 @@ Satisfying these equations is what makes the functor "preserve the structure".
 
 Particularly, the naming `F(X)` does **not** imply that `F`, the *functor* itself, is a "container," or anything like that.
 
-Easy vocabulary points: If the target and source categories of a functor are the same, then we say the functor is an "*endo*functor." 
+Surprise fact: Guess what we call a functor whose target and source categories are the same. *Endo*functor, yes. 
 
 ## 3.1 Functors in a programming language
 
-First let's substitute what we already implemented for **PL**, into the mathematical definition of a functor, to get a good idea of what we have to implement next:
+First let's substitute what we've already implemented for **PL**, into the mathematical definition of a functor, to get a good idea of what we have to implement next:
 
 > A Functor maps a category to another category while *preserving the structure*
 
