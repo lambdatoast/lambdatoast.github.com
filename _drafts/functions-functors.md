@@ -176,7 +176,7 @@ And we have already added an arrow to our category: The `square` function, which
 
 ## 2.5 Checkpoint: Objects and Arrows. So what?
 
-So far this is all well and good, but it seems pointless. I mean, we're just *calling* existing things by new words (types are being "the objects", functions are "the arrows"). It seems pretty intuitive, but useless. 
+So far this is all well and good, but it seems pointless, because we're just *calling* things by other names (types are being called "the objects", functions are "the arrows"). It seems pretty intuitive, but useless. 
 
 Now, in the previous section I mentioned that arrows could be *almost anything*, e.g. natural numbers, which perhaps are not something you've ever imagined presenting as an arrow. How could, say, the number `2`, serve as an arrow? Where would that arrow come from and go to? And how could *that* possibly be **meaningful**?
 
