@@ -223,11 +223,13 @@ And so on, for all objects.
 
 In short: for each object `X` there's got to be an identity arrow `idX: X → X`.
 
-Of course, it's not enough to just draw an arrow from an object to itself and *call it* an identity. The following equational property is what makes an arrow an *identity*:
+Of course, it's not enough to just find any arrow from an object to itself and shout "I declare that this one shall be thy identity!"
 
-* Given `X` and `Y`, for any arrow `f : X -> Y` the following must hold: `f ∘ idX = f = idY ∘ f`. *Then* we know that `idX` and `idY` are identity arrows.
+No. The following property is what makes an arrow an *identity*:
 
-In short, if `f ∘ idX` equals `f`, then we're essentially saying that `idX` is the arrow that does nothing with X.
+* Given `X` and `Y`, for any arrow `f : X -> Y`, these equalities must hold: `f ∘ idX = f = idY ∘ f`.
+
+*Then* we know that `idX` and `idY` are identity arrows.
 
 ## 2.10 The Identity arrows in a programming language
 
