@@ -74,7 +74,7 @@ So how do functions look in a programming language? First things first, we need 
 We're simply going to say that the *types* in our programming language are those sets. For example:
 
 1. `boolean`, whose elements are the values `true` and `false`. 
-2. `number`, whose elements are... too many to list. Let's just say (...`-3`,`-2`,`-1`,`0`,`1`,`2`,`3`...)
+2. `number`, whose elements are... too many to list. Let's just say (...`-3`,`-2`,`-1`,`0`,`1`,`2`,`3`...) and you can think of the rest.
 
 And to specify how the relation works, we write some ugly code, according to the language. For example:
 
