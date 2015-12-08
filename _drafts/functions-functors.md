@@ -23,17 +23,22 @@ You probably already have an intuition for what a function is, but let's grab a 
 > A function is a relation between a set of inputs and a set of permissible outputs with the property 
 > that each input is related to exactly one output.
 
-Reading it carefully, you will note that, first of all, functions operate on *sets* – which for our purposes, are just collections of distinct things. 
+Reading it carefully you will note that, first of all, functions operate on *sets* – which, for our purposes, are just collections of distinct things. 
 
-For example:
+So, it is a relation between sets, but not just any relation. It must have a specific property: each element of the input set must relate to exactly *one* element of the output set.
 
-Let `Color = { Yellow, Red }` and `Fruit = { Banana, Peach, Tomato }` be two sets.
+A couple of examples
+
+Let **Color** and **Fruit** be two sets:
+
+* `Color = { Yellow, Red }`
+* `Fruit = { Banana, Peach, Tomato }`
 
 Here's one way to relate **Color** to **Fruit**:
 
     (Yellow, Banana) (Yellow, Peach) (Red, Tomato)
 
-That is a fine *relation* between sets, but not a valid *function*, because it relates the `Yellow` input to both `Banana` and `Peach`.
+That is a fine *relation* between sets, but not a valid *function*, because it relates the `Yellow` input to both `Banana` and `Peach` outputs.
 
 Now let `Work = { Elements, Othello }` and `Author = { Shakespeare, Hemingway, Euclid }`.
 
@@ -47,23 +52,29 @@ For history points, here's a quote from 1835 by the German mathematician Peter D
 
 > If a variable y is so related to a variable x that whenever a numerical value is assigned to x, there is a rule according to which a unique value of y is determined, then y is said to be a function of the independent variable x.
 
-It doesn't exactly roll off the tongue, but it is supposedly the first modern formal definition of a function. That is, the notion had existed for a while, but only vaguely defined.
+It doesn't exactly roll off the tongue, but it is supposedly the first modern formal definition of a function. That is, the notion had been floating about, but only vaguely defined.
 
-**Exercise 1:** I still would like to relate colors to fruits, keeping **Color** as the input set. Can you think of a way to relate them using a valid function? (Hint: **Fruit** per se doesn't have to be the output set.)
+**Exercise 1:** I still would like to relate colors to fruits with a valid function, keeping **Color** as the input set. Can you come up with a function? What would the outputs be? Hint 1: **Fruit** per se, doesn't have to be the output set. Hint 2: Sets can contain sets.
+
+  (Yellow, ...) (Red, ...)
 
 ## 1.2. Functions in a programming language
 
-Let's reiterate the mathematical specification for a function (last time, I promise):
+Let's reiterate the definition of a function (last time, I promise):
 
 > A function is a relation between a set of inputs and a set of permissible outputs with the property 
 > that each input is related to exactly one output.
 
-First things first: We need those input and output *sets* for our functions to operate on.
+Note: This mathematical definition (as well as the other ones in this article) is more than just "the definition". It will be our precise *specification*, which we'll us to guide and validate our implementation.
 
-That's easy. We're going to say that the *types* in our programming language are those sets. For example:
+So how do functions look in a programming language? First things first, we need those input and output *sets* for our functions to operate on.
+
+We're simply going to say that the *types* in our programming language are those sets. For example:
 
 1. `boolean`, whose elements are the values `true` and `false`. 
 2. `number`, whose elements are... too many to list. Let's just say (...`-3`,`-2`,`-1`,`0`,`1`,`2`,`3`...)
+
+And to specify how the relation works, we write some ugly code, according to the language. For example:
 
 In Javascript:
 
@@ -73,9 +84,15 @@ In Haskell:
 
     square x = x * x
 
+That implements a relation that would look like:
+
+    (1, 1) (2, 4) (3, 9) (4, 16) (5, 25) ... 
+
+And so on.
+
 So `square` is a function. A proper, well-behaved function, because: 
 
-1. It **relates** the elements of an input set, i.e. *values of the `number` type* in our programming language, to the elements of another set
+1. It **relates** the elements of an input set (i.e. *values of the `number` type* in our programming language) to the elements of another set (the `number` type itself)
 2. It **satisfies the property** that each input value relates to only one output value, i.e. `square(2)` equals `4`, always and forever.
 
 Functions are useful in programming for various reasons. A big one is that in our programs we like to use *values* to encode information. 
