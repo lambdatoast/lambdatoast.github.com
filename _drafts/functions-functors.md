@@ -25,7 +25,7 @@ You probably already have an intuition for what a function is, but let's grab a 
 
 Reading it carefully you will note that, first of all, functions operate on *sets* – which, for our purposes, are just collections of distinct things. 
 
-So, it is a relation between sets. And not just any relation, but a specific type of relation: one which relates each element of an input set to exactly *one* element of an output set.
+OK so we're talking about a relation between sets. And not just any relation, but a specific type of relation: one which relates each element of an input set to exactly *one* element of an output set.
 
 A couple of examples should help.
 
