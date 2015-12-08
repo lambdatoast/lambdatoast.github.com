@@ -240,7 +240,7 @@ Or I should say "arrow," in singular! Because luckily for us, the following func
 
 **Exercise**: Same as the previous exercise, but ditch `square` and explain why `compose(id, f)` equals `f` equals `compose(f, id)` for any function `f`.
 
-**Exercise**: Now show that `square`, even though it is an arrow from an object to itself (`number → number`), it is *not* the identity for it.
+**Exercise**: Show that `square`, even though it is an arrow from an object to itself (`number → number`), is *not* the identity for it.
 
 ## 2.11 Summary
 
