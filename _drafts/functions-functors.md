@@ -136,8 +136,6 @@ And if you're still reading after I literally used the words "things," "somethin
 
 There's more to it, of course. Namely, there are certain **equational properties** that must be satisfied in order for something to be considered a category. Whatever satisfies those properties can *reliably* use all the categorical proofs, etc. that apply to it.
 
-Fittingly, equational reasoning is second nature in FP.
-
 We will now dive into each part that a category is made up of. As we go through it, we will see how a programming language gives rise to a category. I will unimaginatively call this category "**PL**".
 
 ## 2.1 Objects
