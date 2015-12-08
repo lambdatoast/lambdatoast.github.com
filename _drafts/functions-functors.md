@@ -192,7 +192,7 @@ This operation has the symbol `∘` in CT books, and is what handles the specifi
 
 ## 2.7 The arrow composition operation, in a programming language
 
-Since `∘` has to compose arrows, and we're saying that *functions* are our arrows, then in our programming language this operation has to compose functions:
+Since `∘` has to compose arrows, and we've established that *functions* are our arrows, then in our programming language this operation has to compose functions:
 
         // (b → c, a → b) -> (a → c)
         function compose(g, f) { return function (x) { return g(f(x)); }; }
