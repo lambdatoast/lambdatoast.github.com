@@ -86,16 +86,16 @@ In Haskell:
 
     square x = x * x
 
-That implements a relation that would look like:
-
-    (1, 1) (2, 4) (3, 9) (4, 16) (5, 25) ... 
-
-And so on.
-
 So `square` is a function. A proper, well-behaved function, because: 
 
 1. It **relates** the elements of an input set (i.e. *values of the `number` type* in our programming language) to the elements of another set (the `number` type itself)
 2. It **satisfies the property** that each input value relates to only one output value, i.e. `square(2)` equals `4`, always and forever.
+
+`square` relates the elements of `number` to the elements of `number`:
+
+    (1, 1) (2, 4) (3, 9) (4, 16) (5, 25) ... 
+
+And so on.
 
 Functions are useful in programming for various reasons. A big one is that in our programs we like to use *values* to encode information. 
 
