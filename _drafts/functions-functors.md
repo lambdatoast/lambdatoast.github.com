@@ -67,7 +67,7 @@ Let's reiterate the definition of a function (last time, I promise):
 > A function is a relation between a set of inputs and a set of permissible outputs with the property 
 > that each input is related to exactly one output.
 
-Note: This mathematical definition (as well as the other ones in this article) is more than just "the definition". It will be our precise *specification*, which we'll us to guide and validate our implementation.
+Note: This mathematical definition (as well as the other ones in this article) is more than just "the definition". It will be our precise *specification*, which we'll use to guide and validate our implementation.
 
 So how do functions look in a programming language? First things first, we need those input and output *sets* for our functions to operate on.
 
