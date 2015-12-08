@@ -217,9 +217,11 @@ Function composition is FP's classic answer to this. And the generalization (and
 
 If there's an object `Color`, then there's got to be an identity arrow `idColor: Color → Color`
 
-If there's a `Fruit`, then there's got to be a `idFruit: Fruit → Fruit` arrow
+If there's a `Fruit`, then there's got to be a `idFruit: Fruit → Fruit` arrow.
 
-In short, for each object `X` there's got to be an identity arrow `idX: X → X`
+And so on, for all objects.
+
+In short: for each object `X` there's got to be an identity arrow `idX: X → X`.
 
 Of course, it's not enough to just draw an arrow from an object to itself and *call it* an identity. The following equational property is what makes an arrow an *identity*:
 
