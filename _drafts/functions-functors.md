@@ -205,7 +205,7 @@ To be clear: The program `compose(g, f)` is the implementation of what the mathe
 
 **Exercise**: Verify that `compose` satisfies the associativity property. I.e. `compose(compose(h, g), f)` equals `compose(h, compose(g, f))`.
 
-## 2.8 Arrow composition in the big picture
+## 2.8 Composition in the big picture
 
 When we design computer programs, we look for building blocks that can be put together, in order to create new things, which themselves can be building blocks for something else.
 
