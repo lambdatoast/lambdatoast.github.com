@@ -215,30 +215,32 @@ Function composition is FP's classic answer to this. And the generalization (and
 
 ## 2.9 Identity arrows
 
-Every object in a category must have an identity arrow. That is:
+**Every** object in a category must have an identity arrow, which is an arrow from and to itself (endo-arrow!). That is:
 
-If there's an object `X`, then there's got to be an identity arrow `idX: X → X`
+If there's an object `Color`, then there's got to be an identity arrow `idColor: Color → Color`
 
-If there's an object `Y`, then there's got to be an identity arrow `idY: Y → Y`
+If there's a `Fruit`, then there's got to be a `idFruit: Fruit → Fruit` arrow
 
-And so on, for *all* objects in the category.
+In short, for each object `X` there's got to be an identity arrow `idX: X → X`
 
 Of course, it's not enough to just draw an arrow from an object to itself and *call it* an identity. The following equational property is what makes an arrow an *identity*:
 
-* Given two objects `X` and `Y`, and an arrow `f : X -> Y`: If `f ∘ idX = f = idY ∘ f`, then we say that `idX` and `idY` are the identities of their respective objects.
+* Given `X` and `Y`, for any arrow `f : X -> Y` the following must hold: `f ∘ idX = f = idY ∘ f`. *Then* we know that `idX` and `idY` are identity arrows.
 
-The utility of this seemingly useless arrow will be made clear later.
+In short, if `f ∘ idX` equals `f`, then we're essentially saying that `idX` is the arrow that does nothing with X.
 
 ## 2.10 The Identity arrows in a programming language
 
-Or I should say "arrow," in singular! Because luckily for us, we have parametric polymorphism in our programming languages, so the following function can be the identity arrow for *every* object in **PL**:
+Or I should say "arrow," in singular! Because luckily for us, the following function can be the identity arrow for *every* object in **PL**:
 
-		// a -> a
+    // X -> X
     function id(x) { return x }
 
-**Exercise**: Show that the identity equations hold, i.e. `compose(id, square)` is the same as just `square` is the same as `compose(square, id)`.
+**Exercise**: Show that `id` satisfies the identity equations, i.e. `compose(id, square)` is the same as just `square` is the same as `compose(square, id)`.
 
-**Exercise**: Show that `square`, even though it is an arrow from an object to itself (`number → number`), it is not the identity for it.
+**Exercise**: Same as the previous exercise, but ditch `square` and explain why `compose(id, f)` equals `f` equals `compose(f, id)` for any function `f`.
+
+**Exercise**: Now show that `square`, even though it is an arrow from an object to itself (`number → number`), it is *not* the identity for it.
 
 ## 2.11 Summary
 
