@@ -54,9 +54,11 @@ For history points, here's a quote from 1835 by the German mathematician Peter D
 
 It doesn't exactly roll off the tongue, but it is supposedly the first modern formal definition of a function. That is, the notion had been floating about, but only vaguely defined.
 
-**Exercise 1:** I still would like to relate colors to fruits with a valid function, keeping **Color** as the input set. Can you come up with a function? What would the outputs be? Hint 1: **Fruit** per se, doesn't have to be the output set. Hint 2: Sets can contain sets.
+**Exercise 1:** I still would like to relate colors to fruits with a valid function, keeping **Color** as the input set. Can you come up with a function? What would the outputs be? 
 
-  (Yellow, ...) (Red, ...)
+(Hint: **Fruit** per se doesn't have to be the output set; Hint: Sets can contain sets.)
+
+    (Yellow, ...) (Red, ...)
 
 ## 1.2. Functions in a programming language
 
