@@ -243,6 +243,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - (video) [Null References: The Billion Dollar Mistake](http://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
   - [Practical Foundations for Programming Languages, Second Edition. By Robert Harper (full book) (pdf)](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
   - [Principle of Parametricity (wikipedia)](http://en.wikipedia.org/wiki/Parametricity)
+  - [Programming and Programming Languages (2015 ed) (full book)](http://papl.cs.brown.edu/2015/)
   - [Programming Languages: Application and Interpretation](http://cs.brown.edu/~sk/Publications/Books/ProgLangs/2007-04-26/)
   - [Simon Peyton Jones: papers](http://research.microsoft.com/en-us/um/people/simonpj/Papers/papers.html)
   
