@@ -249,6 +249,7 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   
 ## Polymorphism
   - [Parametric Polymorphism @ Wikipedia](http://en.wikipedia.org/wiki/Parametric_polymorphism)
+  - [Recent Applications of Parametricity, by Janis Voigtländer (pdf)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.620.7196&rep=rep1&type=pdf)
   
 ## Practice
   - [99 haskell/scala/prolog problems](http://aperiodic.net/phil/scala/s-99/)
