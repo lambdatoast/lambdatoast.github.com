@@ -219,6 +219,8 @@ The following is a list of material (papers, videos, articles, etc.) on subjects
   - Linear Algebra:
     + [Linear Algebra – A Primer](http://jeremykun.com/2011/06/19/linear-algebra-a-primer/)
     + [Inner Product Spaces – A Primer](http://jeremykun.com/2011/07/25/inner-product-spaces-a-primer/)
+  - Topology:
+    + [Algebraic Topology, by Allen Hatcher (full book)](http://pi.math.cornell.edu/~hatcher/AT/ATpage.html)
     
 ## Modularization
   - [Abstracting Your Monads. A presentation in mime by Daniel Spiewak](https://dl.dropboxusercontent.com/u/1679797/ScalaSyd/presentation.scala)
